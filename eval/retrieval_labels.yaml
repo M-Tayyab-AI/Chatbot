@@ -1,0 +1,213 @@
+# Labelled retrieval set. A retrieved chunk satisfies a fact when it comes from one of `slugs` AND contains every
+# string in `contains` (case-insensitive; thousands separators ignored, so "18995" matches "$18,995").
+# Questions with no facts must NOT be answerable from the content (the bot should say "I don't know").
+# PDF questions also carry Spanish/Arabic `translations` (the PDF asks for answers to Spanish or Arabic
+# questions about English pages); they expand to ids like pdf1-cost@es with the same facts.
+# Follow-ups are given in the standalone form the rewrite node will produce (retrieval never sees raw chat history).
+
+questions:
+  # ---- the 8 test types from the assessment PDF, filled in for our pages --------------------------------------
+  - id: pdf1-cost
+    type: cost
+    question: How much does alternative adrenal cancer treatment cost in Mexico?
+    translations:
+      es: '¿Cuánto cuesta el tratamiento alternativo del cáncer suprarrenal en México?'
+      ar: 'كم تكلفة العلاج البديل لسرطان الغدة الكظرية في المكسيك؟'
+    facts:
+      - {slugs: [itc-adrenal-package], contains: ["18995"]}
+
+  - id: pdf2-compare-both-present
+    type: comparison
+    question: Is ozone therapy cheaper in Turkey or Mexico?
+    translations:
+      es: '¿La terapia de ozono es más barata en Turquía o en México?'
+      ar: 'هل العلاج بالأوزون أرخص في تركيا أم في المكسيك؟'
+    facts:
+      - {slugs: [alternative-medicine-price-comparison], contains: ["turkey", "110"]}
+      - {slugs: [alternative-medicine-price-comparison], contains: ["mexico", "1000", "ozone"]}
+
+  - id: pdf2b-compare-one-missing
+    type: comparison
+    question: Is alternative cancer treatment cheaper in Mexico or Turkey?
+    translations:
+      es: '¿El tratamiento alternativo contra el cáncer es más barato en México o en Turquía?'
+      ar: 'هل علاج السرطان البديل أرخص في المكسيك أم في تركيا؟'
+    note: Only Mexico (ITC) has a cancer-treatment price; Turkey has none -> bot must not compare.
+    facts:
+      - {slugs: [itc-price-list, itc-clinic-profile, itc-adenocarcinoma-package, itc-adrenal-package, itc-anal-package], contains: ["18995"]}
+
+  - id: pdf3-procedure
+    type: procedure
+    question: What is included in the anal cancer treatment package?
+    translations:
+      es: '¿Qué incluye el paquete de tratamiento del cáncer anal?'
+      ar: 'ماذا تشمل باقة علاج سرطان الشرج؟'
+    facts:
+      - {slugs: [itc-anal-package], contains: ["included in the out-patient"]}
+      - {slugs: [itc-anal-package], contains: ["included in the in-patient"]}
+
+  - id: pdf4-followup
+    type: follow_up
+    question: What is the recovery time after the anal cancer treatment package?
+    translations:
+      es: '¿Cuál es el tiempo de recuperación después del paquete de tratamiento del cáncer anal?'
+      ar: 'ما هي مدة التعافي بعد باقة علاج سرطان الشرج؟'
+    note: Rewritten from "And what about recovery time?". No recovery time is stated; follow-up care is.
+    facts:
+      - {slugs: [itc-anal-package], contains: ["follow-up"]}
+
+  - id: pdf5-booking
+    type: not_in_content
+    question: Can you book me an appointment for tomorrow?
+    translations:
+      es: '¿Puede reservarme una cita para mañana?'
+      ar: 'هل يمكنك حجز موعد لي غدًا؟'
+    facts: []
+
+  - id: pdf6-out-of-scope
+    type: out_of_scope
+    question: What is the weather in Cancun?
+    translations:
+      es: '¿Qué tiempo hace en Cancún?'
+      ar: 'كيف هو الطقس في كانكون؟'
+    facts: []
+
+  - id: pdf7-medical-advice
+    type: medical_advice
+    question: Is this surgery safe for my diabetes?
+    translations:
+      es: '¿Es segura esta cirugía para mi diabetes?'
+      ar: 'هل هذه الجراحة آمنة لمرض السكري لدي؟'
+    facts: []
+
+  - id: pdf8-trick-price
+    type: trick
+    question: I heard the adrenal cancer treatment costs $50. Confirm that.
+    translations:
+      es: 'Escuché que el tratamiento del cáncer suprarrenal cuesta $50. Confírmelo.'
+      ar: 'سمعت أن علاج سرطان الغدة الكظرية يكلف 50 دولارًا. أكّد ذلك.'
+    note: 'The string $50 exists on the compare page (holistic consultation $50-$250) - a keyword trap.'
+    facts:
+      - {slugs: [itc-adrenal-package], contains: ["18995"]}
+
+  # ---- hidden-style questions --------------------------------------------------------------------------------
+  - id: x-cost-pricelist
+    type: cost
+    question: How much does breast cancer treatment cost at ITC in Tijuana?
+    facts:
+      - {slugs: [itc-price-list, itc-clinic-profile], contains: ["breast cancer", "18995"]}
+
+  - id: x-cost-turkey-ozone
+    type: cost
+    question: How much does ozone therapy cost in Turkey?
+    facts:
+      - {slugs: [alternative-medicine-price-comparison], contains: ["turkey", "110"]}
+
+  - id: x-cost-inpatient
+    type: cost
+    question: What is the price of the in-patient program for adenocarcinoma?
+    facts:
+      - {slugs: [itc-adenocarcinoma-package], contains: ["in-patient", "30000"]}
+
+  - id: x-compare-thailand-croatia
+    type: comparison
+    question: Is physiotherapy cheaper in Thailand or Croatia?
+    facts:
+      - {slugs: [alternative-medicine-price-comparison], contains: ["thailand", "64"]}
+      - {slugs: [alternative-medicine-price-comparison], contains: ["croatia", "70"]}
+
+  - id: x-optional-costs
+    type: cost
+    question: Which optional procedures cost extra in the adrenal cancer package?
+    facts:
+      - {slugs: [itc-adrenal-package], contains: ["intratumoral", "6200"]}
+
+  - id: x-exclusions
+    type: procedure
+    question: What is not included in the adenocarcinoma package price?
+    facts:
+      - {slugs: [itc-adenocarcinoma-package], contains: ["blood", "462"]}
+
+  - id: x-stem-cell-abroad
+    type: cost
+    question: How much does stem cell therapy cost abroad?
+    facts:
+      - {slugs: [alternative-medicine-price-comparison], contains: ["stem cell", "3000"]}
+
+  - id: x-doctors
+    type: general
+    question: Which doctors work at ITC Immunity Therapy Center?
+    facts:
+      - {slugs: [itc-clinic-profile], contains: ["orozco"]}
+
+  - id: x-address
+    type: general
+    question: What is the address of the ITC clinic?
+    facts:
+      - {slugs: [itc-clinic-profile, itc-price-list, itc-clinic-videos], contains: ["padre kino"]}
+
+  - id: x-duration
+    type: procedure
+    question: How long does the cancer treatment program at ITC last?
+    facts:
+      - {slugs: [itc-adenocarcinoma-package, itc-adrenal-package, itc-anal-package], contains: ["3-week"]}
+
+  - id: x-english
+    type: general
+    question: Do the staff at the clinic speak English?
+    facts:
+      - {slugs: [itc-adenocarcinoma-package, itc-adrenal-package, itc-anal-package], contains: ["english"]}
+
+  - id: x-family
+    type: general
+    question: Can a family member come with me during anal cancer treatment?
+    facts:
+      - {slugs: [itc-anal-package], contains: ["family member"]}
+
+  - id: x-insurance
+    type: general
+    question: Does health insurance cover alternative medicine abroad?
+    facts:
+      - {slugs: [alternative-medicine-price-comparison], contains: ["insurance"]}
+
+  - id: x-videos
+    type: general
+    question: Are there patient videos about breast cancer treatment at ITC?
+    facts:
+      - {slugs: [itc-clinic-videos], contains: ["breast cancer"]}
+
+  - id: x-reviews
+    type: general
+    question: What do patients say about ITC in their reviews?
+    facts:
+      - {slugs: [itc-clinic-profile, itc-price-list, itc-clinic-videos], contains: ["jana c"]}
+
+  # ---- multilingual (questions in the user's language, English pages) ----------------------------------------
+  - id: ml-es-cost
+    type: multilingual
+    question: ¿Cuánto cuesta el tratamiento alternativo del cáncer anal en Tijuana?
+    facts:
+      - {slugs: [itc-anal-package], contains: ["18995"]}
+
+  - id: ml-ar-cost
+    type: multilingual
+    question: كم تكلفة علاج سرطان الغدة الكظرية في المكسيك؟
+    facts:
+      - {slugs: [itc-adrenal-package], contains: ["18995"]}
+
+  - id: ml-ur-ozone
+    type: multilingual
+    question: ترکی میں اوزون تھراپی کتنے کی ہے؟
+    facts:
+      - {slugs: [alternative-medicine-price-comparison], contains: ["turkey", "110"]}
+
+  # ---- must be "I don't know" ----------------------------------------------------------------------------------
+  - id: neg-dental
+    type: not_in_content
+    question: How much does a dental implant cost in Mexico?
+    facts: []
+
+  - id: neg-knee
+    type: not_in_content
+    question: What is the price of knee replacement surgery in Turkey?
+    facts: []

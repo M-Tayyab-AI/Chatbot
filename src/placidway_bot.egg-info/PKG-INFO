@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: placidway-bot
+Version: 0.1.0
+Summary: Grounded website-knowledge chatbot over a fixed set of PlacidWay pages
+Requires-Python: >=3.12

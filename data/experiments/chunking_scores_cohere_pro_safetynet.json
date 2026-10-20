@@ -1,0 +1,1610 @@
+{
+ "requests:structured": {
+  "n_chunks": 219,
+  "avg_chars": 810,
+  "modes": {
+   "vector": {
+    "pdf1-cost": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.7545934915542603,
+     "top1_score": 0.7545934915542603,
+     "top": [
+      "itc-adrenal-package::structured::021 (0.755)",
+      "itc-adrenal-package::structured::022 (0.745)",
+      "itc-adrenal-package::structured::027 (0.745)",
+      "itc-adrenal-package::structured::028 (0.742)",
+      "itc-adrenal-package::structured::023 (0.741)"
+     ],
+     "type": "cost",
+     "lang": "en"
+    },
+    "pdf1-cost@es": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 0.5,
+     "first_relevant_rank": 2,
+     "relevant_score": 0.7095306515693665,
+     "top1_score": 0.7123551368713379,
+     "top": [
+      "itc-adrenal-package::structured::025 (0.712)",
+      "itc-adrenal-package::structured::021 (0.710)",
+      "itc-adrenal-package::structured::028 (0.710)",
+      "itc-adrenal-package::structured::027 (0.708)",
+      "itc-adrenal-package::structured::022 (0.698)"
+     ],
+     "type": "cost",
+     "lang": "es"
+    },
+    "pdf1-cost@ar": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 0.5,
+     "first_relevant_rank": 2,
+     "relevant_score": 0.6561861038208008,
+     "top1_score": 0.656543493270874,
+     "top": [
+      "itc-adrenal-package::structured::025 (0.657)",
+      "itc-adrenal-package::structured::021 (0.656)",
+      "itc-adrenal-package::structured::027 (0.647)",
+      "itc-adrenal-package::structured::028 (0.645)",
+      "itc-adrenal-package::structured::022 (0.645)"
+     ],
+     "type": "cost",
+     "lang": "ar"
+    },
+    "pdf2-compare-both-present": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.6509596109390259,
+     "top1_score": 0.6509596109390259,
+     "top": [
+      "alternative-medicine-price-comparison::structured::034 (0.651)",
+      "alternative-medicine-price-comparison::structured::033 (0.648)",
+      "alternative-medicine-price-comparison::structured::003 (0.608)",
+      "alternative-medicine-price-comparison::structured::023 (0.551)",
+      "alternative-medicine-price-comparison::structured::019 (0.458)"
+     ],
+     "type": "comparison",
+     "lang": "en"
+    },
+    "pdf2-compare-both-present@es": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.6674416661262512,
+     "top1_score": 0.6674416661262512,
+     "top": [
+      "alternative-medicine-price-comparison::structured::033 (0.667)",
+      "alternative-medicine-price-comparison::structured::034 (0.615)",
+      "alternative-medicine-price-comparison::structured::003 (0.584)",
+      "alternative-medicine-price-comparison::structured::023 (0.557)",
+      "alternative-medicine-price-comparison::structured::019 (0.445)"
+     ],
+     "type": "comparison",
+     "lang": "es"
+    },
+    "pdf2-compare-both-present@ar": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.632498562335968,
+     "top1_score": 0.632498562335968,
+     "top": [
+      "alternative-medicine-price-comparison::structured::034 (0.632)",
+      "alternative-medicine-price-comparison::structured::033 (0.631)",
+      "alternative-medicine-price-comparison::structured::003 (0.574)",
+      "alternative-medicine-price-comparison::structured::023 (0.533)",
+      "alternative-medicine-price-comparison::structured::019 (0.442)"
+     ],
+     "type": "comparison",
+     "lang": "ar"
+    },
+    "pdf2b-compare-one-missing": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 0.3333333333333333,
+     "first_relevant_rank": 3,
+     "relevant_score": 0.5567526817321777,
+     "top1_score": 0.5787277221679688,
+     "top": [
+      "alternative-medicine-price-comparison::structured::003 (0.579)",
+      "itc-price-list::structured::001 (0.564)",
+      "itc-adenocarcinoma-package::structured::021 (0.557)",
+      "itc-adenocarcinoma-package::structured::027 (0.554)",
+      "itc-anal-package::structured::021 (0.553)"
+     ],
+     "type": "comparison",
+     "lang": "en"
+    },
+    "pdf2b-compare-one-missing@es": {
+     "fact_recall": 0,
+     "all_facts": false,
+     "mrr": 0.125,
+     "first_relevant_rank": 8,
+     "relevant_score": 0.5311220288276672,
+     "top1_score": 0.5615808367729187,
+     "top": [
+      "alternative-medicine-price-comparison::structured::033 (0.562)",
+      "alternative-medicine-price-comparison::structured::003 (0.559)",
+      "alternative-medicine-price-comparison::structured::016 (0.537)",
+      "itc-adenocarcinoma-package::structured::027 (0.535)",
+      "alternative-medicine-price-comparison::structured::019 (0.533)"
+     ],
+     "type": "comparison",
+     "lang": "es"
+    },
+    "pdf2b-compare-one-missing@ar": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 0.3333333333333333,
+     "first_relevant_rank": 3,
+     "relevant_score": 0.5297225713729858,
+     "top1_score": 0.5373332500457764,
+     "top": [
+      "itc-price-list::structured::001 (0.537)",
+      "alternative-medicine-price-comparison::structured::003 (0.535)",
+      "itc-adenocarcinoma-package::structured::021 (0.530)",
+      "itc-adenocarcinoma-package::structured::027 (0.524)",
+      "itc-adrenal-package::structured::021 (0.524)"
+     ],
+     "type": "comparison",
+     "lang": "ar"
+    },
+    "pdf3-procedure": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.6565307378768921,
+     "top1_score": 0.6565307378768921,
+     "top": [
+      "itc-anal-package::structured::003 (0.657)",
+      "itc-anal-package::structured::004 (0.630)",
+      "itc-anal-package::structured::009 (0.627)",
+      "itc-anal-package::structured::001 (0.616)",
+      "itc-anal-package::structured::006 (0.612)"
+     ],
+     "type": "procedure",
+     "lang": "en"
+    },
+    "pdf3-procedure@es": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.6532983779907227,
+     "top1_score": 0.6532983779907227,
+     "top": [
+      "itc-anal-package::structured::003 (0.653)",
+      "itc-anal-package::structured::009 (0.625)",
+      "itc-anal-package::structured::004 (0.623)",
+      "itc-anal-package::structured::001 (0.611)",
+      "itc-anal-package::structured::006 (0.602)"
+     ],
+     "type": "procedure",
+     "lang": "es"
+    },
+    "pdf3-procedure@ar": {
+     "fact_recall": 0.5,
+     "all_facts": false,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.5455710887908936,
+     "top1_score": 0.5455710887908936,
+     "top": [
+      "itc-anal-package::structured::003 (0.546)",
+      "itc-anal-package::structured::009 (0.528)",
+      "itc-anal-package::structured::006 (0.525)",
+      "itc-anal-package::structured::020 (0.521)",
+      "itc-anal-package::structured::001 (0.520)"
+     ],
+     "type": "procedure",
+     "lang": "ar"
+    },
+    "pdf4-followup": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 0.5,
+     "first_relevant_rank": 2,
+     "relevant_score": 0.5175312757492065,
+     "top1_score": 0.5743355751037598,
+     "top": [
+      "itc-anal-package::structured::009 (0.574)",
+      "itc-anal-package::structured::003 (0.518)",
+      "itc-anal-package::structured::004 (0.516)",
+      "itc-anal-package::structured::001 (0.515)",
+      "itc-anal-package::structured::008 (0.511)"
+     ],
+     "type": "follow_up",
+     "lang": "en"
+    },
+    "pdf4-followup@es": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 0.5,
+     "first_relevant_rank": 2,
+     "relevant_score": 0.5072323083877563,
+     "top1_score": 0.567392110824585,
+     "top": [
+      "itc-anal-package::structured::009 (0.567)",
+      "itc-anal-package::structured::003 (0.507)",
+      "itc-anal-package::structured::001 (0.504)",
+      "itc-anal-package::structured::004 (0.503)",
+      "itc-anal-package::structured::008 (0.491)"
+     ],
+     "type": "follow_up",
+     "lang": "es"
+    },
+    "pdf4-followup@ar": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 0.3333333333333333,
+     "first_relevant_rank": 3,
+     "relevant_score": 0.4605422616004944,
+     "top1_score": 0.5163062810897827,
+     "top": [
+      "itc-anal-package::structured::009 (0.516)",
+      "itc-adenocarcinoma-package::structured::015 (0.464)",
+      "itc-anal-package::structured::001 (0.461)",
+      "itc-anal-package::structured::003 (0.453)",
+      "itc-anal-package::structured::004 (0.440)"
+     ],
+     "type": "follow_up",
+     "lang": "ar"
+    },
+    "pdf5-booking": {
+     "fact_recall": null,
+     "all_facts": null,
+     "mrr": 0.0,
+     "first_relevant_rank": null,
+     "relevant_score": null,
+     "top1_score": 0.2988353967666626,
+     "top": [
+      "alternative-medicine-price-comparison::structured::020 (0.299)",
+      "alternative-medicine-price-comparison::structured::018 (0.272)",
+      "alternative-medicine-price-comparison::structured::014 (0.268)",
+      "itc-clinic-profile::structured::016 (0.250)",
+      "alternative-medicine-price-comparison::structured::015 (0.242)"
+     ],
+     "type": "not_in_content",
+     "lang": "en"
+    },
+    "pdf5-booking@es": {
+     "fact_recall": null,
+     "all_facts": null,
+     "mrr": 0.0,
+     "first_relevant_rank": null,
+     "relevant_score": null,
+     "top1_score": 0.27429133653640747,
+     "top": [
+      "alternative-medicine-price-comparison::structured::020 (0.274)",
+      "alternative-medicine-price-comparison::structured::014 (0.271)",
+      "itc-clinic-profile::structured::016 (0.267)",
+      "alternative-medicine-price-comparison::structured::018 (0.267)",
+      "itc-anal-package::structured::018 (0.247)"
+     ],
+     "type": "not_in_content",
+     "lang": "es"
+    },
+    "pdf5-booking@ar": {
+     "fact_recall": null,
+     "all_facts": null,
+     "mrr": 0.0,
+     "first_relevant_rank": null,
+     "relevant_score": null,
+     "top1_score": 0.23104220628738403,
+     "top": [
+      "alternative-medicine-price-comparison::structured::018 (0.231)",
+      "alternative-medicine-price-comparison::structured::014 (0.230)",
+      "alternative-medicine-price-comparison::structured::020 (0.212)",
+      "alternative-medicine-price-comparison::structured::015 (0.200)",
+      "itc-anal-package::structured::018 (0.195)"
+     ],
+     "type": "not_in_content",
+     "lang": "ar"
+    },
+    "pdf6-out-of-scope": {
+     "fact_recall": null,
+     "all_facts": null,
+     "mrr": 0.0,
+     "first_relevant_rank": null,
+     "relevant_score": null,
+     "top1_score": 0.3600144386291504,
+     "top": [
+      "itc-clinic-profile::structured::033 (0.360)",
+      "itc-clinic-profile::structured::032 (0.324)",
+      "itc-adrenal-package::structured::010 (0.284)",
+      "itc-anal-package::structured::010 (0.276)",
+      "itc-adenocarcinoma-package::structured::010 (0.274)"
+     ],
+     "type": "out_of_scope",
+     "lang": "en"
+    },
+    "pdf6-out-of-scope@es": {
+     "fact_recall": null,
+     "all_facts": null,
+     "mrr": 0.0,
+     "first_relevant_rank": null,
+     "relevant_score": null,
+     "top1_score": 0.3300877809524536,
+     "top": [
+      "itc-clinic-profile::structured::033 (0.330)",
+      "itc-clinic-profile::structured::032 (0.297)",
+      "itc-adrenal-package::structured::010 (0.261)",
+      "alternative-medicine-price-comparison::structured::034 (0.256)",
+      "itc-anal-package::structured::018 (0.252)"
+     ],
+     "type": "out_of_scope",
+     "lang": "es"
+    },
+    "pdf6-out-of-scope@ar": {
+     "fact_recall": null,
+     "all_facts": null,
+     "mrr": 0.0,
+     "first_relevant_rank": null,
+     "relevant_score": null,
+     "top1_score": 0.31414520740509033,
+     "top": [
+      "itc-clinic-profile::structured::033 (0.314)",
+      "itc-clinic-profile::structured::032 (0.284)",
+      "itc-adrenal-package::structured::010 (0.251)",
+      "itc-clinic-profile::structured::035 (0.247)",
+      "itc-anal-package::structured::018 (0.245)"
+     ],
+     "type": "out_of_scope",
+     "lang": "ar"
+    },
+    "pdf7-medical-advice": {
+     "fact_recall": null,
+     "all_facts": null,
+     "mrr": 0.0,
+     "first_relevant_rank": null,
+     "relevant_score": null,
+     "top1_score": 0.3620426058769226,
+     "top": [
+      "itc-anal-package::structured::012 (0.362)",
+      "alternative-medicine-price-comparison::structured::017 (0.325)",
+      "itc-clinic-profile::structured::013 (0.324)",
+      "itc-adenocarcinoma-package::structured::013 (0.315)",
+      "itc-clinic-profile::structured::007 (0.310)"
+     ],
+     "type": "medical_advice",
+     "lang": "en"
+    },
+    "pdf7-medical-advice@es": {
+     "fact_recall": null,
+     "all_facts": null,
+     "mrr": 0.0,
+     "first_relevant_rank": null,
+     "relevant_score": null,
+     "top1_score": 0.36328446865081787,
+     "top": [
+      "itc-anal-package::structured::012 (0.363)",
+      "alternative-medicine-price-comparison::structured::017 (0.361)",
+      "itc-clinic-profile::structured::007 (0.354)",
+      "itc-clinic-profile::structured::013 (0.351)",
+      "alternative-medicine-price-comparison::structured::012 (0.343)"
+     ],
+     "type": "medical_advice",
+     "lang": "es"
+    },
+    "pdf7-medical-advice@ar": {
+     "fact_recall": null,
+     "all_facts": null,
+     "mrr": 0.0,
+     "first_relevant_rank": null,
+     "relevant_score": null,
+     "top1_score": 0.35831397771835327,
+     "top": [
+      "itc-anal-package::structured::012 (0.358)",
+      "alternative-medicine-price-comparison::structured::017 (0.322)",
+      "itc-clinic-profile::structured::013 (0.321)",
+      "itc-clinic-profile::structured::007 (0.308)",
+      "itc-adrenal-package::structured::014 (0.306)"
+     ],
+     "type": "medical_advice",
+     "lang": "ar"
+    },
+    "pdf8-trick-price": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 0.3333333333333333,
+     "first_relevant_rank": 3,
+     "relevant_score": 0.6279734373092651,
+     "top1_score": 0.6370881795883179,
+     "top": [
+      "itc-adrenal-package::structured::025 (0.637)",
+      "itc-adrenal-package::structured::028 (0.631)",
+      "itc-adrenal-package::structured::021 (0.628)",
+      "itc-adrenal-package::structured::030 (0.623)",
+      "itc-adrenal-package::structured::023 (0.620)"
+     ],
+     "type": "trick",
+     "lang": "en"
+    },
+    "pdf8-trick-price@es": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 0.3333333333333333,
+     "first_relevant_rank": 3,
+     "relevant_score": 0.6035858988761902,
+     "top1_score": 0.6159688234329224,
+     "top": [
+      "itc-adrenal-package::structured::025 (0.616)",
+      "itc-adrenal-package::structured::030 (0.604)",
+      "itc-adrenal-package::structured::021 (0.604)",
+      "itc-adrenal-package::structured::028 (0.603)",
+      "itc-adrenal-package::structured::026 (0.596)"
+     ],
+     "type": "trick",
+     "lang": "es"
+    },
+    "pdf8-trick-price@ar": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 0.3333333333333333,
+     "first_relevant_rank": 3,
+     "relevant_score": 0.5663037300109863,
+     "top1_score": 0.5790601372718811,
+     "top": [
+      "itc-adrenal-package::structured::025 (0.579)",
+      "itc-adrenal-package::structured::030 (0.568)",
+      "itc-adrenal-package::structured::021 (0.566)",
+      "itc-adrenal-package::structured::028 (0.559)",
+      "itc-adrenal-package::structured::024 (0.557)"
+     ],
+     "type": "trick",
+     "lang": "ar"
+    },
+    "x-cost-pricelist": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.7832071781158447,
+     "top1_score": 0.7832071781158447,
+     "top": [
+      "itc-price-list::structured::004 (0.783)",
+      "itc-price-list::structured::007 (0.719)",
+      "itc-price-list::structured::000 (0.712)",
+      "itc-clinic-profile::structured::006 (0.710)",
+      "itc-clinic-profile::structured::038 (0.703)"
+     ],
+     "type": "cost",
+     "lang": "en"
+    },
+    "x-cost-turkey-ozone": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.7603002786636353,
+     "top1_score": 0.7603002786636353,
+     "top": [
+      "alternative-medicine-price-comparison::structured::033 (0.760)",
+      "alternative-medicine-price-comparison::structured::023 (0.690)",
+      "alternative-medicine-price-comparison::structured::034 (0.648)",
+      "alternative-medicine-price-comparison::structured::003 (0.604)",
+      "alternative-medicine-price-comparison::structured::001 (0.565)"
+     ],
+     "type": "cost",
+     "lang": "en"
+    },
+    "x-cost-inpatient": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.6827481389045715,
+     "top1_score": 0.6827481389045715,
+     "top": [
+      "itc-adenocarcinoma-package::structured::023 (0.683)",
+      "itc-adenocarcinoma-package::structured::002 (0.678)",
+      "itc-adenocarcinoma-package::structured::022 (0.664)",
+      "itc-adenocarcinoma-package::structured::004 (0.649)",
+      "itc-adenocarcinoma-package::structured::003 (0.609)"
+     ],
+     "type": "cost",
+     "lang": "en"
+    },
+    "x-compare-thailand-croatia": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.6303019523620605,
+     "top1_score": 0.6303019523620605,
+     "top": [
+      "alternative-medicine-price-comparison::structured::003 (0.630)",
+      "alternative-medicine-price-comparison::structured::032 (0.626)",
+      "alternative-medicine-price-comparison::structured::031 (0.623)",
+      "alternative-medicine-price-comparison::structured::006 (0.486)",
+      "alternative-medicine-price-comparison::structured::019 (0.484)"
+     ],
+     "type": "comparison",
+     "lang": "en"
+    },
+    "x-optional-costs": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 0.3333333333333333,
+     "first_relevant_rank": 3,
+     "relevant_score": 0.631914496421814,
+     "top1_score": 0.684292733669281,
+     "top": [
+      "itc-adrenal-package::structured::006 (0.684)",
+      "itc-adrenal-package::structured::032 (0.665)",
+      "itc-adrenal-package::structured::005 (0.632)",
+      "itc-adrenal-package::structured::026 (0.630)",
+      "itc-adrenal-package::structured::017 (0.629)"
+     ],
+     "type": "cost",
+     "lang": "en"
+    },
+    "x-exclusions": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 0.3333333333333333,
+     "first_relevant_rank": 3,
+     "relevant_score": 0.5612631440162659,
+     "top1_score": 0.5936938524246216,
+     "top": [
+      "itc-adenocarcinoma-package::structured::032 (0.594)",
+      "itc-adenocarcinoma-package::structured::021 (0.571)",
+      "itc-adenocarcinoma-package::structured::006 (0.561)",
+      "itc-adenocarcinoma-package::structured::030 (0.558)",
+      "itc-adenocarcinoma-package::structured::029 (0.557)"
+     ],
+     "type": "procedure",
+     "lang": "en"
+    },
+    "x-stem-cell-abroad": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.7395854592323303,
+     "top1_score": 0.7395854592323303,
+     "top": [
+      "alternative-medicine-price-comparison::structured::024 (0.740)",
+      "alternative-medicine-price-comparison::structured::035 (0.705)",
+      "alternative-medicine-price-comparison::structured::028 (0.691)",
+      "alternative-medicine-price-comparison::structured::003 (0.639)",
+      "alternative-medicine-price-comparison::structured::007 (0.630)"
+     ],
+     "type": "cost",
+     "lang": "en"
+    },
+    "x-doctors": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 0.25,
+     "first_relevant_rank": 4,
+     "relevant_score": 0.6355981230735779,
+     "top1_score": 0.6722351312637329,
+     "top": [
+      "itc-clinic-profile::structured::022 (0.672)",
+      "itc-clinic-profile::structured::021 (0.658)",
+      "itc-clinic-profile::structured::023 (0.652)",
+      "itc-clinic-profile::structured::024 (0.636)",
+      "itc-clinic-profile::structured::002 (0.622)"
+     ],
+     "type": "general",
+     "lang": "en"
+    },
+    "x-address": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.5084785223007202,
+     "top1_score": 0.5084785223007202,
+     "top": [
+      "itc-clinic-videos::structured::002 (0.508)",
+      "itc-clinic-profile::structured::019 (0.506)",
+      "itc-clinic-profile::structured::026 (0.499)",
+      "itc-clinic-profile::structured::037 (0.499)",
+      "itc-clinic-profile::structured::017 (0.498)"
+     ],
+     "type": "general",
+     "lang": "en"
+    },
+    "x-duration": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.6128686666488647,
+     "top1_score": 0.6128686666488647,
+     "top": [
+      "itc-adenocarcinoma-package::structured::001 (0.613)",
+      "itc-adenocarcinoma-package::structured::003 (0.602)",
+      "itc-adenocarcinoma-package::structured::009 (0.602)",
+      "itc-adenocarcinoma-package::structured::004 (0.599)",
+      "itc-anal-package::structured::001 (0.593)"
+     ],
+     "type": "procedure",
+     "lang": "en"
+    },
+    "x-english": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.6367247700691223,
+     "top1_score": 0.6367247700691223,
+     "top": [
+      "itc-adrenal-package::structured::015 (0.637)",
+      "itc-adenocarcinoma-package::structured::018 (0.614)",
+      "itc-anal-package::structured::015 (0.606)",
+      "alternative-medicine-price-comparison::structured::006 (0.387)",
+      "itc-adrenal-package::structured::014 (0.382)"
+     ],
+     "type": "general",
+     "lang": "en"
+    },
+    "x-family": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.7211697697639465,
+     "top1_score": 0.7211697697639465,
+     "top": [
+      "itc-anal-package::structured::018 (0.721)",
+      "itc-anal-package::structured::013 (0.529)",
+      "itc-anal-package::structured::012 (0.509)",
+      "itc-anal-package::structured::008 (0.501)",
+      "itc-anal-package::structured::004 (0.465)"
+     ],
+     "type": "general",
+     "lang": "en"
+    },
+    "x-insurance": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.6983778476715088,
+     "top1_score": 0.6983778476715088,
+     "top": [
+      "alternative-medicine-price-comparison::structured::010 (0.698)",
+      "alternative-medicine-price-comparison::structured::005 (0.656)",
+      "alternative-medicine-price-comparison::structured::004 (0.595)",
+      "alternative-medicine-price-comparison::structured::014 (0.592)",
+      "alternative-medicine-price-comparison::structured::009 (0.588)"
+     ],
+     "type": "general",
+     "lang": "en"
+    },
+    "x-videos": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.7130081653594971,
+     "top1_score": 0.7130081653594971,
+     "top": [
+      "itc-clinic-videos::structured::031 (0.713)",
+      "itc-clinic-videos::structured::029 (0.690)",
+      "itc-clinic-videos::structured::030 (0.679)",
+      "itc-clinic-videos::structured::021 (0.674)",
+      "itc-clinic-videos::structured::003 (0.671)"
+     ],
+     "type": "general",
+     "lang": "en"
+    },
+    "x-reviews": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.6250351071357727,
+     "top1_score": 0.6250351071357727,
+     "top": [
+      "itc-clinic-videos::structured::001 (0.625)",
+      "itc-clinic-profile::structured::036 (0.589)",
+      "itc-price-list::structured::002 (0.585)",
+      "itc-clinic-profile::structured::028 (0.487)",
+      "itc-clinic-profile::structured::029 (0.478)"
+     ],
+     "type": "general",
+     "lang": "en"
+    },
+    "ml-es-cost": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.7870928645133972,
+     "top1_score": 0.7870928645133972,
+     "top": [
+      "itc-anal-package::structured::021 (0.787)",
+      "itc-anal-package::structured::028 (0.781)",
+      "itc-anal-package::structured::025 (0.772)",
+      "itc-anal-package::structured::022 (0.769)",
+      "itc-anal-package::structured::027 (0.768)"
+     ],
+     "type": "multilingual",
+     "lang": "en"
+    },
+    "ml-ar-cost": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.6274860501289368,
+     "top1_score": 0.6274860501289368,
+     "top": [
+      "itc-adrenal-package::structured::021 (0.627)",
+      "itc-adrenal-package::structured::023 (0.627)",
+      "itc-adrenal-package::structured::022 (0.623)",
+      "itc-adrenal-package::structured::025 (0.623)",
+      "itc-adrenal-package::structured::028 (0.616)"
+     ],
+     "type": "multilingual",
+     "lang": "en"
+    },
+    "ml-ur-ozone": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.6223618388175964,
+     "top1_score": 0.6223618388175964,
+     "top": [
+      "alternative-medicine-price-comparison::structured::033 (0.622)",
+      "alternative-medicine-price-comparison::structured::023 (0.492)",
+      "alternative-medicine-price-comparison::structured::003 (0.488)",
+      "alternative-medicine-price-comparison::structured::034 (0.480)",
+      "alternative-medicine-price-comparison::structured::001 (0.389)"
+     ],
+     "type": "multilingual",
+     "lang": "en"
+    },
+    "neg-dental": {
+     "fact_recall": null,
+     "all_facts": null,
+     "mrr": 0.0,
+     "first_relevant_rank": null,
+     "relevant_score": null,
+     "top1_score": 0.5432479381561279,
+     "top": [
+      "alternative-medicine-price-comparison::structured::035 (0.543)",
+      "alternative-medicine-price-comparison::structured::034 (0.513)",
+      "itc-price-list::structured::009 (0.486)",
+      "itc-price-list::structured::010 (0.480)",
+      "itc-anal-package::structured::028 (0.476)"
+     ],
+     "type": "not_in_content",
+     "lang": "en"
+    },
+    "neg-knee": {
+     "fact_recall": null,
+     "all_facts": null,
+     "mrr": 0.0,
+     "first_relevant_rank": null,
+     "relevant_score": null,
+     "top1_score": 0.5122765302658081,
+     "top": [
+      "alternative-medicine-price-comparison::structured::033 (0.512)",
+      "alternative-medicine-price-comparison::structured::003 (0.457)",
+      "alternative-medicine-price-comparison::structured::024 (0.449)",
+      "alternative-medicine-price-comparison::structured::027 (0.421)",
+      "alternative-medicine-price-comparison::structured::035 (0.421)"
+     ],
+     "type": "not_in_content",
+     "lang": "en"
+    }
+   },
+   "hybrid_rerank_cohere_pro": {
+    "pdf1-cost": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.98634213,
+     "top1_score": 0.98634213,
+     "top": [
+      "itc-adrenal-package::structured::002 (0.986)",
+      "itc-adrenal-package::structured::022 (0.983)",
+      "itc-adrenal-package::structured::023 (0.982)",
+      "itc-adrenal-package::structured::021 (0.982)",
+      "itc-adrenal-package::structured::028 (0.976)"
+     ],
+     "type": "cost",
+     "lang": "en"
+    },
+    "pdf1-cost@es": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.98099285,
+     "top1_score": 0.98099285,
+     "top": [
+      "itc-adrenal-package::structured::022 (0.981)",
+      "itc-adrenal-package::structured::021 (0.981)",
+      "itc-adrenal-package::structured::023 (0.980)",
+      "itc-adrenal-package::structured::028 (0.976)",
+      "itc-adrenal-package::structured::025 (0.975)"
+     ],
+     "type": "cost",
+     "lang": "es"
+    },
+    "pdf1-cost@ar": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.9753525,
+     "top1_score": 0.9753525,
+     "top": [
+      "itc-adrenal-package::structured::022 (0.975)",
+      "itc-adrenal-package::structured::002 (0.975)",
+      "itc-adrenal-package::structured::023 (0.975)",
+      "itc-adrenal-package::structured::021 (0.974)",
+      "itc-adrenal-package::structured::028 (0.969)"
+     ],
+     "type": "cost",
+     "lang": "ar"
+    },
+    "pdf2-compare-both-present": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.9082646,
+     "top1_score": 0.9082646,
+     "top": [
+      "alternative-medicine-price-comparison::structured::003 (0.908)",
+      "alternative-medicine-price-comparison::structured::033 (0.890)",
+      "alternative-medicine-price-comparison::structured::034 (0.883)",
+      "alternative-medicine-price-comparison::structured::023 (0.814)",
+      "alternative-medicine-price-comparison::structured::001 (0.758)"
+     ],
+     "type": "comparison",
+     "lang": "en"
+    },
+    "pdf2-compare-both-present@es": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.8828729,
+     "top1_score": 0.8828729,
+     "top": [
+      "alternative-medicine-price-comparison::structured::033 (0.883)",
+      "alternative-medicine-price-comparison::structured::003 (0.868)",
+      "alternative-medicine-price-comparison::structured::034 (0.834)",
+      "alternative-medicine-price-comparison::structured::023 (0.758)",
+      "alternative-medicine-price-comparison::structured::001 (0.669)"
+     ],
+     "type": "comparison",
+     "lang": "es"
+    },
+    "pdf2-compare-both-present@ar": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.89665025,
+     "top1_score": 0.89665025,
+     "top": [
+      "alternative-medicine-price-comparison::structured::003 (0.897)",
+      "alternative-medicine-price-comparison::structured::033 (0.890)",
+      "alternative-medicine-price-comparison::structured::034 (0.874)",
+      "alternative-medicine-price-comparison::structured::023 (0.807)",
+      "alternative-medicine-price-comparison::structured::001 (0.729)"
+     ],
+     "type": "comparison",
+     "lang": "ar"
+    },
+    "pdf2b-compare-one-missing": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 0.5,
+     "first_relevant_rank": 2,
+     "relevant_score": 0.8352686,
+     "top1_score": 0.8730417,
+     "top": [
+      "alternative-medicine-price-comparison::structured::003 (0.873)",
+      "itc-clinic-profile::structured::006 (0.835)",
+      "itc-price-list::structured::007 (0.802)",
+      "itc-adenocarcinoma-package::structured::021 (0.785)",
+      "itc-adrenal-package::structured::021 (0.780)"
+     ],
+     "type": "comparison",
+     "lang": "en"
+    },
+    "pdf2b-compare-one-missing@es": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 0.3333333333333333,
+     "first_relevant_rank": 3,
+     "relevant_score": 0.84522843,
+     "top1_score": 0.8670808,
+     "top": [
+      "alternative-medicine-price-comparison::structured::019 (0.867)",
+      "alternative-medicine-price-comparison::structured::003 (0.866)",
+      "itc-adenocarcinoma-package::structured::021 (0.845)",
+      "itc-adrenal-package::structured::021 (0.827)",
+      "alternative-medicine-price-comparison::structured::033 (0.813)"
+     ],
+     "type": "comparison",
+     "lang": "es"
+    },
+    "pdf2b-compare-one-missing@ar": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 0.5,
+     "first_relevant_rank": 2,
+     "relevant_score": 0.7941296,
+     "top1_score": 0.84004915,
+     "top": [
+      "alternative-medicine-price-comparison::structured::003 (0.840)",
+      "itc-clinic-profile::structured::006 (0.794)",
+      "itc-adenocarcinoma-package::structured::021 (0.792)",
+      "itc-adrenal-package::structured::021 (0.785)",
+      "itc-anal-package::structured::021 (0.782)"
+     ],
+     "type": "comparison",
+     "lang": "ar"
+    },
+    "pdf3-procedure": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 0.3333333333333333,
+     "first_relevant_rank": 3,
+     "relevant_score": 0.96833336,
+     "top1_score": 0.9743959,
+     "top": [
+      "itc-anal-package::structured::001 (0.974)",
+      "itc-anal-package::structured::009 (0.969)",
+      "itc-anal-package::structured::003 (0.968)",
+      "itc-anal-package::structured::004 (0.967)",
+      "itc-anal-package::structured::019 (0.931)"
+     ],
+     "type": "procedure",
+     "lang": "en"
+    },
+    "pdf3-procedure@es": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 0.5,
+     "first_relevant_rank": 2,
+     "relevant_score": 0.951612,
+     "top1_score": 0.961331,
+     "top": [
+      "itc-anal-package::structured::001 (0.961)",
+      "itc-anal-package::structured::003 (0.952)",
+      "itc-anal-package::structured::004 (0.950)",
+      "itc-anal-package::structured::009 (0.947)",
+      "itc-anal-package::structured::000 (0.945)"
+     ],
+     "type": "procedure",
+     "lang": "es"
+    },
+    "pdf3-procedure@ar": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 0.25,
+     "first_relevant_rank": 4,
+     "relevant_score": 0.91992354,
+     "top1_score": 0.93665683,
+     "top": [
+      "itc-anal-package::structured::001 (0.937)",
+      "itc-anal-package::structured::007 (0.931)",
+      "itc-anal-package::structured::000 (0.922)",
+      "itc-anal-package::structured::003 (0.920)",
+      "itc-anal-package::structured::004 (0.912)"
+     ],
+     "type": "procedure",
+     "lang": "ar"
+    },
+    "pdf4-followup": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.96247613,
+     "top1_score": 0.96247613,
+     "top": [
+      "itc-anal-package::structured::001 (0.962)",
+      "itc-anal-package::structured::004 (0.931)",
+      "itc-anal-package::structured::009 (0.930)",
+      "itc-anal-package::structured::003 (0.929)",
+      "itc-anal-package::structured::023 (0.891)"
+     ],
+     "type": "follow_up",
+     "lang": "en"
+    },
+    "pdf4-followup@es": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.935015,
+     "top1_score": 0.935015,
+     "top": [
+      "itc-anal-package::structured::001 (0.935)",
+      "itc-anal-package::structured::009 (0.907)",
+      "itc-anal-package::structured::004 (0.902)",
+      "itc-anal-package::structured::003 (0.902)",
+      "itc-anal-package::structured::022 (0.856)"
+     ],
+     "type": "follow_up",
+     "lang": "es"
+    },
+    "pdf4-followup@ar": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.92195,
+     "top1_score": 0.92195,
+     "top": [
+      "itc-anal-package::structured::001 (0.922)",
+      "itc-adenocarcinoma-package::structured::015 (0.876)",
+      "itc-anal-package::structured::009 (0.869)",
+      "itc-anal-package::structured::004 (0.863)",
+      "itc-adenocarcinoma-package::structured::001 (0.862)"
+     ],
+     "type": "follow_up",
+     "lang": "ar"
+    },
+    "pdf5-booking": {
+     "fact_recall": null,
+     "all_facts": null,
+     "mrr": 0.0,
+     "first_relevant_rank": null,
+     "relevant_score": null,
+     "top1_score": 0.6110107,
+     "top": [
+      "itc-clinic-profile::structured::004 (0.611)",
+      "alternative-medicine-price-comparison::structured::020 (0.513)",
+      "itc-clinic-profile::structured::016 (0.498)",
+      "itc-adrenal-package::structured::015 (0.498)",
+      "alternative-medicine-price-comparison::structured::032 (0.466)"
+     ],
+     "type": "not_in_content",
+     "lang": "en"
+    },
+    "pdf5-booking@es": {
+     "fact_recall": null,
+     "all_facts": null,
+     "mrr": 0.0,
+     "first_relevant_rank": null,
+     "relevant_score": null,
+     "top1_score": 0.61286587,
+     "top": [
+      "itc-clinic-profile::structured::004 (0.613)",
+      "alternative-medicine-price-comparison::structured::020 (0.529)",
+      "itc-clinic-profile::structured::014 (0.529)",
+      "itc-clinic-profile::structured::016 (0.521)",
+      "itc-clinic-profile::structured::023 (0.517)"
+     ],
+     "type": "not_in_content",
+     "lang": "es"
+    },
+    "pdf5-booking@ar": {
+     "fact_recall": null,
+     "all_facts": null,
+     "mrr": 0.0,
+     "first_relevant_rank": null,
+     "relevant_score": null,
+     "top1_score": 0.68392634,
+     "top": [
+      "itc-clinic-profile::structured::004 (0.684)",
+      "alternative-medicine-price-comparison::structured::020 (0.675)",
+      "itc-clinic-profile::structured::016 (0.635)",
+      "itc-clinic-profile::structured::014 (0.635)",
+      "itc-adrenal-package::structured::015 (0.611)"
+     ],
+     "type": "not_in_content",
+     "lang": "ar"
+    },
+    "pdf6-out-of-scope": {
+     "fact_recall": null,
+     "all_facts": null,
+     "mrr": 0.0,
+     "first_relevant_rank": null,
+     "relevant_score": null,
+     "top1_score": 0.23203158,
+     "top": [
+      "alternative-medicine-price-comparison::structured::034 (0.232)",
+      "itc-clinic-profile::structured::036 (0.229)",
+      "itc-clinic-videos::structured::025 (0.227)",
+      "itc-adrenal-package::structured::010 (0.224)",
+      "itc-adenocarcinoma-package::structured::010 (0.211)"
+     ],
+     "type": "out_of_scope",
+     "lang": "en"
+    },
+    "pdf6-out-of-scope@es": {
+     "fact_recall": null,
+     "all_facts": null,
+     "mrr": 0.0,
+     "first_relevant_rank": null,
+     "relevant_score": null,
+     "top1_score": 0.22108148,
+     "top": [
+      "alternative-medicine-price-comparison::structured::003 (0.221)",
+      "itc-anal-package::structured::016 (0.211)",
+      "itc-adrenal-package::structured::010 (0.205)",
+      "alternative-medicine-price-comparison::structured::034 (0.203)",
+      "itc-clinic-videos::structured::025 (0.203)"
+     ],
+     "type": "out_of_scope",
+     "lang": "es"
+    },
+    "pdf6-out-of-scope@ar": {
+     "fact_recall": null,
+     "all_facts": null,
+     "mrr": 0.0,
+     "first_relevant_rank": null,
+     "relevant_score": null,
+     "top1_score": 0.17644441,
+     "top": [
+      "itc-adrenal-package::structured::010 (0.176)",
+      "itc-clinic-profile::structured::036 (0.174)",
+      "itc-price-list::structured::002 (0.174)",
+      "itc-adrenal-package::structured::015 (0.174)",
+      "itc-adenocarcinoma-package::structured::010 (0.172)"
+     ],
+     "type": "out_of_scope",
+     "lang": "ar"
+    },
+    "pdf7-medical-advice": {
+     "fact_recall": null,
+     "all_facts": null,
+     "mrr": 0.0,
+     "first_relevant_rank": null,
+     "relevant_score": null,
+     "top1_score": 0.44321477,
+     "top": [
+      "itc-clinic-videos::structured::025 (0.443)",
+      "itc-anal-package::structured::012 (0.439)",
+      "itc-adenocarcinoma-package::structured::013 (0.416)",
+      "itc-adrenal-package::structured::014 (0.413)",
+      "itc-clinic-profile::structured::007 (0.394)"
+     ],
+     "type": "medical_advice",
+     "lang": "en"
+    },
+    "pdf7-medical-advice@es": {
+     "fact_recall": null,
+     "all_facts": null,
+     "mrr": 0.0,
+     "first_relevant_rank": null,
+     "relevant_score": null,
+     "top1_score": 0.40507212,
+     "top": [
+      "itc-clinic-videos::structured::025 (0.405)",
+      "itc-anal-package::structured::012 (0.368)",
+      "itc-adenocarcinoma-package::structured::013 (0.364)",
+      "itc-clinic-profile::structured::007 (0.361)",
+      "itc-adrenal-package::structured::014 (0.354)"
+     ],
+     "type": "medical_advice",
+     "lang": "es"
+    },
+    "pdf7-medical-advice@ar": {
+     "fact_recall": null,
+     "all_facts": null,
+     "mrr": 0.0,
+     "first_relevant_rank": null,
+     "relevant_score": null,
+     "top1_score": 0.45481113,
+     "top": [
+      "itc-clinic-videos::structured::025 (0.455)",
+      "itc-anal-package::structured::012 (0.451)",
+      "itc-clinic-profile::structured::007 (0.436)",
+      "itc-adrenal-package::structured::014 (0.416)",
+      "itc-clinic-profile::structured::013 (0.409)"
+     ],
+     "type": "medical_advice",
+     "lang": "ar"
+    },
+    "pdf8-trick-price": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.8736898,
+     "top1_score": 0.8736898,
+     "top": [
+      "itc-adrenal-package::structured::002 (0.874)",
+      "itc-adrenal-package::structured::001 (0.872)",
+      "itc-adrenal-package::structured::021 (0.861)",
+      "itc-adrenal-package::structured::022 (0.855)",
+      "itc-adrenal-package::structured::023 (0.844)"
+     ],
+     "type": "trick",
+     "lang": "en"
+    },
+    "pdf8-trick-price@es": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.86685556,
+     "top1_score": 0.86685556,
+     "top": [
+      "itc-adrenal-package::structured::021 (0.867)",
+      "itc-adrenal-package::structured::023 (0.858)",
+      "itc-adrenal-package::structured::025 (0.851)",
+      "itc-adrenal-package::structured::026 (0.844)",
+      "itc-adrenal-package::structured::030 (0.843)"
+     ],
+     "type": "trick",
+     "lang": "es"
+    },
+    "pdf8-trick-price@ar": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.8395235,
+     "top1_score": 0.8395235,
+     "top": [
+      "itc-adrenal-package::structured::021 (0.840)",
+      "itc-adrenal-package::structured::022 (0.838)",
+      "itc-adrenal-package::structured::023 (0.836)",
+      "itc-adrenal-package::structured::025 (0.824)",
+      "itc-adrenal-package::structured::002 (0.824)"
+     ],
+     "type": "trick",
+     "lang": "ar"
+    },
+    "x-cost-pricelist": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.9753525,
+     "top1_score": 0.9753525,
+     "top": [
+      "itc-price-list::structured::004 (0.975)",
+      "itc-price-list::structured::000 (0.968)",
+      "itc-clinic-profile::structured::006 (0.965)",
+      "itc-clinic-profile::structured::038 (0.959)",
+      "itc-price-list::structured::007 (0.956)"
+     ],
+     "type": "cost",
+     "lang": "en"
+    },
+    "x-cost-turkey-ozone": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.9692777,
+     "top1_score": 0.9692777,
+     "top": [
+      "alternative-medicine-price-comparison::structured::033 (0.969)",
+      "alternative-medicine-price-comparison::structured::003 (0.878)",
+      "alternative-medicine-price-comparison::structured::023 (0.862)",
+      "alternative-medicine-price-comparison::structured::001 (0.760)",
+      "alternative-medicine-price-comparison::structured::034 (0.691)"
+     ],
+     "type": "cost",
+     "lang": "en"
+    },
+    "x-cost-inpatient": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.983445,
+     "top1_score": 0.983445,
+     "top": [
+      "itc-adenocarcinoma-package::structured::023 (0.983)",
+      "itc-adenocarcinoma-package::structured::004 (0.977)",
+      "itc-adenocarcinoma-package::structured::002 (0.967)",
+      "itc-adenocarcinoma-package::structured::022 (0.959)",
+      "itc-adenocarcinoma-package::structured::001 (0.958)"
+     ],
+     "type": "cost",
+     "lang": "en"
+    },
+    "x-compare-thailand-croatia": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.9221254,
+     "top1_score": 0.9221254,
+     "top": [
+      "alternative-medicine-price-comparison::structured::003 (0.922)",
+      "alternative-medicine-price-comparison::structured::032 (0.817)",
+      "alternative-medicine-price-comparison::structured::031 (0.792)",
+      "alternative-medicine-price-comparison::structured::020 (0.677)",
+      "alternative-medicine-price-comparison::structured::000 (0.564)"
+     ],
+     "type": "comparison",
+     "lang": "en"
+    },
+    "x-optional-costs": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.98069936,
+     "top1_score": 0.98069936,
+     "top": [
+      "itc-adrenal-package::structured::005 (0.981)",
+      "itc-adrenal-package::structured::027 (0.972)",
+      "itc-adrenal-package::structured::024 (0.971)",
+      "itc-adrenal-package::structured::026 (0.970)",
+      "itc-adrenal-package::structured::025 (0.970)"
+     ],
+     "type": "cost",
+     "lang": "en"
+    },
+    "x-exclusions": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.9862365,
+     "top1_score": 0.9862365,
+     "top": [
+      "itc-adenocarcinoma-package::structured::006 (0.986)",
+      "itc-adenocarcinoma-package::structured::030 (0.973)",
+      "itc-adenocarcinoma-package::structured::032 (0.972)",
+      "itc-adenocarcinoma-package::structured::029 (0.971)",
+      "itc-adenocarcinoma-package::structured::031 (0.971)"
+     ],
+     "type": "procedure",
+     "lang": "en"
+    },
+    "x-stem-cell-abroad": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.96331346,
+     "top1_score": 0.96331346,
+     "top": [
+      "alternative-medicine-price-comparison::structured::024 (0.963)",
+      "alternative-medicine-price-comparison::structured::035 (0.949)",
+      "alternative-medicine-price-comparison::structured::001 (0.935)",
+      "alternative-medicine-price-comparison::structured::028 (0.866)",
+      "alternative-medicine-price-comparison::structured::002 (0.827)"
+     ],
+     "type": "cost",
+     "lang": "en"
+    },
+    "x-doctors": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 0.5,
+     "first_relevant_rank": 2,
+     "relevant_score": 0.9773362,
+     "top1_score": 0.9826643,
+     "top": [
+      "itc-clinic-profile::structured::022 (0.983)",
+      "itc-clinic-profile::structured::024 (0.977)",
+      "itc-clinic-profile::structured::023 (0.975)",
+      "itc-clinic-profile::structured::037 (0.969)",
+      "itc-clinic-profile::structured::021 (0.965)"
+     ],
+     "type": "general",
+     "lang": "en"
+    },
+    "x-address": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.94710773,
+     "top1_score": 0.94710773,
+     "top": [
+      "itc-clinic-profile::structured::037 (0.947)",
+      "itc-clinic-videos::structured::002 (0.939)",
+      "itc-price-list::structured::003 (0.931)",
+      "itc-price-list::structured::004 (0.894)",
+      "itc-price-list::structured::006 (0.892)"
+     ],
+     "type": "general",
+     "lang": "en"
+    },
+    "x-duration": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.9480776,
+     "top1_score": 0.9480776,
+     "top": [
+      "itc-anal-package::structured::001 (0.948)",
+      "itc-adrenal-package::structured::001 (0.946)",
+      "itc-adenocarcinoma-package::structured::001 (0.946)",
+      "itc-adrenal-package::structured::009 (0.937)",
+      "itc-adenocarcinoma-package::structured::009 (0.932)"
+     ],
+     "type": "procedure",
+     "lang": "en"
+    },
+    "x-english": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.9580066,
+     "top1_score": 0.9580066,
+     "top": [
+      "itc-adrenal-package::structured::015 (0.958)",
+      "itc-adenocarcinoma-package::structured::018 (0.957)",
+      "itc-anal-package::structured::015 (0.859)",
+      "itc-anal-package::structured::010 (0.788)",
+      "itc-adenocarcinoma-package::structured::010 (0.788)"
+     ],
+     "type": "general",
+     "lang": "en"
+    },
+    "x-family": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.9743959,
+     "top1_score": 0.9743959,
+     "top": [
+      "itc-anal-package::structured::018 (0.974)",
+      "itc-anal-package::structured::013 (0.828)",
+      "itc-anal-package::structured::001 (0.602)",
+      "itc-anal-package::structured::004 (0.552)",
+      "itc-anal-package::structured::003 (0.529)"
+     ],
+     "type": "general",
+     "lang": "en"
+    },
+    "x-insurance": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.98725766,
+     "top1_score": 0.98725766,
+     "top": [
+      "alternative-medicine-price-comparison::structured::010 (0.987)",
+      "alternative-medicine-price-comparison::structured::005 (0.821)",
+      "alternative-medicine-price-comparison::structured::012 (0.741)",
+      "alternative-medicine-price-comparison::structured::020 (0.737)",
+      "alternative-medicine-price-comparison::structured::002 (0.735)"
+     ],
+     "type": "general",
+     "lang": "en"
+    },
+    "x-videos": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.9802507,
+     "top1_score": 0.9802507,
+     "top": [
+      "itc-clinic-videos::structured::031 (0.980)",
+      "itc-clinic-videos::structured::029 (0.975)",
+      "itc-clinic-videos::structured::028 (0.973)",
+      "itc-clinic-videos::structured::021 (0.972)",
+      "itc-clinic-videos::structured::004 (0.972)"
+     ],
+     "type": "general",
+     "lang": "en"
+    },
+    "x-reviews": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.9821239,
+     "top1_score": 0.9821239,
+     "top": [
+      "itc-clinic-videos::structured::001 (0.982)",
+      "itc-clinic-profile::structured::036 (0.982)",
+      "itc-price-list::structured::002 (0.981)",
+      "itc-clinic-profile::structured::027 (0.947)",
+      "itc-clinic-profile::structured::028 (0.941)"
+     ],
+     "type": "general",
+     "lang": "en"
+    },
+    "ml-es-cost": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.98764485,
+     "top1_score": 0.98764485,
+     "top": [
+      "itc-anal-package::structured::022 (0.988)",
+      "itc-anal-package::structured::023 (0.987)",
+      "itc-anal-package::structured::021 (0.987)",
+      "itc-anal-package::structured::002 (0.986)",
+      "itc-anal-package::structured::028 (0.984)"
+     ],
+     "type": "multilingual",
+     "lang": "en"
+    },
+    "ml-ar-cost": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 0.5,
+     "first_relevant_rank": 2,
+     "relevant_score": 0.94996727,
+     "top1_score": 0.9503373,
+     "top": [
+      "itc-adrenal-package::structured::023 (0.950)",
+      "itc-adrenal-package::structured::022 (0.950)",
+      "itc-adrenal-package::structured::002 (0.950)",
+      "itc-adrenal-package::structured::021 (0.947)",
+      "itc-adrenal-package::structured::028 (0.939)"
+     ],
+     "type": "multilingual",
+     "lang": "en"
+    },
+    "ml-ur-ozone": {
+     "fact_recall": 1,
+     "all_facts": true,
+     "mrr": 1.0,
+     "first_relevant_rank": 1,
+     "relevant_score": 0.9559155,
+     "top1_score": 0.9559155,
+     "top": [
+      "alternative-medicine-price-comparison::structured::033 (0.956)",
+      "alternative-medicine-price-comparison::structured::023 (0.864)",
+      "alternative-medicine-price-comparison::structured::034 (0.825)",
+      "alternative-medicine-price-comparison::structured::003 (0.816)",
+      "alternative-medicine-price-comparison::structured::001 (0.765)"
+     ],
+     "type": "multilingual",
+     "lang": "en"
+    },
+    "neg-dental": {
+     "fact_recall": null,
+     "all_facts": null,
+     "mrr": 0.0,
+     "first_relevant_rank": null,
+     "relevant_score": null,
+     "top1_score": 0.32904664,
+     "top": [
+      "alternative-medicine-price-comparison::structured::035 (0.329)",
+      "itc-adenocarcinoma-package::structured::028 (0.292)",
+      "itc-adrenal-package::structured::028 (0.292)",
+      "itc-anal-package::structured::026 (0.292)",
+      "itc-anal-package::structured::028 (0.289)"
+     ],
+     "type": "not_in_content",
+     "lang": "en"
+    },
+    "neg-knee": {
+     "fact_recall": null,
+     "all_facts": null,
+     "mrr": 0.0,
+     "first_relevant_rank": null,
+     "relevant_score": null,
+     "top1_score": 0.33250543,
+     "top": [
+      "alternative-medicine-price-comparison::structured::000 (0.333)",
+      "alternative-medicine-price-comparison::structured::003 (0.315)",
+      "alternative-medicine-price-comparison::structured::030 (0.289)",
+      "alternative-medicine-price-comparison::structured::033 (0.283)",
+      "alternative-medicine-price-comparison::structured::027 (0.261)"
+     ],
+     "type": "not_in_content",
+     "lang": "en"
+    }
+   }
+  }
+ }
+}

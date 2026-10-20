@@ -1,0 +1,13 @@
+pyproject.toml
+src/placidway_bot/__init__.py
+src/placidway_bot/config.py
+src/placidway_bot.egg-info/PKG-INFO
+src/placidway_bot.egg-info/SOURCES.txt
+src/placidway_bot.egg-info/dependency_links.txt
+src/placidway_bot.egg-info/top_level.txt
+src/placidway_bot/ingest/__init__.py
+src/placidway_bot/ingest/fetcher.py
+src/placidway_bot/ingest/parsers/__init__.py
+src/placidway_bot/ingest/scrapers/__init__.py
+src/placidway_bot/ingest/scrapers/requests_bs4.py
+src/placidway_bot/retrieval/__init__.py

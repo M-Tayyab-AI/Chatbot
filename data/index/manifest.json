@@ -1,0 +1,80 @@
+{
+  "pages": {
+    "itc-clinic-profile": {
+      "url": "https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+      "content_hash": "f96067d130be74db",
+      "fetched_at": "2026-10-20T19:01:05+00:00",
+      "checked_at": "2026-10-20T19:01:05+00:00",
+      "changed_at": "2026-10-20T19:01:05+00:00",
+      "warnings": []
+    },
+    "itc-adenocarcinoma-package": {
+      "url": "https://www.placidway.com/package/7903/Alternative-Adenocarcinoma-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+      "content_hash": "5473829adf02bef3",
+      "fetched_at": "2026-10-20T19:01:06+00:00",
+      "checked_at": "2026-10-20T19:01:06+00:00",
+      "changed_at": "2026-10-20T19:01:06+00:00",
+      "warnings": []
+    },
+    "itc-adrenal-package": {
+      "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+      "content_hash": "36ef705f1454203f",
+      "fetched_at": "2026-10-20T19:01:07+00:00",
+      "checked_at": "2026-10-20T19:01:07+00:00",
+      "changed_at": "2026-10-20T19:01:07+00:00",
+      "warnings": []
+    },
+    "itc-anal-package": {
+      "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+      "content_hash": "6fb739bb165bf872",
+      "fetched_at": "2026-10-20T19:01:08+00:00",
+      "checked_at": "2026-10-20T19:01:08+00:00",
+      "changed_at": "2026-10-20T19:01:08+00:00",
+      "warnings": []
+    },
+    "itc-clinic-videos": {
+      "url": "https://www.placidway.com/profile-videos/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+      "content_hash": "8371bd900f5ec8f7",
+      "fetched_at": "2026-10-20T19:01:11+00:00",
+      "checked_at": "2026-10-20T19:01:11+00:00",
+      "changed_at": "2026-10-20T19:01:11+00:00",
+      "warnings": []
+    },
+    "itc-price-list": {
+      "url": "https://www.placidway.com/price-list/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+      "content_hash": "a29f21843bf7c860",
+      "fetched_at": "2026-10-20T19:01:12+00:00",
+      "checked_at": "2026-10-20T19:01:12+00:00",
+      "changed_at": "2026-10-20T19:01:12+00:00",
+      "warnings": [
+        "price row 4: name missing in HTML, filled from JSON-LD as 'Cancer Treatment'"
+      ]
+    },
+    "alternative-medicine-price-comparison": {
+      "url": "https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1",
+      "content_hash": "e9797bfe82111986",
+      "fetched_at": "2026-10-20T19:01:12+00:00",
+      "checked_at": "2026-10-20T19:01:12+00:00",
+      "changed_at": "2026-10-20T19:01:12+00:00",
+      "warnings": []
+    }
+  },
+  "active_index": "kb_structured_20261020190113",
+  "strategy": "structured",
+  "n_chunks": 219,
+  "indexed_at": "2026-10-20T19:01:14+00:00",
+  "refreshed_at": "2026-10-20T19:01:14+00:00",
+  "last_report": {
+    "changed": [
+      "itc-clinic-profile",
+      "itc-adenocarcinoma-package",
+      "itc-adrenal-package",
+      "itc-anal-package",
+      "itc-clinic-videos",
+      "itc-price-list",
+      "alternative-medicine-price-comparison"
+    ],
+    "unchanged": [],
+    "failed": {}
+  }
+}
