@@ -177,9 +177,12 @@ Every key is listed in [`.env.example`](.env.example).
 
 1. Go to [share.streamlit.io](https://share.streamlit.io) → **Create app** → choose this repo, branch `main`, main
    file `streamlit_app.py`.
-2. Under **Advanced settings**, choose Python **3.12** and paste the keys as TOML secrets, for example
-   `GOOGLE_API_KEY = "..."`. Streamlit exposes them as environment variables, which the app reads.
-3. Deploy. To refresh content later, open the sidebar → **Admin** → enter `ADMIN_TOKEN` → **Refresh content now**.
+2. Under **Advanced settings**, choose Python **3.12** and paste your keys into **Secrets** using the template in
+   [`.streamlit/secrets.toml.example`](.streamlit/secrets.toml.example). At startup, `streamlit_app.py` copies the
+   secrets into environment variables, which is where the app's settings read them.
+3. Deploy. The first start installs the requirements, which takes a few minutes. The processed pages and the index
+   are in the repo, so nothing is crawled or embedded at startup.
+4. To refresh content later, open the sidebar → **Admin** → enter `ADMIN_TOKEN` → **Refresh content now**.
 
 ## Project structure
 
@@ -219,6 +222,9 @@ Every key is listed in [`.env.example`](.env.example).
   currencies or estimate totals.
 - **The compare page shows page 1 only** (`/All/1`), as the brief scoped. Pagination and category links are not followed.
 - **Videos.** Only titles and descriptions are indexed, not transcripts.
+- **Refreshes on Streamlit Cloud are temporary.** The Admin button rebuilds the index on the app's own disk, which
+  Streamlit Cloud resets whenever the app restarts. To make a refresh permanent, run `python scripts/ingest.py`
+  locally and push the updated `data/` folder.
 - **Cold start.** A sleeping Streamlit app needs one click and about a minute to wake up. The first answer can then
   take a few seconds while the models load.
 

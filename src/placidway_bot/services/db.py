@@ -46,8 +46,12 @@ def get_pool() -> ConnectionPool:
     url = get_settings().database_url
     if not url:
         raise RuntimeError("DATABASE_URL is not set")
-    pool = ConnectionPool(conninfo=url, min_size=1, max_size=5, open=True, timeout=30,
-                          kwargs={"autocommit": True, "prepare_threshold": 0, "row_factory": dict_row})
+    # connect_timeout is per address: a host that stalls (e.g. unroutable IPv6) is abandoned and the next one tried.
+    # check: Neon's free tier suspends after ~5 idle minutes, closing pooled connections; test each before use.
+    pool = ConnectionPool(conninfo=url, min_size=1, max_size=5, open=True, timeout=60,
+                          check=ConnectionPool.check_connection,
+                          kwargs={"autocommit": True, "prepare_threshold": 0, "row_factory": dict_row,
+                                  "connect_timeout": 10})
     with pool.connection() as conn:
         for statement in filter(str.strip, SCHEMA.split(";")):   # one statement per execute (no prepared batches)
             conn.execute(statement)

@@ -3,13 +3,38 @@ from __future__ import annotations
 
 import hmac
 import logging
+import os
 import sys
 import uuid
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent / "src"))   # works without `pip install -e .` (Streamlit Cloud)
 
+
+def ensure_modern_sqlite() -> None:
+    """Chroma needs SQLite >= 3.35; Streamlit Cloud's Debian ships older. Swap in pysqlite3-binary (Linux only)."""
+    import sqlite3
+    if sqlite3.sqlite_version_info < (3, 35, 0):
+        import pysqlite3
+        sys.modules["sqlite3"] = pysqlite3
+
+
+ensure_modern_sqlite()       # before anything imports chromadb
+
 import streamlit as st  # noqa: E402
+
+
+def secrets_to_env() -> None:
+    """Streamlit Cloud keeps keys in st.secrets; the app's settings read the environment (locally: .env)."""
+    try:
+        for key, value in st.secrets.items():
+            if isinstance(value, (str, int, float, bool)):
+                os.environ.setdefault(key, str(value))
+    except Exception:  # noqa: BLE001 - no secrets file (local run): .env is used instead
+        pass
+
+
+secrets_to_env()             # before anything reads the settings
 
 from placidway_bot.chat import ChatBot  # noqa: E402
 from placidway_bot.config import get_settings, load_sources  # noqa: E402

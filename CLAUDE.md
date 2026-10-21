@@ -169,6 +169,14 @@ Guardrail rules the prompt + validator must enforce:
   **3.5 Flash supports temperature 0–2**. Our `gemini-3.5-flash` quota errors name `gemini-3.6-flash` → before the
   sweep, check the response's model version with 1 call; if it is 3.6, the sweep measures nothing → tell the user.
 
+### Phase 6 (deploy prep) — 2026-10-21
+- `.streamlit/config.toml` (no error details / dev toolbar for visitors), `.streamlit/secrets.toml.example`.
+  `streamlit_app.py` copies st.secrets → env at startup (settings read env).
+- Streamlit Cloud = Debian 11 → SQLite 3.34 < Chroma's 3.35 → `pysqlite3-binary` (Linux-only marker) swapped in
+  by `ensure_modern_sqlite()` only when needed.
+- Neon from Pakistan: connects in 3–93 s (IPv6/IPv4 stalls). Pool: connect_timeout=10 per address, timeout 60,
+  `check_connection` (Neon free tier suspends after ~5 idle min). Clean-venv install + AppTest smoke test passed.
+
 ### Phase 3 (LangGraph) learnings
 - Lite once routed "¿Cuánto cuesta…?" as quote_request → quote_request now ALSO retrieves (answers + lead form),
   so a misroute can't swallow an answer. Prompt says cost questions are always `knowledge`.

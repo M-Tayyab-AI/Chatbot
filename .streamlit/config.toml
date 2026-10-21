@@ -1,0 +1,9 @@
+[server]
+headless = true
+
+[client]
+showErrorDetails = "none"   # visitors never see stack traces (errors are logged server-side)
+toolbarMode = "viewer"      # hide developer options (rerun, clear cache) from visitors
+
+[browser]
+gatherUsageStats = false
