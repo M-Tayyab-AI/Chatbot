@@ -176,6 +176,8 @@ Guardrail rules the prompt + validator must enforce:
   by `ensure_modern_sqlite()` only when needed.
 - Neon from Pakistan: connects in 3–93 s (IPv6/IPv4 stalls). Pool: connect_timeout=10 per address, timeout 60,
   `check_connection` (Neon free tier suspends after ~5 idle min). Clean-venv install + AppTest smoke test passed.
+- Live test in Chrome (2026-10-21): tests 1, 3, 4 (follow-up), 5 (booking + lead form), 8 pass; reload restores
+  chat from Neon; Admin locked without token. Lead form NOT submitted (would write to production Neon).
 
 ### Phase 3 (LangGraph) learnings
 - Lite once routed "¿Cuánto cuesta…?" as quote_request → quote_request now ALSO retrieves (answers + lead form),
@@ -225,7 +227,7 @@ placidway-chatbot/
 - [ ] README: setup, architecture, tools & models + why
 - [ ] Test results: answers to the 8 test questions (`eval/results/test_results.md`)
 - [ ] Half-page write-up: improvements with another week + known limitations (`docs/writeup.md`)
-- [ ] Live Streamlit URL, running ≥ 7 days after submission
+- [x] Live Streamlit URL: https://placidway-knowledge-chatbot.streamlit.app/ (deployed 2026-10-21; keep ≥ 7 days)
 
 ## 7. Working rules
 - Ask the user before each new phase / any decision not listed here.

@@ -4,8 +4,8 @@ A small, grounded chatbot that answers visitor questions **only** from 7 PlacidW
 Center in Tijuana, plus the alternative-medicine price comparison). Every answer cites its source URL. When the pages
 don't say, the bot says so. It never invents prices, clinics or medical facts.
 
-**Live demo:** _link added after deployment_. It runs on Streamlit Community Cloud's free tier, so if the app is
-asleep, click "Yes, get this app back up" and it wakes in about a minute.
+**Live demo:** **https://placidway-knowledge-chatbot.streamlit.app/**. It runs on Streamlit Community Cloud's free
+tier, so if the app is asleep, click "Yes, get this app back up" and it wakes in about a minute.
 
 | | |
 |---|---|
