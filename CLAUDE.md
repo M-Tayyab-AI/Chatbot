@@ -223,10 +223,10 @@ placidway-chatbot/
 ```
 
 ## 6. Deliverables checklist (from the brief)
-- [ ] Code in public GitHub repo
-- [ ] README: setup, architecture, tools & models + why
-- [ ] Test results: answers to the 8 test questions (`eval/results/test_results.md`)
-- [ ] Half-page write-up: improvements with another week + known limitations (`docs/writeup.md`)
+- [x] Code in public GitHub repo
+- [x] README: setup, architecture, tools & models + why
+- [x] Test results: answers to the 8 test questions (`eval/results/test_results.md`)
+- [x] Half-page write-up: improvements with another week + known limitations (`docs/writeup.md`)
 - [x] Live Streamlit URL: https://placidway-knowledge-chatbot.streamlit.app/ (deployed 2026-10-21; keep ≥ 7 days)
 
 ## 7. Working rules

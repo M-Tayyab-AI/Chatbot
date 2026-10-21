@@ -119,9 +119,13 @@ flowchart LR
 | structured + vector | 95.8% | 25 / 27 |
 | **structured + hybrid + Cohere Pro (production)** | **100%** | **27 / 27** |
 
-**End-to-end.** A live run over the 8 brief questions, a follow-up, Spanish, Arabic, and an unknown question
-("dental implant in Mexico") produced the expected behaviour on all 13. The full transcript is in
-[`data/experiments/demo_run_lite.md`](data/experiments/demo_run_lite.md).
+**End-to-end.** The test answers are in **[`eval/results/test_results.md`](eval/results/test_results.md)**: the
+8 brief questions plus 7 extended cases (Spanish, Arabic, follow-ups, a one-sided comparison and an unknown topic).
+They were run through the whole bot with `scripts/run_eval.py` and checked in code, and each run is also logged as a
+LangSmith experiment. Across 15 answers there were 0 invented prices, 0 wrong citations and 0 wrong-language
+replies. 13 of 15 cases passed every check. Of the 2 that didn't, one complete answer was labelled "partial", and
+one safe medical reply took a different route than the test expected. Limitations and next steps are in
+[`docs/writeup.md`](docs/writeup.md).
 
 | # | Brief test | Bot behaviour |
 |---|---|---|
