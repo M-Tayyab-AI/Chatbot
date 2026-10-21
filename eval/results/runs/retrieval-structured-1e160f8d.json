@@ -1,0 +1,4295 @@
+{
+ "kind": "retrieval",
+ "strategy": "structured",
+ "chunks": 219,
+ "experiment": "retrieval-structured-1e160f8d",
+ "created_at": "2026-10-21T16:13:15.438031+00:00",
+ "rows": [
+  {
+   "case_id": "ml-ar-cost",
+   "inputs": {
+    "question": "كم تكلفة علاج سرطان الغدة الكظرية في المكسيك؟"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-adrenal-package::structured::023",
+      "slug": "itc-adrenal-package",
+      "section": "Cost of Adrenal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.9503
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::022",
+      "slug": "itc-adrenal-package",
+      "section": "Cost of Adrenal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.95
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::002",
+      "slug": "itc-adrenal-package",
+      "section": "Cost of Adrenal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.9496
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::021",
+      "slug": "itc-adrenal-package",
+      "section": "Page header",
+      "score": 0.9469
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::028",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.9388
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::025",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.9387
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::026",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.938
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::031",
+      "slug": "itc-adrenal-package",
+      "section": "Excluded Services and Contingency Costs",
+      "score": 0.9296
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::024",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.9291
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::027",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.9288
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.006015,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 0.5,
+     "comment": "first relevant rank: 2"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.950 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "ml-es-cost",
+   "inputs": {
+    "question": "¿Cuánto cuesta el tratamiento alternativo del cáncer anal en Tijuana?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-anal-package::structured::022",
+      "slug": "itc-anal-package",
+      "section": "Cost of Alternative Anal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.9876
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::023",
+      "slug": "itc-anal-package",
+      "section": "Cost of Alternative Anal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.9871
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::021",
+      "slug": "itc-anal-package",
+      "section": "Page header",
+      "score": 0.987
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::002",
+      "slug": "itc-anal-package",
+      "section": "Cost of Alternative Anal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.9864
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::028",
+      "slug": "itc-anal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.9837
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::025",
+      "slug": "itc-anal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.9827
+     },
+     {
+      "chunk_id": "itc-price-list::structured::003",
+      "slug": "itc-price-list",
+      "section": "About Medical Center",
+      "score": 0.9821
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::026",
+      "slug": "itc-anal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.9821
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::024",
+      "slug": "itc-anal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.9799
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::027",
+      "slug": "itc-anal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.9796
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.007765,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.988 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "ml-ur-ozone",
+   "inputs": {
+    "question": "ترکی میں اوزون تھراپی کتنے کی ہے؟"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::033",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.9559
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::023",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "How Much Does a Alternative Medicine Cost Abroad?",
+      "score": 0.8637
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::034",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.8248
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::003",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.8156
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::001",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "How Much Does a Alternative Medicine Cost Abroad?",
+      "score": 0.7646
+     },
+     {
+      "chunk_id": "itc-clinic-videos::structured::026",
+      "slug": "itc-clinic-videos",
+      "section": "Videos",
+      "score": 0.5828
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::000",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Quick Facts: Alternative Medicine Abroad",
+      "score": 0.5094
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::027",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Cost Breakdown by Component",
+      "score": 0.5016
+     },
+     {
+      "chunk_id": "itc-clinic-videos::structured::020",
+      "slug": "itc-clinic-videos",
+      "section": "Videos",
+      "score": 0.4703
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::008",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Frequently Asked Questions About Live Cell Therapy, Alternative Medicine Abroad > How much does alternative medicine cost abroad compared to domestic prices?",
+      "score": 0.4051
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.006014,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.956 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "neg-dental",
+   "inputs": {
+    "question": "How much does a dental implant cost in Mexico?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::035",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.329
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::028",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.2923
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::028",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.2923
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::026",
+      "slug": "itc-anal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.2923
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::028",
+      "slug": "itc-anal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.2891
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::021",
+      "slug": "itc-anal-package",
+      "section": "Page header",
+      "score": 0.2891
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::022",
+      "slug": "itc-anal-package",
+      "section": "Cost of Alternative Anal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.2859
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::034",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.2859
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::027",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.2827
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::011",
+      "slug": "itc-clinic-profile",
+      "section": "Frequently Asked Questions > How much does alternative cancer treatment at ITC Immunity Therapy Center cost?",
+      "score": 0.2827
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.00802,
+   "checks": {
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.329 must be below 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "neg-knee",
+   "inputs": {
+    "question": "What is the price of knee replacement surgery in Turkey?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::000",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Quick Facts: Alternative Medicine Abroad",
+      "score": 0.3325
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::003",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.3154
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::030",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Cost Breakdown by Component",
+      "score": 0.2891
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::033",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.2827
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::027",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Cost Breakdown by Component",
+      "score": 0.261
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::024",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "How Much Does a Alternative Medicine Cost Abroad?",
+      "score": 0.2492
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::025",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "How Much Does a Alternative Medicine Cost Abroad?",
+      "score": 0.2376
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::028",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Cost Breakdown by Component",
+      "score": 0.2348
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::023",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "How Much Does a Alternative Medicine Cost Abroad?",
+      "score": 0.2105
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::035",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.2079
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.087252,
+   "checks": {
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.333 must be below 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf1-cost",
+   "inputs": {
+    "question": "How much does alternative adrenal cancer treatment cost in Mexico?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-adrenal-package::structured::002",
+      "slug": "itc-adrenal-package",
+      "section": "Cost of Adrenal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.9863
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::022",
+      "slug": "itc-adrenal-package",
+      "section": "Cost of Adrenal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.9825
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::023",
+      "slug": "itc-adrenal-package",
+      "section": "Cost of Adrenal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.9818
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::021",
+      "slug": "itc-adrenal-package",
+      "section": "Page header",
+      "score": 0.9817
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::028",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.9765
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::025",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.9748
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::026",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.9746
+     },
+     {
+      "chunk_id": "itc-price-list::structured::003",
+      "slug": "itc-price-list",
+      "section": "About Medical Center",
+      "score": 0.9717
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::005",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.9709
+     },
+     {
+      "chunk_id": "itc-clinic-videos::structured::002",
+      "slug": "itc-clinic-videos",
+      "section": "About Medical Center",
+      "score": 0.9706
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.006016,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.986 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf1-cost@ar",
+   "inputs": {
+    "question": "كم تكلفة العلاج البديل لسرطان الغدة الكظرية في المكسيك؟"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-adrenal-package::structured::022",
+      "slug": "itc-adrenal-package",
+      "section": "Cost of Adrenal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.9754
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::002",
+      "slug": "itc-adrenal-package",
+      "section": "Cost of Adrenal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.9754
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::023",
+      "slug": "itc-adrenal-package",
+      "section": "Cost of Adrenal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.9748
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::021",
+      "slug": "itc-adrenal-package",
+      "section": "Page header",
+      "score": 0.974
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::028",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.9693
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::025",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.9683
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::026",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.9679
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::027",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.9639
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::024",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.9633
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::030",
+      "slug": "itc-adrenal-package",
+      "section": "Excluded Services and Contingency Costs",
+      "score": 0.9621
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.00802,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.975 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf1-cost@es",
+   "inputs": {
+    "question": "¿Cuánto cuesta el tratamiento alternativo del cáncer suprarrenal en México?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-adrenal-package::structured::022",
+      "slug": "itc-adrenal-package",
+      "section": "Cost of Adrenal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.981
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::021",
+      "slug": "itc-adrenal-package",
+      "section": "Page header",
+      "score": 0.9806
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::023",
+      "slug": "itc-adrenal-package",
+      "section": "Cost of Adrenal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.9799
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::028",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.9765
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::025",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.9752
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::026",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.975
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::027",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.9719
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::024",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.9715
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::030",
+      "slug": "itc-adrenal-package",
+      "section": "Excluded Services and Contingency Costs",
+      "score": 0.9711
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::029",
+      "slug": "itc-adrenal-package",
+      "section": "Excluded Services and Contingency Costs",
+      "score": 0.9679
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.005757,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.981 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf2-compare-both-present",
+   "inputs": {
+    "question": "Is ozone therapy cheaper in Turkey or Mexico?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::003",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.9083
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::033",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.8896
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::034",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.8831
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::023",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "How Much Does a Alternative Medicine Cost Abroad?",
+      "score": 0.8144
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::001",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "How Much Does a Alternative Medicine Cost Abroad?",
+      "score": 0.7575
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::008",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Frequently Asked Questions About Live Cell Therapy, Alternative Medicine Abroad > How much does alternative medicine cost abroad compared to domestic prices?",
+      "score": 0.6036
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::019",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Frequently Asked Questions About Live Cell Therapy, Alternative Medicine Abroad > What is the most cost-effective region for alternative medicine abroad?",
+      "score": 0.5961
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::011",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Frequently Asked Questions About Live Cell Therapy, Alternative Medicine Abroad > Why is holistic and alternative medicine cheaper abroad?",
+      "score": 0.5923
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::007",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Frequently Asked Questions About Live Cell Therapy, Alternative Medicine Abroad",
+      "score": 0.5866
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::015",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Frequently Asked Questions About Live Cell Therapy, Alternative Medicine Abroad > How do I find affordable alternative medicine packages abroad in 2026?",
+      "score": 0.5599
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.005757,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "2/2 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.908 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf2-compare-both-present@ar",
+   "inputs": {
+    "question": "هل العلاج بالأوزون أرخص في تركيا أم في المكسيك؟"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::003",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.8967
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::033",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.8896
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::034",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.8743
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::023",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "How Much Does a Alternative Medicine Cost Abroad?",
+      "score": 0.8066
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::001",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "How Much Does a Alternative Medicine Cost Abroad?",
+      "score": 0.7292
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::019",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Frequently Asked Questions About Live Cell Therapy, Alternative Medicine Abroad > What is the most cost-effective region for alternative medicine abroad?",
+      "score": 0.6166
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::011",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Frequently Asked Questions About Live Cell Therapy, Alternative Medicine Abroad > Why is holistic and alternative medicine cheaper abroad?",
+      "score": 0.6017
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::000",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Quick Facts: Alternative Medicine Abroad",
+      "score": 0.5866
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::035",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.5405
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::015",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Frequently Asked Questions About Live Cell Therapy, Alternative Medicine Abroad > How do I find affordable alternative medicine packages abroad in 2026?",
+      "score": 0.4977
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.006017,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "2/2 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.897 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf2-compare-both-present@es",
+   "inputs": {
+    "question": "¿La terapia de ozono es más barata en Turquía o en México?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::033",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.8829
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::003",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.8678
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::034",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.8342
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::023",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "How Much Does a Alternative Medicine Cost Abroad?",
+      "score": 0.7575
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::001",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "How Much Does a Alternative Medicine Cost Abroad?",
+      "score": 0.6685
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::011",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Frequently Asked Questions About Live Cell Therapy, Alternative Medicine Abroad > Why is holistic and alternative medicine cheaper abroad?",
+      "score": 0.5714
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::019",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Frequently Asked Questions About Live Cell Therapy, Alternative Medicine Abroad > What is the most cost-effective region for alternative medicine abroad?",
+      "score": 0.5676
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::008",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Frequently Asked Questions About Live Cell Therapy, Alternative Medicine Abroad > How much does alternative medicine cost abroad compared to domestic prices?",
+      "score": 0.5483
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::015",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Frequently Asked Questions About Live Cell Therapy, Alternative Medicine Abroad > How do I find affordable alternative medicine packages abroad in 2026?",
+      "score": 0.4703
+     },
+     {
+      "chunk_id": "itc-clinic-videos::structured::020",
+      "slug": "itc-clinic-videos",
+      "section": "Videos",
+      "score": 0.4394
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.006015,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "2/2 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.883 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf2b-compare-one-missing",
+   "inputs": {
+    "question": "Is alternative cancer treatment cheaper in Mexico or Turkey?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::003",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.873
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::006",
+      "slug": "itc-clinic-profile",
+      "section": "Alternative Cancer Treatment Cost and Packages",
+      "score": 0.8353
+     },
+     {
+      "chunk_id": "itc-price-list::structured::007",
+      "slug": "itc-price-list",
+      "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana Pricings:",
+      "score": 0.8023
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::021",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Page header",
+      "score": 0.785
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::021",
+      "slug": "itc-adrenal-package",
+      "section": "Page header",
+      "score": 0.7797
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::021",
+      "slug": "itc-anal-package",
+      "section": "Page header",
+      "score": 0.777
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::011",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Frequently Asked Questions About Live Cell Therapy, Alternative Medicine Abroad > Why is holistic and alternative medicine cheaper abroad?",
+      "score": 0.777
+     },
+     {
+      "chunk_id": "itc-price-list::structured::003",
+      "slug": "itc-price-list",
+      "section": "About Medical Center",
+      "score": 0.7716
+     },
+     {
+      "chunk_id": "itc-price-list::structured::001",
+      "slug": "itc-price-list",
+      "section": "About ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana",
+      "score": 0.7688
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::027",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.7399
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.003754,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 0.5,
+     "comment": "first relevant rank: 2"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.873 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf2b-compare-one-missing@ar",
+   "inputs": {
+    "question": "هل علاج السرطان البديل أرخص في المكسيك أم في تركيا؟"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::003",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.84
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::006",
+      "slug": "itc-clinic-profile",
+      "section": "Alternative Cancer Treatment Cost and Packages",
+      "score": 0.7941
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::021",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Page header",
+      "score": 0.7916
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::021",
+      "slug": "itc-adrenal-package",
+      "section": "Page header",
+      "score": 0.785
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::021",
+      "slug": "itc-anal-package",
+      "section": "Page header",
+      "score": 0.7824
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::025",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.7618
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::025",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.7575
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::028",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.7561
+     },
+     {
+      "chunk_id": "itc-price-list::structured::007",
+      "slug": "itc-price-list",
+      "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana Pricings:",
+      "score": 0.7503
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::025",
+      "slug": "itc-anal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.7503
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.006017,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 0.5,
+     "comment": "first relevant rank: 2"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.840 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf2b-compare-one-missing@es",
+   "inputs": {
+    "question": "¿El tratamiento alternativo contra el cáncer es más barato en México o en Turquía?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::019",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Frequently Asked Questions About Live Cell Therapy, Alternative Medicine Abroad > What is the most cost-effective region for alternative medicine abroad?",
+      "score": 0.8671
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::003",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.8657
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::021",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Page header",
+      "score": 0.8452
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::021",
+      "slug": "itc-adrenal-package",
+      "section": "Page header",
+      "score": 0.827
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::033",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.8126
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::016",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Frequently Asked Questions About Live Cell Therapy, Alternative Medicine Abroad > Are Ayurvedic treatment prices cheaper abroad?",
+      "score": 0.8054
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::027",
+      "slug": "itc-anal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.7979
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::027",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.7973
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::027",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.7903
+     },
+     {
+      "chunk_id": "itc-price-list::structured::001",
+      "slug": "itc-price-list",
+      "section": "About ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana",
+      "score": 0.785
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.006016,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 0.3333333333333333,
+     "comment": "first relevant rank: 3"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.867 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf3-procedure",
+   "inputs": {
+    "question": "What is included in the anal cancer treatment package?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-anal-package::structured::001",
+      "slug": "itc-anal-package",
+      "section": "Key Takeaways for Your Healing Journey at ITC",
+      "score": 0.9744
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::009",
+      "slug": "itc-anal-package",
+      "section": "3-Week Typical Itinerary at ITC Tijuana",
+      "score": 0.9686
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::003",
+      "slug": "itc-anal-package",
+      "section": "Included in the Out-Patient Program ($18,995 USD)",
+      "score": 0.9683
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::004",
+      "slug": "itc-anal-package",
+      "section": "Included in the In-Patient Program ($30,000 USD)",
+      "score": 0.9666
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::019",
+      "slug": "itc-anal-package",
+      "section": "Start Your Personalized Healing Journey Today",
+      "score": 0.9311
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::006",
+      "slug": "itc-anal-package",
+      "section": "Excluded Services and Contingency Costs",
+      "score": 0.9227
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::020",
+      "slug": "itc-anal-package",
+      "section": "About Package",
+      "score": 0.922
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::032",
+      "slug": "itc-anal-package",
+      "section": "Excluded Services and Contingency Costs",
+      "score": 0.9111
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::030",
+      "slug": "itc-anal-package",
+      "section": "Excluded Services and Contingency Costs",
+      "score": 0.9106
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::029",
+      "slug": "itc-anal-package",
+      "section": "Excluded Services and Contingency Costs",
+      "score": 0.909
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.005756,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "2/2 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 0.3333333333333333,
+     "comment": "first relevant rank: 3"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.974 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf3-procedure@ar",
+   "inputs": {
+    "question": "ماذا تشمل باقة علاج سرطان الشرج؟"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-anal-package::structured::001",
+      "slug": "itc-anal-package",
+      "section": "Key Takeaways for Your Healing Journey at ITC",
+      "score": 0.9367
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::007",
+      "slug": "itc-anal-package",
+      "section": "The ITC Philosophy: How Alternative Anal Cancer Treatment Works",
+      "score": 0.9315
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::000",
+      "slug": "itc-anal-package",
+      "section": "Colorectal Health Support: Anal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.9222
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::003",
+      "slug": "itc-anal-package",
+      "section": "Included in the Out-Patient Program ($18,995 USD)",
+      "score": 0.9199
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::004",
+      "slug": "itc-anal-package",
+      "section": "Included in the In-Patient Program ($30,000 USD)",
+      "score": 0.9122
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::009",
+      "slug": "itc-anal-package",
+      "section": "3-Week Typical Itinerary at ITC Tijuana",
+      "score": 0.9112
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::006",
+      "slug": "itc-anal-package",
+      "section": "Excluded Services and Contingency Costs",
+      "score": 0.8794
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::008",
+      "slug": "itc-anal-package",
+      "section": "Who Should Consider Treatment at Immunity Therapy Center?",
+      "score": 0.8769
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::020",
+      "slug": "itc-anal-package",
+      "section": "About Package",
+      "score": 0.8637
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::019",
+      "slug": "itc-anal-package",
+      "section": "Start Your Personalized Healing Journey Today",
+      "score": 0.8457
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.00867,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "2/2 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 0.25,
+     "comment": "first relevant rank: 4"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.937 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf3-procedure@es",
+   "inputs": {
+    "question": "¿Qué incluye el paquete de tratamiento del cáncer anal?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-anal-package::structured::001",
+      "slug": "itc-anal-package",
+      "section": "Key Takeaways for Your Healing Journey at ITC",
+      "score": 0.9613
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::003",
+      "slug": "itc-anal-package",
+      "section": "Included in the Out-Patient Program ($18,995 USD)",
+      "score": 0.9516
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::004",
+      "slug": "itc-anal-package",
+      "section": "Included in the In-Patient Program ($30,000 USD)",
+      "score": 0.9498
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::009",
+      "slug": "itc-anal-package",
+      "section": "3-Week Typical Itinerary at ITC Tijuana",
+      "score": 0.9469
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::000",
+      "slug": "itc-anal-package",
+      "section": "Colorectal Health Support: Anal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.9446
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::008",
+      "slug": "itc-anal-package",
+      "section": "Who Should Consider Treatment at Immunity Therapy Center?",
+      "score": 0.9343
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::006",
+      "slug": "itc-anal-package",
+      "section": "Excluded Services and Contingency Costs",
+      "score": 0.9201
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::019",
+      "slug": "itc-anal-package",
+      "section": "Start Your Personalized Healing Journey Today",
+      "score": 0.9108
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::020",
+      "slug": "itc-anal-package",
+      "section": "About Package",
+      "score": 0.9103
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::005",
+      "slug": "itc-anal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.899
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.004011,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "2/2 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 0.5,
+     "comment": "first relevant rank: 2"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.961 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf4-followup",
+   "inputs": {
+    "question": "What is the recovery time after the anal cancer treatment package?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-anal-package::structured::001",
+      "slug": "itc-anal-package",
+      "section": "Key Takeaways for Your Healing Journey at ITC",
+      "score": 0.9625
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::004",
+      "slug": "itc-anal-package",
+      "section": "Included in the In-Patient Program ($30,000 USD)",
+      "score": 0.931
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::009",
+      "slug": "itc-anal-package",
+      "section": "3-Week Typical Itinerary at ITC Tijuana",
+      "score": 0.9298
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::003",
+      "slug": "itc-anal-package",
+      "section": "Included in the Out-Patient Program ($18,995 USD)",
+      "score": 0.9286
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::023",
+      "slug": "itc-anal-package",
+      "section": "Cost of Alternative Anal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.8914
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::022",
+      "slug": "itc-anal-package",
+      "section": "Cost of Alternative Anal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.8901
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::019",
+      "slug": "itc-anal-package",
+      "section": "Start Your Personalized Healing Journey Today",
+      "score": 0.8804
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::016",
+      "slug": "itc-anal-package",
+      "section": "FAQs: Alternative Anal Cancer Treatment in Tijuana Mexico > 6. What are the tumor markers monitored during the 3-week stay?",
+      "score": 0.8686
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::008",
+      "slug": "itc-anal-package",
+      "section": "Who Should Consider Treatment at Immunity Therapy Center?",
+      "score": 0.8632
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::000",
+      "slug": "itc-anal-package",
+      "section": "Colorectal Health Support: Anal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.8437
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.006016,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.963 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf4-followup@ar",
+   "inputs": {
+    "question": "ما هي مدة التعافي بعد باقة علاج سرطان الشرج؟"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-anal-package::structured::001",
+      "slug": "itc-anal-package",
+      "section": "Key Takeaways for Your Healing Journey at ITC",
+      "score": 0.922
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::015",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "FAQs: Alternative Adenocarcinoma Cancer Treatment in Tijuana Mexico > 5. Why is the treatment period three weeks?",
+      "score": 0.8758
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::009",
+      "slug": "itc-anal-package",
+      "section": "3-Week Typical Itinerary at ITC Tijuana",
+      "score": 0.8691
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::004",
+      "slug": "itc-anal-package",
+      "section": "Included in the In-Patient Program ($30,000 USD)",
+      "score": 0.8632
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::001",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Key Takeaways for Your Healing Journey at ITC",
+      "score": 0.8623
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::003",
+      "slug": "itc-anal-package",
+      "section": "Included in the Out-Patient Program ($18,995 USD)",
+      "score": 0.8604
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::023",
+      "slug": "itc-anal-package",
+      "section": "Cost of Alternative Anal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.8483
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::022",
+      "slug": "itc-anal-package",
+      "section": "Cost of Alternative Anal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.8468
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::002",
+      "slug": "itc-anal-package",
+      "section": "Cost of Alternative Anal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.8304
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::016",
+      "slug": "itc-anal-package",
+      "section": "FAQs: Alternative Anal Cancer Treatment in Tijuana Mexico > 6. What are the tumor markers monitored during the 3-week stay?",
+      "score": 0.8168
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.005258,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.922 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf4-followup@es",
+   "inputs": {
+    "question": "¿Cuál es el tiempo de recuperación después del paquete de tratamiento del cáncer anal?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-anal-package::structured::001",
+      "slug": "itc-anal-package",
+      "section": "Key Takeaways for Your Healing Journey at ITC",
+      "score": 0.935
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::009",
+      "slug": "itc-anal-package",
+      "section": "3-Week Typical Itinerary at ITC Tijuana",
+      "score": 0.9074
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::004",
+      "slug": "itc-anal-package",
+      "section": "Included in the In-Patient Program ($30,000 USD)",
+      "score": 0.9024
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::003",
+      "slug": "itc-anal-package",
+      "section": "Included in the Out-Patient Program ($18,995 USD)",
+      "score": 0.9023
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::022",
+      "slug": "itc-anal-package",
+      "section": "Cost of Alternative Anal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.8557
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::023",
+      "slug": "itc-anal-package",
+      "section": "Cost of Alternative Anal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.8547
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::002",
+      "slug": "itc-anal-package",
+      "section": "Cost of Alternative Anal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.8379
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::016",
+      "slug": "itc-anal-package",
+      "section": "FAQs: Alternative Anal Cancer Treatment in Tijuana Mexico > 6. What are the tumor markers monitored during the 3-week stay?",
+      "score": 0.8242
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::008",
+      "slug": "itc-anal-package",
+      "section": "Who Should Consider Treatment at Immunity Therapy Center?",
+      "score": 0.8242
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::015",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "FAQs: Alternative Adenocarcinoma Cancer Treatment in Tijuana Mexico > 5. Why is the treatment period three weeks?",
+      "score": 0.7973
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.005596,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.935 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf5-booking",
+   "inputs": {
+    "question": "Can you book me an appointment for tomorrow?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-clinic-profile::structured::004",
+      "slug": "itc-clinic-profile",
+      "section": "How the Treatment Approach Works > Discuss Your Cancer Treatment Options",
+      "score": 0.611
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::020",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Ready to Explore Advanced Healthcare Options?",
+      "score": 0.5133
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::016",
+      "slug": "itc-clinic-profile",
+      "section": "Get More Information About Treatment Eligibility",
+      "score": 0.4977
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::015",
+      "slug": "itc-adrenal-package",
+      "section": "FAQs: Alternative Adrenal Cancer Treatment in Tijuana Mexico > 5. Is English spoken at the clinic?",
+      "score": 0.4977
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::032",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.4665
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::015",
+      "slug": "itc-anal-package",
+      "section": "FAQs: Alternative Anal Cancer Treatment in Tijuana Mexico > 5. Is English spoken at the Immunity Therapy Center?",
+      "score": 0.4665
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::018",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "FAQs: Alternative Adenocarcinoma Cancer Treatment in Tijuana Mexico > 8. Is the staff at the clinic bilingual?",
+      "score": 0.4665
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::014",
+      "slug": "itc-clinic-profile",
+      "section": "Frequently Asked Questions > How do international patients arrange cancer treatment at ITC Immunity Therapy Center?",
+      "score": 0.4587
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::013",
+      "slug": "itc-adrenal-package",
+      "section": "FAQs: Alternative Adrenal Cancer Treatment in Tijuana Mexico > 3. How do I know if I am a candidate for the Out-Patient or In-Patient program?",
+      "score": 0.4471
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::019",
+      "slug": "itc-clinic-profile",
+      "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana, Tijuana, Mexico Profile Details > International Patient Services and Quality Assurance",
+      "score": 0.4471
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.004013,
+   "checks": {
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.611 must be below 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf5-booking@ar",
+   "inputs": {
+    "question": "هل يمكنك حجز موعد لي غدًا؟"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-clinic-profile::structured::004",
+      "slug": "itc-clinic-profile",
+      "section": "How the Treatment Approach Works > Discuss Your Cancer Treatment Options",
+      "score": 0.6839
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::020",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Ready to Explore Advanced Healthcare Options?",
+      "score": 0.6754
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::016",
+      "slug": "itc-clinic-profile",
+      "section": "Get More Information About Treatment Eligibility",
+      "score": 0.6349
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::014",
+      "slug": "itc-clinic-profile",
+      "section": "Frequently Asked Questions > How do international patients arrange cancer treatment at ITC Immunity Therapy Center?",
+      "score": 0.6349
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::015",
+      "slug": "itc-adrenal-package",
+      "section": "FAQs: Alternative Adrenal Cancer Treatment in Tijuana Mexico > 5. Is English spoken at the clinic?",
+      "score": 0.611
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::019",
+      "slug": "itc-clinic-profile",
+      "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana, Tijuana, Mexico Profile Details > International Patient Services and Quality Assurance",
+      "score": 0.6092
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::015",
+      "slug": "itc-anal-package",
+      "section": "FAQs: Alternative Anal Cancer Treatment in Tijuana Mexico > 5. Is English spoken at the Immunity Therapy Center?",
+      "score": 0.5942
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::018",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "FAQs: Alternative Adenocarcinoma Cancer Treatment in Tijuana Mexico > 8. Is the staff at the clinic bilingual?",
+      "score": 0.5942
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::018",
+      "slug": "itc-anal-package",
+      "section": "FAQs: Alternative Anal Cancer Treatment in Tijuana Mexico > 8. Can I bring a family member with me during treatment?",
+      "score": 0.579
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::032",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.579
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.003752,
+   "checks": {
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.684 must be below 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf5-booking@es",
+   "inputs": {
+    "question": "¿Puede reservarme una cita para mañana?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-clinic-profile::structured::004",
+      "slug": "itc-clinic-profile",
+      "section": "How the Treatment Approach Works > Discuss Your Cancer Treatment Options",
+      "score": 0.6129
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::020",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Ready to Explore Advanced Healthcare Options?",
+      "score": 0.5289
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::014",
+      "slug": "itc-clinic-profile",
+      "section": "Frequently Asked Questions > How do international patients arrange cancer treatment at ITC Immunity Therapy Center?",
+      "score": 0.5289
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::016",
+      "slug": "itc-clinic-profile",
+      "section": "Get More Information About Treatment Eligibility",
+      "score": 0.5211
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::023",
+      "slug": "itc-clinic-profile",
+      "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana Certificates, Accreditations, Qualifications Treatments Offered > Alternative Cancer Treatment Doctors of ITC > Dr. Adolfo Carrillo, M.D.",
+      "score": 0.5172
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::015",
+      "slug": "itc-adrenal-package",
+      "section": "FAQs: Alternative Adrenal Cancer Treatment in Tijuana Mexico > 5. Is English spoken at the clinic?",
+      "score": 0.5094
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::018",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "FAQs: Alternative Adenocarcinoma Cancer Treatment in Tijuana Mexico > 8. Is the staff at the clinic bilingual?",
+      "score": 0.4938
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::024",
+      "slug": "itc-clinic-profile",
+      "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana Certificates, Accreditations, Qualifications Treatments Offered > Alternative Cancer Treatment Doctors of ITC > Dr. Pablo Orozco, M.D.",
+      "score": 0.4938
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::019",
+      "slug": "itc-clinic-profile",
+      "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana, Tijuana, Mexico Profile Details > International Patient Services and Quality Assurance",
+      "score": 0.4938
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::015",
+      "slug": "itc-anal-package",
+      "section": "FAQs: Alternative Anal Cancer Treatment in Tijuana Mexico > 5. Is English spoken at the Immunity Therapy Center?",
+      "score": 0.482
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.006016,
+   "checks": {
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.613 must be below 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf6-out-of-scope",
+   "inputs": {
+    "question": "What is the weather in Cancun?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::034",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.232
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::036",
+      "slug": "itc-clinic-profile",
+      "section": "Reviews",
+      "score": 0.2293
+     },
+     {
+      "chunk_id": "itc-clinic-videos::structured::025",
+      "slug": "itc-clinic-videos",
+      "section": "Videos",
+      "score": 0.2265
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::010",
+      "slug": "itc-adrenal-package",
+      "section": "Step Into a World-Class Healing Environment in Tijuana, Mexico",
+      "score": 0.2238
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::010",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Redefining Healing in Tijuana, Mexico",
+      "score": 0.2105
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::034",
+      "slug": "itc-clinic-profile",
+      "section": "Tijuana, Mexico Destination Overview > Getting to Tijuana Made Easy > By Plane",
+      "score": 0.2105
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::010",
+      "slug": "itc-anal-package",
+      "section": "Discover Advanced Medical Excellence in Tijuana, Mexico",
+      "score": 0.2079
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::011",
+      "slug": "itc-adrenal-package",
+      "section": "FAQs: Alternative Adrenal Cancer Treatment in Tijuana Mexico > 1. Why is Tijuana a hub for alternative adrenal cancer treatments?",
+      "score": 0.2079
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::018",
+      "slug": "itc-anal-package",
+      "section": "FAQs: Alternative Anal Cancer Treatment in Tijuana Mexico > 8. Can I bring a family member with me during treatment?",
+      "score": 0.2003
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::011",
+      "slug": "itc-anal-package",
+      "section": "FAQs: Alternative Anal Cancer Treatment in Tijuana Mexico > 1. Why is Tijuana a preferred destination for anal cancer patients?",
+      "score": 0.1978
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.00401,
+   "checks": {
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.232 must be below 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf6-out-of-scope@ar",
+   "inputs": {
+    "question": "كيف هو الطقس في كانكون؟"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-adrenal-package::structured::010",
+      "slug": "itc-adrenal-package",
+      "section": "Step Into a World-Class Healing Environment in Tijuana, Mexico",
+      "score": 0.1764
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::036",
+      "slug": "itc-clinic-profile",
+      "section": "Reviews",
+      "score": 0.1742
+     },
+     {
+      "chunk_id": "itc-price-list::structured::002",
+      "slug": "itc-price-list",
+      "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana Reviews",
+      "score": 0.1742
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::015",
+      "slug": "itc-adrenal-package",
+      "section": "FAQs: Alternative Adrenal Cancer Treatment in Tijuana Mexico > 5. Is English spoken at the clinic?",
+      "score": 0.1742
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::010",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Redefining Healing in Tijuana, Mexico",
+      "score": 0.1719
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::018",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "FAQs: Alternative Adenocarcinoma Cancer Treatment in Tijuana Mexico > 8. Is the staff at the clinic bilingual?",
+      "score": 0.1719
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::013",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "FAQs: Alternative Adenocarcinoma Cancer Treatment in Tijuana Mexico > 3. Is the Out-Patient program safe for someone with low energy?",
+      "score": 0.1719
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::032",
+      "slug": "itc-clinic-profile",
+      "section": "Tijuana, Mexico Destination Overview > Medical Tourism for Cancer Treatment in Tijuana, Mexico",
+      "score": 0.1697
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::018",
+      "slug": "itc-anal-package",
+      "section": "FAQs: Alternative Anal Cancer Treatment in Tijuana Mexico > 8. Can I bring a family member with me during treatment?",
+      "score": 0.1697
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::011",
+      "slug": "itc-adrenal-package",
+      "section": "FAQs: Alternative Adrenal Cancer Treatment in Tijuana Mexico > 1. Why is Tijuana a hub for alternative adrenal cancer treatments?",
+      "score": 0.1697
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.007805,
+   "checks": {
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.176 must be below 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf6-out-of-scope@es",
+   "inputs": {
+    "question": "¿Qué tiempo hace en Cancún?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::003",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.2211
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::016",
+      "slug": "itc-anal-package",
+      "section": "FAQs: Alternative Anal Cancer Treatment in Tijuana Mexico > 6. What are the tumor markers monitored during the 3-week stay?",
+      "score": 0.2105
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::010",
+      "slug": "itc-adrenal-package",
+      "section": "Step Into a World-Class Healing Environment in Tijuana, Mexico",
+      "score": 0.2054
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::034",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.2028
+     },
+     {
+      "chunk_id": "itc-clinic-videos::structured::025",
+      "slug": "itc-clinic-videos",
+      "section": "Videos",
+      "score": 0.2028
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::010",
+      "slug": "itc-anal-package",
+      "section": "Discover Advanced Medical Excellence in Tijuana, Mexico",
+      "score": 0.1978
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::032",
+      "slug": "itc-clinic-profile",
+      "section": "Tijuana, Mexico Destination Overview > Medical Tourism for Cancer Treatment in Tijuana, Mexico",
+      "score": 0.1929
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::010",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Redefining Healing in Tijuana, Mexico",
+      "score": 0.1929
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::020",
+      "slug": "itc-adrenal-package",
+      "section": "About Package",
+      "score": 0.1905
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::018",
+      "slug": "itc-anal-package",
+      "section": "FAQs: Alternative Anal Cancer Treatment in Tijuana Mexico > 8. Can I bring a family member with me during treatment?",
+      "score": 0.1881
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.00401,
+   "checks": {
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.221 must be below 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf7-medical-advice",
+   "inputs": {
+    "question": "Is this surgery safe for my diabetes?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-clinic-videos::structured::025",
+      "slug": "itc-clinic-videos",
+      "section": "Videos",
+      "score": 0.4432
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::012",
+      "slug": "itc-anal-package",
+      "section": "FAQs: Alternative Anal Cancer Treatment in Tijuana Mexico > 2. Can these alternative therapies be used if I have a colostomy?",
+      "score": 0.4394
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::013",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "FAQs: Alternative Adenocarcinoma Cancer Treatment in Tijuana Mexico > 3. Is the Out-Patient program safe for someone with low energy?",
+      "score": 0.4164
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::014",
+      "slug": "itc-adrenal-package",
+      "section": "FAQs: Alternative Adrenal Cancer Treatment in Tijuana Mexico > 4. Are the doctors at ITC board-certified?",
+      "score": 0.4126
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::007",
+      "slug": "itc-clinic-profile",
+      "section": "Risks and Important Medical Considerations",
+      "score": 0.3938
+     },
+     {
+      "chunk_id": "itc-clinic-videos::structured::012",
+      "slug": "itc-clinic-videos",
+      "section": "Videos",
+      "score": 0.379
+     },
+     {
+      "chunk_id": "itc-clinic-videos::structured::027",
+      "slug": "itc-clinic-videos",
+      "section": "Videos",
+      "score": 0.3753
+     },
+     {
+      "chunk_id": "itc-clinic-videos::structured::020",
+      "slug": "itc-clinic-videos",
+      "section": "Videos",
+      "score": 0.3644
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::013",
+      "slug": "itc-clinic-profile",
+      "section": "Frequently Asked Questions > What risks should patients consider before choosing alternative cancer treatment?",
+      "score": 0.3608
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::015",
+      "slug": "itc-anal-package",
+      "section": "FAQs: Alternative Anal Cancer Treatment in Tijuana Mexico > 5. Is English spoken at the Immunity Therapy Center?",
+      "score": 0.3572
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.006017,
+   "checks": {
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.443 must be below 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf7-medical-advice@ar",
+   "inputs": {
+    "question": "هل هذه الجراحة آمنة لمرض السكري لدي؟"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-clinic-videos::structured::025",
+      "slug": "itc-clinic-videos",
+      "section": "Videos",
+      "score": 0.4548
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::012",
+      "slug": "itc-anal-package",
+      "section": "FAQs: Alternative Anal Cancer Treatment in Tijuana Mexico > 2. Can these alternative therapies be used if I have a colostomy?",
+      "score": 0.4509
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::007",
+      "slug": "itc-clinic-profile",
+      "section": "Risks and Important Medical Considerations",
+      "score": 0.4355
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::014",
+      "slug": "itc-adrenal-package",
+      "section": "FAQs: Alternative Adrenal Cancer Treatment in Tijuana Mexico > 4. Are the doctors at ITC board-certified?",
+      "score": 0.4164
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::013",
+      "slug": "itc-clinic-profile",
+      "section": "Frequently Asked Questions > What risks should patients consider before choosing alternative cancer treatment?",
+      "score": 0.4088
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::013",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "FAQs: Alternative Adenocarcinoma Cancer Treatment in Tijuana Mexico > 3. Is the Out-Patient program safe for someone with low energy?",
+      "score": 0.4088
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::005",
+      "slug": "itc-clinic-profile",
+      "section": "Treatment Eligibility and Patient Assessment",
+      "score": 0.4051
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::004",
+      "slug": "itc-adrenal-package",
+      "section": "Included in the In-Patient Program ($30,000 USD)",
+      "score": 0.4051
+     },
+     {
+      "chunk_id": "itc-clinic-videos::structured::027",
+      "slug": "itc-clinic-videos",
+      "section": "Videos",
+      "score": 0.4013
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::015",
+      "slug": "itc-adrenal-package",
+      "section": "FAQs: Alternative Adrenal Cancer Treatment in Tijuana Mexico > 5. Is English spoken at the clinic?",
+      "score": 0.3864
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.005758,
+   "checks": {
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.455 must be below 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf7-medical-advice@es",
+   "inputs": {
+    "question": "¿Es segura esta cirugía para mi diabetes?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-clinic-videos::structured::025",
+      "slug": "itc-clinic-videos",
+      "section": "Videos",
+      "score": 0.4051
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::012",
+      "slug": "itc-anal-package",
+      "section": "FAQs: Alternative Anal Cancer Treatment in Tijuana Mexico > 2. Can these alternative therapies be used if I have a colostomy?",
+      "score": 0.368
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::013",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "FAQs: Alternative Adenocarcinoma Cancer Treatment in Tijuana Mexico > 3. Is the Out-Patient program safe for someone with low energy?",
+      "score": 0.3644
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::007",
+      "slug": "itc-clinic-profile",
+      "section": "Risks and Important Medical Considerations",
+      "score": 0.3608
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::014",
+      "slug": "itc-adrenal-package",
+      "section": "FAQs: Alternative Adrenal Cancer Treatment in Tijuana Mexico > 4. Are the doctors at ITC board-certified?",
+      "score": 0.3536
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::013",
+      "slug": "itc-clinic-profile",
+      "section": "Frequently Asked Questions > What risks should patients consider before choosing alternative cancer treatment?",
+      "score": 0.336
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::014",
+      "slug": "itc-anal-package",
+      "section": "FAQs: Alternative Anal Cancer Treatment in Tijuana Mexico > 4. Are the physicians at ITC board-certified?",
+      "score": 0.329
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::017",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Frequently Asked Questions About Live Cell Therapy, Alternative Medicine Abroad > Is it safe to travel internationally for alternative cancer treatments?",
+      "score": 0.3256
+     },
+     {
+      "chunk_id": "itc-clinic-videos::structured::032",
+      "slug": "itc-clinic-videos",
+      "section": "Videos",
+      "score": 0.3222
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::015",
+      "slug": "itc-adrenal-package",
+      "section": "FAQs: Alternative Adrenal Cancer Treatment in Tijuana Mexico > 5. Is English spoken at the clinic?",
+      "score": 0.3222
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.004012,
+   "checks": {
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.405 must be below 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf8-trick-price",
+   "inputs": {
+    "question": "I heard the adrenal cancer treatment costs $50. Confirm that."
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-adrenal-package::structured::002",
+      "slug": "itc-adrenal-package",
+      "section": "Cost of Adrenal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.8737
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::001",
+      "slug": "itc-adrenal-package",
+      "section": "Key Takeaways for Your Healing Journey at ITC",
+      "score": 0.8717
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::021",
+      "slug": "itc-adrenal-package",
+      "section": "Page header",
+      "score": 0.8609
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::022",
+      "slug": "itc-adrenal-package",
+      "section": "Cost of Adrenal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.8552
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::023",
+      "slug": "itc-adrenal-package",
+      "section": "Cost of Adrenal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.8437
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::025",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.8406
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::026",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.8282
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::028",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.8276
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::030",
+      "slug": "itc-adrenal-package",
+      "section": "Excluded Services and Contingency Costs",
+      "score": 0.8156
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::027",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.8156
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.004011,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.874 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf8-trick-price@ar",
+   "inputs": {
+    "question": "سمعت أن علاج سرطان الغدة الكظرية يكلف 50 دولارًا. أكّد ذلك."
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-adrenal-package::structured::021",
+      "slug": "itc-adrenal-package",
+      "section": "Page header",
+      "score": 0.8395
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::022",
+      "slug": "itc-adrenal-package",
+      "section": "Cost of Adrenal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.8379
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::023",
+      "slug": "itc-adrenal-package",
+      "section": "Cost of Adrenal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.8358
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::025",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.8242
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::002",
+      "slug": "itc-adrenal-package",
+      "section": "Cost of Adrenal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.8242
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::004",
+      "slug": "itc-adrenal-package",
+      "section": "Included in the In-Patient Program ($30,000 USD)",
+      "score": 0.8208
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::026",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.8132
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::030",
+      "slug": "itc-adrenal-package",
+      "section": "Excluded Services and Contingency Costs",
+      "score": 0.8114
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::029",
+      "slug": "itc-adrenal-package",
+      "section": "Excluded Services and Contingency Costs",
+      "score": 0.8066
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::028",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.8042
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.003752,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.840 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf8-trick-price@es",
+   "inputs": {
+    "question": "Escuché que el tratamiento del cáncer suprarrenal cuesta $50. Confírmelo."
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-adrenal-package::structured::021",
+      "slug": "itc-adrenal-package",
+      "section": "Page header",
+      "score": 0.8669
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::023",
+      "slug": "itc-adrenal-package",
+      "section": "Cost of Adrenal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.8581
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::025",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.8513
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::026",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.8442
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::030",
+      "slug": "itc-adrenal-package",
+      "section": "Excluded Services and Contingency Costs",
+      "score": 0.8432
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::028",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.8427
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::027",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.8358
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::029",
+      "slug": "itc-adrenal-package",
+      "section": "Excluded Services and Contingency Costs",
+      "score": 0.8336
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::024",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.8265
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::005",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.8066
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.004012,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.867 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-address",
+   "inputs": {
+    "question": "What is the address of the ITC clinic?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-clinic-profile::structured::037",
+      "slug": "itc-clinic-profile",
+      "section": "About Medical Center",
+      "score": 0.9471
+     },
+     {
+      "chunk_id": "itc-clinic-videos::structured::002",
+      "slug": "itc-clinic-videos",
+      "section": "About Medical Center",
+      "score": 0.939
+     },
+     {
+      "chunk_id": "itc-price-list::structured::003",
+      "slug": "itc-price-list",
+      "section": "About Medical Center",
+      "score": 0.9309
+     },
+     {
+      "chunk_id": "itc-price-list::structured::004",
+      "slug": "itc-price-list",
+      "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana Pricings:",
+      "score": 0.8939
+     },
+     {
+      "chunk_id": "itc-price-list::structured::006",
+      "slug": "itc-price-list",
+      "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana Pricings:",
+      "score": 0.8924
+     },
+     {
+      "chunk_id": "itc-price-list::structured::005",
+      "slug": "itc-price-list",
+      "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana Pricings:",
+      "score": 0.8921
+     },
+     {
+      "chunk_id": "itc-price-list::structured::007",
+      "slug": "itc-price-list",
+      "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana Pricings:",
+      "score": 0.8921
+     },
+     {
+      "chunk_id": "itc-price-list::structured::009",
+      "slug": "itc-price-list",
+      "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana Pricings:",
+      "score": 0.8865
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::026",
+      "slug": "itc-clinic-profile",
+      "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana Testimonials > Success Stories from Immunity Cancer Treatment Clinic in Tijuana, Mexico",
+      "score": 0.8781
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::002",
+      "slug": "itc-clinic-profile",
+      "section": "About ITC Immunity Therapy Center",
+      "score": 0.8728
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.006015,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.947 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-compare-thailand-croatia",
+   "inputs": {
+    "question": "Is physiotherapy cheaper in Thailand or Croatia?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::003",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.9221
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::032",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.8173
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::031",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.7916
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::020",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Ready to Explore Advanced Healthcare Options?",
+      "score": 0.6771
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::000",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Quick Facts: Alternative Medicine Abroad",
+      "score": 0.5637
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::027",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Cost Breakdown by Component",
+      "score": 0.5328
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::030",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Cost Breakdown by Component",
+      "score": 0.4202
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::006",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "What Do Real Families Say About Live Cell Therapy, Alternative Medicine Abroad?",
+      "score": 0.3938
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::008",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Frequently Asked Questions About Live Cell Therapy, Alternative Medicine Abroad > How much does alternative medicine cost abroad compared to domestic prices?",
+      "score": 0.3753
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::011",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Frequently Asked Questions About Live Cell Therapy, Alternative Medicine Abroad > Why is holistic and alternative medicine cheaper abroad?",
+      "score": 0.3572
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.006161,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "2/2 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.922 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-cost-inpatient",
+   "inputs": {
+    "question": "What is the price of the in-patient program for adenocarcinoma?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::023",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Cost of Adenocarcinoma Cancer Treatment in Tijuana, Mexico",
+      "score": 0.9834
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::004",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Included in the In-Patient Program ($30,000 USD)",
+      "score": 0.9768
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::002",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Cost of Adenocarcinoma Cancer Treatment in Tijuana, Mexico",
+      "score": 0.9666
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::022",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Cost of Adenocarcinoma Cancer Treatment in Tijuana, Mexico",
+      "score": 0.9588
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::001",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Key Takeaways for Your Healing Journey at ITC",
+      "score": 0.9582
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::021",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Page header",
+      "score": 0.8894
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::019",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Take the First Step Toward Your Recovery Today",
+      "score": 0.866
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::003",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Included in the Out-Patient Program ($18,995 USD)",
+      "score": 0.8442
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::004",
+      "slug": "itc-anal-package",
+      "section": "Included in the In-Patient Program ($30,000 USD)",
+      "score": 0.8298
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::023",
+      "slug": "itc-anal-package",
+      "section": "Cost of Alternative Anal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.8293
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.007763,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.983 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-cost-pricelist",
+   "inputs": {
+    "question": "How much does breast cancer treatment cost at ITC in Tijuana?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-price-list::structured::004",
+      "slug": "itc-price-list",
+      "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana Pricings:",
+      "score": 0.9754
+     },
+     {
+      "chunk_id": "itc-price-list::structured::000",
+      "slug": "itc-price-list",
+      "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana Pricings:",
+      "score": 0.9681
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::006",
+      "slug": "itc-clinic-profile",
+      "section": "Alternative Cancer Treatment Cost and Packages",
+      "score": 0.9653
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::038",
+      "slug": "itc-clinic-profile",
+      "section": "Alternative Cancer Treatment Cost and Packages",
+      "score": 0.9594
+     },
+     {
+      "chunk_id": "itc-price-list::structured::007",
+      "slug": "itc-price-list",
+      "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana Pricings:",
+      "score": 0.9558
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::011",
+      "slug": "itc-clinic-profile",
+      "section": "Frequently Asked Questions > How much does alternative cancer treatment at ITC Immunity Therapy Center cost?",
+      "score": 0.9509
+     },
+     {
+      "chunk_id": "itc-clinic-videos::structured::002",
+      "slug": "itc-clinic-videos",
+      "section": "About Medical Center",
+      "score": 0.9336
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::021",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Page header",
+      "score": 0.9299
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::028",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.9236
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::023",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Cost of Adenocarcinoma Cancer Treatment in Tijuana, Mexico",
+      "score": 0.9173
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.004011,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.975 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-cost-turkey-ozone",
+   "inputs": {
+    "question": "How much does ozone therapy cost in Turkey?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::033",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.9693
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::003",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.8777
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::023",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "How Much Does a Alternative Medicine Cost Abroad?",
+      "score": 0.8618
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::001",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "How Much Does a Alternative Medicine Cost Abroad?",
+      "score": 0.7604
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::034",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.6906
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::027",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Cost Breakdown by Component",
+      "score": 0.6129
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::000",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Quick Facts: Alternative Medicine Abroad",
+      "score": 0.5904
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::002",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Cost Breakdown by Component",
+      "score": 0.5444
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::030",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Cost Breakdown by Component",
+      "score": 0.5289
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::025",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "How Much Does a Alternative Medicine Cost Abroad?",
+      "score": 0.4703
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.004015,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.969 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-doctors",
+   "inputs": {
+    "question": "Which doctors work at ITC Immunity Therapy Center?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-clinic-profile::structured::022",
+      "slug": "itc-clinic-profile",
+      "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana Certificates, Accreditations, Qualifications Treatments Offered > Alternative Cancer Treatment Doctors of ITC > Dr. Carlos Bautista, M.D. - Medical Director",
+      "score": 0.9827
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::024",
+      "slug": "itc-clinic-profile",
+      "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana Certificates, Accreditations, Qualifications Treatments Offered > Alternative Cancer Treatment Doctors of ITC > Dr. Pablo Orozco, M.D.",
+      "score": 0.9773
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::023",
+      "slug": "itc-clinic-profile",
+      "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana Certificates, Accreditations, Qualifications Treatments Offered > Alternative Cancer Treatment Doctors of ITC > Dr. Adolfo Carrillo, M.D.",
+      "score": 0.9748
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::037",
+      "slug": "itc-clinic-profile",
+      "section": "About Medical Center",
+      "score": 0.9693
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::021",
+      "slug": "itc-clinic-profile",
+      "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana Certificates, Accreditations, Qualifications Treatments Offered",
+      "score": 0.9655
+     },
+     {
+      "chunk_id": "itc-price-list::structured::003",
+      "slug": "itc-price-list",
+      "section": "About Medical Center",
+      "score": 0.9618
+     },
+     {
+      "chunk_id": "itc-clinic-videos::structured::002",
+      "slug": "itc-clinic-videos",
+      "section": "About Medical Center",
+      "score": 0.9616
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::002",
+      "slug": "itc-clinic-profile",
+      "section": "About ITC Immunity Therapy Center",
+      "score": 0.9507
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::036",
+      "slug": "itc-clinic-profile",
+      "section": "Reviews",
+      "score": 0.9387
+     },
+     {
+      "chunk_id": "itc-price-list::structured::002",
+      "slug": "itc-price-list",
+      "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana Reviews",
+      "score": 0.9292
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.005758,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 0.5,
+     "comment": "first relevant rank: 2"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.983 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-duration",
+   "inputs": {
+    "question": "How long does the cancer treatment program at ITC last?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-anal-package::structured::001",
+      "slug": "itc-anal-package",
+      "section": "Key Takeaways for Your Healing Journey at ITC",
+      "score": 0.9481
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::001",
+      "slug": "itc-adrenal-package",
+      "section": "Key Takeaways for Your Healing Journey at ITC",
+      "score": 0.9457
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::001",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Key Takeaways for Your Healing Journey at ITC",
+      "score": 0.9455
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::009",
+      "slug": "itc-adrenal-package",
+      "section": "3-Week Typical Itinerary at ITC Tijuana",
+      "score": 0.9365
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::009",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "3-Week Typical Itinerary at ITC Tijuana",
+      "score": 0.9322
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::009",
+      "slug": "itc-anal-package",
+      "section": "3-Week Typical Itinerary at ITC Tijuana",
+      "score": 0.9284
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::022",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Cost of Adenocarcinoma Cancer Treatment in Tijuana, Mexico",
+      "score": 0.9282
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::015",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "FAQs: Alternative Adenocarcinoma Cancer Treatment in Tijuana Mexico > 5. Why is the treatment period three weeks?",
+      "score": 0.9281
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::023",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Cost of Adenocarcinoma Cancer Treatment in Tijuana, Mexico",
+      "score": 0.9258
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::002",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Cost of Adenocarcinoma Cancer Treatment in Tijuana, Mexico",
+      "score": 0.9237
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.006017,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.948 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-english",
+   "inputs": {
+    "question": "Do the staff at the clinic speak English?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-adrenal-package::structured::015",
+      "slug": "itc-adrenal-package",
+      "section": "FAQs: Alternative Adrenal Cancer Treatment in Tijuana Mexico > 5. Is English spoken at the clinic?",
+      "score": 0.958
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::018",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "FAQs: Alternative Adenocarcinoma Cancer Treatment in Tijuana Mexico > 8. Is the staff at the clinic bilingual?",
+      "score": 0.9567
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::015",
+      "slug": "itc-anal-package",
+      "section": "FAQs: Alternative Anal Cancer Treatment in Tijuana Mexico > 5. Is English spoken at the Immunity Therapy Center?",
+      "score": 0.8585
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::010",
+      "slug": "itc-anal-package",
+      "section": "Discover Advanced Medical Excellence in Tijuana, Mexico",
+      "score": 0.7877
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::010",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Redefining Healing in Tijuana, Mexico",
+      "score": 0.7877
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::010",
+      "slug": "itc-adrenal-package",
+      "section": "Step Into a World-Class Healing Environment in Tijuana, Mexico",
+      "score": 0.7716
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::036",
+      "slug": "itc-clinic-profile",
+      "section": "Reviews",
+      "score": 0.579
+     },
+     {
+      "chunk_id": "itc-price-list::structured::002",
+      "slug": "itc-price-list",
+      "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana Reviews",
+      "score": 0.5599
+     },
+     {
+      "chunk_id": "itc-clinic-videos::structured::001",
+      "slug": "itc-clinic-videos",
+      "section": "Recent Reviews",
+      "score": 0.556
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::019",
+      "slug": "itc-clinic-profile",
+      "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana, Tijuana, Mexico Profile Details > International Patient Services and Quality Assurance",
+      "score": 0.556
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.005756,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.958 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-exclusions",
+   "inputs": {
+    "question": "What is not included in the adenocarcinoma package price?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::006",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Excluded Services and Contingency Costs",
+      "score": 0.9862
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::030",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Excluded Services and Contingency Costs",
+      "score": 0.9728
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::032",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Excluded Services and Contingency Costs",
+      "score": 0.9719
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::029",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Excluded Services and Contingency Costs",
+      "score": 0.9711
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::031",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Excluded Services and Contingency Costs",
+      "score": 0.9711
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::027",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.9126
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::028",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.9115
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::026",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.9087
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::structured::025",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.9082
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::006",
+      "slug": "itc-anal-package",
+      "section": "Excluded Services and Contingency Costs",
+      "score": 0.9073
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.004011,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.986 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-family",
+   "inputs": {
+    "question": "Can a family member come with me during anal cancer treatment?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-anal-package::structured::018",
+      "slug": "itc-anal-package",
+      "section": "FAQs: Alternative Anal Cancer Treatment in Tijuana Mexico > 8. Can I bring a family member with me during treatment?",
+      "score": 0.9744
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::013",
+      "slug": "itc-anal-package",
+      "section": "FAQs: Alternative Anal Cancer Treatment in Tijuana Mexico > 3. How do I decide between the Out-Patient and In-Patient program?",
+      "score": 0.8276
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::001",
+      "slug": "itc-anal-package",
+      "section": "Key Takeaways for Your Healing Journey at ITC",
+      "score": 0.6017
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::004",
+      "slug": "itc-anal-package",
+      "section": "Included in the In-Patient Program ($30,000 USD)",
+      "score": 0.5522
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::003",
+      "slug": "itc-anal-package",
+      "section": "Included in the Out-Patient Program ($18,995 USD)",
+      "score": 0.5289
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::010",
+      "slug": "itc-anal-package",
+      "section": "Discover Advanced Medical Excellence in Tijuana, Mexico",
+      "score": 0.525
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::000",
+      "slug": "itc-anal-package",
+      "section": "Colorectal Health Support: Anal Cancer Treatment in Tijuana, Mexico",
+      "score": 0.5094
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::019",
+      "slug": "itc-anal-package",
+      "section": "Start Your Personalized Healing Journey Today",
+      "score": 0.4703
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::008",
+      "slug": "itc-anal-package",
+      "section": "Who Should Consider Treatment at Immunity Therapy Center?",
+      "score": 0.4665
+     },
+     {
+      "chunk_id": "itc-anal-package::structured::012",
+      "slug": "itc-anal-package",
+      "section": "FAQs: Alternative Anal Cancer Treatment in Tijuana Mexico > 2. Can these alternative therapies be used if I have a colostomy?",
+      "score": 0.4471
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.006015,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.974 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-insurance",
+   "inputs": {
+    "question": "Does health insurance cover alternative medicine abroad?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::010",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Frequently Asked Questions About Live Cell Therapy, Alternative Medicine Abroad > Does health insurance cover the cost of alternative medicine abroad?",
+      "score": 0.9873
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::005",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "What Is Usually Included and Not Included in a Live Cell Therapy, Alternative Medicine Package? > ✗ Often Not Included",
+      "score": 0.8214
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::012",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Frequently Asked Questions About Live Cell Therapy, Alternative Medicine Abroad > Are alternative medicine practitioners abroad certified and safe?",
+      "score": 0.7414
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::020",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Ready to Explore Advanced Healthcare Options?",
+      "score": 0.7369
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::002",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Cost Breakdown by Component",
+      "score": 0.7353
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::000",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Quick Facts: Alternative Medicine Abroad",
+      "score": 0.7338
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::004",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "What Is Usually Included and Not Included in a Live Cell Therapy, Alternative Medicine Package?",
+      "score": 0.7261
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::008",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Frequently Asked Questions About Live Cell Therapy, Alternative Medicine Abroad > How much does alternative medicine cost abroad compared to domestic prices?",
+      "score": 0.7103
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::014",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Frequently Asked Questions About Live Cell Therapy, Alternative Medicine Abroad > Can I combine a vacation with alternative medicine treatments abroad?",
+      "score": 0.7071
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::003",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.7071
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.004011,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.987 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-optional-costs",
+   "inputs": {
+    "question": "Which optional procedures cost extra in the adrenal cancer package?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-adrenal-package::structured::005",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.9807
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::027",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.9717
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::024",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.9713
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::026",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.9702
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::025",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.9702
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::028",
+      "slug": "itc-adrenal-package",
+      "section": "Optional Specialized Procedures (Additional Cost)",
+      "score": 0.97
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::006",
+      "slug": "itc-adrenal-package",
+      "section": "Excluded Services and Contingency Costs",
+      "score": 0.9683
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::032",
+      "slug": "itc-adrenal-package",
+      "section": "Excluded Services and Contingency Costs",
+      "score": 0.9607
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::017",
+      "slug": "itc-adrenal-package",
+      "section": "FAQs: Alternative Adrenal Cancer Treatment in Tijuana Mexico > 7. Is Intratumoral Immunotherapy recommended for adrenal tumors?",
+      "score": 0.9607
+     },
+     {
+      "chunk_id": "itc-adrenal-package::structured::030",
+      "slug": "itc-adrenal-package",
+      "section": "Excluded Services and Contingency Costs",
+      "score": 0.9473
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.004011,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.981 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-reviews",
+   "inputs": {
+    "question": "What do patients say about ITC in their reviews?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-clinic-videos::structured::001",
+      "slug": "itc-clinic-videos",
+      "section": "Recent Reviews",
+      "score": 0.9821
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::036",
+      "slug": "itc-clinic-profile",
+      "section": "Reviews",
+      "score": 0.982
+     },
+     {
+      "chunk_id": "itc-price-list::structured::002",
+      "slug": "itc-price-list",
+      "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana Reviews",
+      "score": 0.9808
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::027",
+      "slug": "itc-clinic-profile",
+      "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana Testimonials > Success Stories from Immunity Cancer Treatment Clinic in Tijuana, Mexico > Sadie Litosky - HODGKIN LYMPHOMA",
+      "score": 0.9469
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::028",
+      "slug": "itc-clinic-profile",
+      "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana Testimonials > Success Stories from Immunity Cancer Treatment Clinic in Tijuana, Mexico > Karla Leonard - BREAST CANCER",
+      "score": 0.9412
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::029",
+      "slug": "itc-clinic-profile",
+      "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana Testimonials > Success Stories from Immunity Cancer Treatment Clinic in Tijuana, Mexico > Troy Clark - PROSTATE CANCER",
+      "score": 0.9409
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::026",
+      "slug": "itc-clinic-profile",
+      "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana Testimonials > Success Stories from Immunity Cancer Treatment Clinic in Tijuana, Mexico",
+      "score": 0.9223
+     },
+     {
+      "chunk_id": "itc-clinic-profile::structured::030",
+      "slug": "itc-clinic-profile",
+      "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana Testimonials > Success Stories from Immunity Cancer Treatment Clinic in Tijuana, Mexico > Debbie Halper - LIVER CANCER",
+      "score": 0.9207
+     },
+     {
+      "chunk_id": "itc-clinic-videos::structured::018",
+      "slug": "itc-clinic-videos",
+      "section": "Videos",
+      "score": 0.8657
+     },
+     {
+      "chunk_id": "itc-clinic-videos::structured::003",
+      "slug": "itc-clinic-videos",
+      "section": "Videos",
+      "score": 0.8561
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.008019,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.982 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-stem-cell-abroad",
+   "inputs": {
+    "question": "How much does stem cell therapy cost abroad?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::024",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "How Much Does a Alternative Medicine Cost Abroad?",
+      "score": 0.9633
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::035",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.949
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::001",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "How Much Does a Alternative Medicine Cost Abroad?",
+      "score": 0.9353
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::028",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Cost Breakdown by Component",
+      "score": 0.8662
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::002",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Cost Breakdown by Component",
+      "score": 0.827
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::003",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.7837
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::034",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+      "score": 0.7604
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::027",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Cost Breakdown by Component",
+      "score": 0.7338
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::008",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Frequently Asked Questions About Live Cell Therapy, Alternative Medicine Abroad > How much does alternative medicine cost abroad compared to domestic prices?",
+      "score": 0.7022
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::structured::013",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "Frequently Asked Questions About Live Cell Therapy, Alternative Medicine Abroad > What hidden costs should I expect when traveling abroad for alternative therapies?",
+      "score": 0.5828
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.006017,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.963 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-videos",
+   "inputs": {
+    "question": "Are there patient videos about breast cancer treatment at ITC?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-clinic-videos::structured::031",
+      "slug": "itc-clinic-videos",
+      "section": "Videos",
+      "score": 0.9803
+     },
+     {
+      "chunk_id": "itc-clinic-videos::structured::029",
+      "slug": "itc-clinic-videos",
+      "section": "Videos",
+      "score": 0.9748
+     },
+     {
+      "chunk_id": "itc-clinic-videos::structured::028",
+      "slug": "itc-clinic-videos",
+      "section": "Videos",
+      "score": 0.9732
+     },
+     {
+      "chunk_id": "itc-clinic-videos::structured::021",
+      "slug": "itc-clinic-videos",
+      "section": "Videos",
+      "score": 0.9722
+     },
+     {
+      "chunk_id": "itc-clinic-videos::structured::004",
+      "slug": "itc-clinic-videos",
+      "section": "Videos",
+      "score": 0.9715
+     },
+     {
+      "chunk_id": "itc-clinic-videos::structured::005",
+      "slug": "itc-clinic-videos",
+      "section": "Videos",
+      "score": 0.9676
+     },
+     {
+      "chunk_id": "itc-clinic-videos::structured::006",
+      "slug": "itc-clinic-videos",
+      "section": "Videos",
+      "score": 0.9669
+     },
+     {
+      "chunk_id": "itc-clinic-videos::structured::030",
+      "slug": "itc-clinic-videos",
+      "section": "Videos",
+      "score": 0.9666
+     },
+     {
+      "chunk_id": "itc-clinic-videos::structured::019",
+      "slug": "itc-clinic-videos",
+      "section": "Videos",
+      "score": 0.9647
+     },
+     {
+      "chunk_id": "itc-clinic-videos::structured::008",
+      "slug": "itc-clinic-videos",
+      "section": "Videos",
+      "score": 0.9644
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.004014,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.980 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  }
+ ]
+}

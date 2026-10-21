@@ -11,7 +11,12 @@ from placidway_bot.config import Settings, get_settings
 def configure_tracing(settings: Settings | None = None) -> None:
     """LangSmith tracing only when a key is configured (otherwise every run would warn)."""
     settings = settings or get_settings()
-    os.environ["LANGSMITH_TRACING"] = "true" if settings.langsmith_api_key and settings.langsmith_tracing else "false"
+    enabled = bool(settings.langsmith_api_key and settings.langsmith_tracing)
+    os.environ["LANGSMITH_TRACING"] = "true" if enabled else "false"
+    if enabled:      # .env values live in Settings; the LangSmith client reads the process environment
+        os.environ["LANGSMITH_API_KEY"] = settings.langsmith_api_key
+        os.environ["LANGSMITH_PROJECT"] = settings.langsmith_project
+        os.environ["LANGSMITH_ENDPOINT"] = settings.langsmith_endpoint
 
 
 def chat_model(thinking_level: str | None = None, temperature: float | None = None,

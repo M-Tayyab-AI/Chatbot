@@ -1,0 +1,4295 @@
+{
+ "kind": "retrieval",
+ "strategy": "recursive",
+ "chunks": 153,
+ "experiment": "retrieval-recursive-f1462a4a",
+ "created_at": "2026-10-21T16:13:12.612374+00:00",
+ "rows": [
+  {
+   "case_id": "ml-ar-cost",
+   "inputs": {
+    "question": "كم تكلفة علاج سرطان الغدة الكظرية في المكسيك؟"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-adrenal-package::recursive::004",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.9554
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::007",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.9349
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::004",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.8905
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::005",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.8704
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::005",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.866
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::007",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.8604
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::000",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.8336
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::007",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.8298
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::001",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.7864
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::016",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.7458
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.005,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.955 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "ml-es-cost",
+   "inputs": {
+    "question": "¿Cuánto cuesta el tratamiento alternativo del cáncer anal en Tijuana?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-anal-package::recursive::004",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.9878
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::005",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.9827
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::005",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.9806
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::007",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.9763
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::004",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.9728
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::007",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.9715
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::000",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.9688
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::007",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.9566
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::001",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.9463
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::000",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.9326
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.005,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.988 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "ml-ur-ozone",
+   "inputs": {
+    "question": "ترکی میں اوزون تھراپی کتنے کی ہے؟"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::004",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.8498
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::001",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.7618
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::003",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.7575
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::033",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.5942
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::041",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.5752
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::000",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.4938
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::005",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.4088
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::005",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.4051
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::029",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.3976
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::026",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.3644
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.006001,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.850 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "neg-dental",
+   "inputs": {
+    "question": "How much does a dental implant cost in Mexico?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::004",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.3938
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::007",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.329
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::007",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.3222
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::007",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.3188
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::000",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.3188
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::004",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.3021
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::004",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.2988
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::004",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.2923
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::005",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.2671
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::026",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.258
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.007,
+   "checks": {
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.394 must be below 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "neg-knee",
+   "inputs": {
+    "question": "What is the price of knee replacement surgery in Turkey?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::011",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.4051
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::000",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.3188
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::004",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.2988
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::003",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.2733
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::008",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.2733
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::008",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.2702
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::008",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.2702
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::005",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.2003
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::001",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.1978
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::004",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.1697
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.106317,
+   "checks": {
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.405 must be below 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf1-cost",
+   "inputs": {
+    "question": "How much does alternative adrenal cancer treatment cost in Mexico?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-adrenal-package::recursive::004",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.9858
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::007",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.9742
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::005",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.9719
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::005",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.9715
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::007",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.9539
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::000",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.921
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::001",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.916
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::004",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.9121
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::028",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.8488
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::016",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.8427
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.00401,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.986 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf1-cost@ar",
+   "inputs": {
+    "question": "كم تكلفة العلاج البديل لسرطان الغدة الكظرية في المكسيك؟"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-adrenal-package::recursive::004",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.9702
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::007",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.9636
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::005",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.9494
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::005",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.9463
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::007",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.9417
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::004",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.9415
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::007",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.9364
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::000",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.9068
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::001",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.9016
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::000",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.8913
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.004014,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.970 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf1-cost@es",
+   "inputs": {
+    "question": "¿Cuánto cuesta el tratamiento alternativo del cáncer suprarrenal en México?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-adrenal-package::recursive::004",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.9798
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::007",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.9686
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::005",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.9674
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::005",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.964
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::007",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.9378
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::004",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.9368
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::007",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.9327
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::000",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.9079
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::004",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.9013
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::028",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.8462
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.005757,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.980 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf2-compare-both-present",
+   "inputs": {
+    "question": "Is ozone therapy cheaper in Turkey or Mexico?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::004",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.9317
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::001",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.651
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::003",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.6147
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::041",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.5961
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::033",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.5923
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::008",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.525
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::005",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.4548
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::010",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.4432
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::005",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.424
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::029",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.3976
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.00602,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "2/2 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.932 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf2-compare-both-present@ar",
+   "inputs": {
+    "question": "هل العلاج بالأوزون أرخص في تركيا أم في المكسيك؟"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::004",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.9106
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::041",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.633
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::003",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.6294
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::001",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.6221
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::033",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.5904
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::010",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.5405
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::008",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.5405
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::000",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.5405
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::004",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.4781
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::005",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.4432
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.013909,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "2/2 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.911 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf2-compare-both-present@es",
+   "inputs": {
+    "question": "¿La terapia de ozono es más barata en Turquía o en México?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::004",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.9032
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::003",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.6036
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::001",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.5599
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::041",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.5599
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::033",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.5444
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::000",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.4859
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::008",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.4703
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::004",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.4126
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::001",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.3753
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::010",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.3644
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.00576,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "2/2 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.903 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf2b-compare-one-missing",
+   "inputs": {
+    "question": "Is alternative cancer treatment cheaper in Mexico or Turkey?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::004",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.9197
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::010",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.8374
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::027",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.777
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::005",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.777
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::005",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.7757
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::001",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.7716
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::023",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.7618
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::024",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.7517
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::028",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.7517
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::022",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.7503
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 6.487282,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 0.25,
+     "comment": "first relevant rank: 4"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.920 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf2b-compare-one-missing@ar",
+   "inputs": {
+    "question": "هل علاج السرطان البديل أرخص في المكسيك أم في تركيا؟"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::004",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.8655
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::010",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.8609
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::001",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.7561
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::005",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.7473
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::000",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.7399
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::000",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.7338
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::021",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.7214
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::005",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.7199
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::028",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.7119
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::027",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.7071
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.006025,
+   "checks": {
+    "fact_recall@5": {
+     "score": 0.0,
+     "comment": "0/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 0.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 0.125,
+     "comment": "first relevant rank: 8"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.866 must reach 0.76"
+    },
+    "pass": {
+     "score": 0.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf2b-compare-one-missing@es",
+   "inputs": {
+    "question": "¿El tratamiento alternativo contra el cáncer es más barato en México o en Turquía?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::004",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.9209
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::010",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.8865
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::008",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.8576
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::000",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.8395
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::005",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.822
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::000",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.8214
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::001",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.8168
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::005",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.7998
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::008",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.7414
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::028",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.7277
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.006022,
+   "checks": {
+    "fact_recall@5": {
+     "score": 0.0,
+     "comment": "0/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 0.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 0.16666666666666666,
+     "comment": "first relevant rank: 6"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.921 must reach 0.76"
+    },
+    "pass": {
+     "score": 0.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf3-procedure",
+   "inputs": {
+    "question": "What is included in the anal cancer treatment package?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-anal-package::recursive::016",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.9275
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::000",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.8817
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::007",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.8788
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::001",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.8715
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::009",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.8673
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::028",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.8552
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::015",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.8498
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::005",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.8493
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::005",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.8304
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::004",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.8066
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.009826,
+   "checks": {
+    "fact_recall@5": {
+     "score": 0.0,
+     "comment": "0/2 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 0.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 0.0,
+     "comment": "first relevant rank: None"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.927 must reach 0.76"
+    },
+    "pass": {
+     "score": 0.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf3-procedure@ar",
+   "inputs": {
+    "question": "ماذا تشمل باقة علاج سرطان الشرج؟"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-anal-package::recursive::016",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.8599
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::001",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.8437
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::009",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.8379
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::005",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.815
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::000",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.8023
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::013",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.7429
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::007",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.7384
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::028",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.7308
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::005",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.7292
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::005",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.7292
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.019453,
+   "checks": {
+    "fact_recall@5": {
+     "score": 0.0,
+     "comment": "0/2 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 0.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 0.1,
+     "comment": "first relevant rank: 10"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.860 must reach 0.76"
+    },
+    "pass": {
+     "score": 0.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf3-procedure@es",
+   "inputs": {
+    "question": "¿Qué incluye el paquete de tratamiento del cáncer anal?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-anal-package::recursive::016",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.879
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::000",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.8462
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::009",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.8379
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::001",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.8214
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::015",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.7702
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::028",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.7575
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::007",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.7429
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::004",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.7151
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::005",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.7135
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::013",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.7087
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.012085,
+   "checks": {
+    "fact_recall@5": {
+     "score": 0.0,
+     "comment": "0/2 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 0.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 0.0,
+     "comment": "first relevant rank: None"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.879 must reach 0.76"
+    },
+    "pass": {
+     "score": 0.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf4-followup",
+   "inputs": {
+    "question": "What is the recovery time after the anal cancer treatment package?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-anal-package::recursive::016",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.8741
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::004",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.8331
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::000",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.8248
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::015",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.8078
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::028",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.7369
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::010",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.7353
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::005",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.7323
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::012",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.7199
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::001",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.7183
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::005",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.7151
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 6.184993,
+   "checks": {
+    "fact_recall@5": {
+     "score": 0.0,
+     "comment": "0/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 0.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 0.0,
+     "comment": "first relevant rank: None"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.874 must reach 0.76"
+    },
+    "pass": {
+     "score": 0.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf4-followup@ar",
+   "inputs": {
+    "question": "ما هي مدة التعافي بعد باقة علاج سرطان الشرج؟"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-anal-package::recursive::003",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.8096
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::016",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.8029
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::014",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.7916
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::003",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.7503
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::004",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.7384
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::005",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.7071
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::005",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.6973
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::010",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.6956
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::015",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.6873
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::011",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.6822
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.006016,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.810 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf4-followup@es",
+   "inputs": {
+    "question": "¿Cuál es el tiempo de recuperación después del paquete de tratamiento del cáncer anal?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-anal-package::recursive::016",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.7916
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::004",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.6651
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::015",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.6545
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::000",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.6385
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::016",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.5942
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::010",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.5885
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::014",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.5885
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::028",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.5367
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::009",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.5289
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::012",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.525
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.005764,
+   "checks": {
+    "fact_recall@5": {
+     "score": 0.0,
+     "comment": "0/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 0.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 0.0,
+     "comment": "first relevant rank: None"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.792 must reach 0.76"
+    },
+    "pass": {
+     "score": 0.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf5-booking",
+   "inputs": {
+    "question": "Can you book me an appointment for tomorrow?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-clinic-profile::recursive::004",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.7071
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::001",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.6457
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::016",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.6203
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::004",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.6166
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::011",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.6017
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::027",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.5599
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::004",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.5599
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::004",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.5599
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::014",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.5405
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::014",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.5367
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.004013,
+   "checks": {
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.707 must be below 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf5-booking@ar",
+   "inputs": {
+    "question": "هل يمكنك حجز موعد لي غدًا؟"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::011",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.7384
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::004",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.7087
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::016",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.6989
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::001",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.689
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::014",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.651
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::014",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.6403
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::004",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.6385
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::003",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.6054
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::011",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.6017
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::027",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.5961
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.004011,
+   "checks": {
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.738 must be below 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf5-booking@es",
+   "inputs": {
+    "question": "¿Puede reservarme una cita para mañana?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-clinic-profile::recursive::004",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.6771
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::001",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.633
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::016",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.5998
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::011",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.5828
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::014",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.5522
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::004",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.5405
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::014",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.5367
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::014",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.5328
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::027",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.525
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::004",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.525
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.005759,
+   "checks": {
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.677 must be below 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf6-out-of-scope",
+   "inputs": {
+    "question": "What is the weather in Cancun?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-clinic-videos::recursive::041",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.2733
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::000",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.2521
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::000",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.2492
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::029",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.2405
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::000",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.2376
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::051",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.2293
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::012",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.2265
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::030",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.2211
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::028",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.2184
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::036",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.2131
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.004011,
+   "checks": {
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.273 must be below 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf6-out-of-scope@ar",
+   "inputs": {
+    "question": "كيف هو الطقس في كانكون؟"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-clinic-videos::recursive::041",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.2131
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::014",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.2131
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::028",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.2003
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::024",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.1978
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::000",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.1929
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::000",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.1929
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::030",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.1929
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::012",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.1905
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::036",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.1905
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::051",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.1881
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.005519,
+   "checks": {
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.213 must be below 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf6-out-of-scope@es",
+   "inputs": {
+    "question": "¿Qué tiempo hace en Cancún?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-anal-package::recursive::016",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.2405
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::016",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.2376
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::029",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.2238
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::039",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.2131
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::000",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.2131
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::012",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.2131
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::000",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.2131
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::030",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.2131
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::051",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.2105
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::036",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.2054
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.006019,
+   "checks": {
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.240 must be below 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf7-medical-advice",
+   "inputs": {
+    "question": "Is this surgery safe for my diabetes?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::011",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.5328
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::017",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.4587
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::038",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.4317
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::014",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.4279
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::006",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.4088
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::051",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.3938
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::014",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.3901
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::015",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.3901
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::014",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.3901
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::013",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.3864
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.004544,
+   "checks": {
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.533 must be below 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf7-medical-advice@ar",
+   "inputs": {
+    "question": "هل هذه الجراحة آمنة لمرض السكري لدي؟"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::011",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.482
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::006",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.424
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::017",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.4088
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::014",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.3976
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::014",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.3976
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::015",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.3901
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::008",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.3901
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::013",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.3827
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::051",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.3827
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::016",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.3827
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.00753,
+   "checks": {
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.482 must be below 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf7-medical-advice@es",
+   "inputs": {
+    "question": "¿Es segura esta cirugía para mi diabetes?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::011",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.5055
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::014",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.3938
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::006",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.3827
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::038",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.379
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::011",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.3717
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::014",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.3536
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::014",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.3501
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::015",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.3465
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::015",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.3395
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::051",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.3395
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.005975,
+   "checks": {
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.505 must be below 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf8-trick-price",
+   "inputs": {
+    "question": "I heard the adrenal cancer treatment costs $50. Confirm that."
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-adrenal-package::recursive::004",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.8737
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::003",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.8473
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::007",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.8208
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::015",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.8042
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::005",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.7399
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::016",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.7384
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::005",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.7261
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::000",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.6581
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::001",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.6439
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::002",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.579
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 6.67723,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.874 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf8-trick-price@ar",
+   "inputs": {
+    "question": "سمعت أن علاج سرطان الغدة الكظرية يكلف 50 دولارًا. أكّد ذلك."
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-adrenal-package::recursive::004",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.8276
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::003",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.8179
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::007",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.7903
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::015",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.7618
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::016",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.7151
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::001",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.7119
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::000",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.7055
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::004",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.6221
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::005",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.6092
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::005",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.6054
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.004014,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.828 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "pdf8-trick-price@es",
+   "inputs": {
+    "question": "Escuché que el tratamiento del cáncer suprarrenal cuesta $50. Confírmelo."
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-adrenal-package::recursive::004",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.8483
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::007",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.806
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::015",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.7811
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::005",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.7022
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::016",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.689
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::005",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.6788
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::005",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.5866
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::017",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.579
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::028",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.5599
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::000",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.5483
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.004012,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.848 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-address",
+   "inputs": {
+    "question": "What is the address of the ITC clinic?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-price-list::recursive::002",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.9197
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::005",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.9106
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::005",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.9066
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::017",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.9055
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::028",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.901
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::015",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.868
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::001",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.8493
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::002",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.8293
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::001",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.785
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::007",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.766
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 6.676464,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 0.5,
+     "comment": "first relevant rank: 2"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.920 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-compare-thailand-croatia",
+   "inputs": {
+    "question": "Is physiotherapy cheaper in Thailand or Croatia?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::003",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.8984
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::011",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.5094
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::000",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.4781
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::008",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.312
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::002",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.2891
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::001",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.255
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::009",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.255
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::007",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.2348
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::010",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.2003
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::004",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.1697
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.004013,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "2/2 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.898 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-cost-inpatient",
+   "inputs": {
+    "question": "What is the price of the in-patient program for adenocarcinoma?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::004",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.9657
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::006",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.9064
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::006",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.9063
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::006",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.9058
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::016",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.8518
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::005",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.8379
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::005",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.8342
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::014",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.8156
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::007",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.7743
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::004",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.7646
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 6.500889,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.966 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-cost-pricelist",
+   "inputs": {
+    "question": "How much does breast cancer treatment cost at ITC in Tijuana?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-price-list::recursive::000",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.9666
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::005",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.9513
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::005",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.9437
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::005",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.9433
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::004",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.9181
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::008",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.9176
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::007",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.902
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::001",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.777
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::016",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.7517
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::015",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.7323
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.003011,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.967 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-cost-turkey-ozone",
+   "inputs": {
+    "question": "How much does ozone therapy cost in Turkey?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::004",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.8825
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::003",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.8132
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::001",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.7353
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::000",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.6036
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::002",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.5328
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::005",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.4859
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::008",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.3536
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::008",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.3501
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::005",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.3325
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::004",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.2702
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.00465,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.882 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-doctors",
+   "inputs": {
+    "question": "Which doctors work at ITC Immunity Therapy Center?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-clinic-profile::recursive::013",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.9817
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::014",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.9817
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::005",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.9715
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::028",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.9693
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::005",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.9681
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::001",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.953
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::002",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.9347
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::014",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.8835
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::015",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.881
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::002",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.8478
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 6.411067,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 0.5,
+     "comment": "first relevant rank: 2"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.982 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-duration",
+   "inputs": {
+    "question": "How long does the cancer treatment program at ITC last?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-anal-package::recursive::003",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.9562
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::003",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.9549
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::003",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.9494
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::004",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.9373
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::004",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.9344
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::004",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.9317
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::011",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.9162
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::011",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.9147
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::011",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.9092
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::016",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.881
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 5.969942,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.956 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-english",
+   "inputs": {
+    "question": "Do the staff at the clinic speak English?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-adrenal-package::recursive::014",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.9513
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::015",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.9502
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::014",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.9041
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::012",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.8078
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::012",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.7979
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::012",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.7948
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::003",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.5444
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::001",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.5444
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::007",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.5289
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::026",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.5172
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 1.407946,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.951 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-exclusions",
+   "inputs": {
+    "question": "What is not included in the adenocarcinoma package price?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-anal-package::recursive::008",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.9066
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::008",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.9015
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::008",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.8937
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::007",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.8833
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::005",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.7979
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::005",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.789
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::000",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.7837
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::016",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.7824
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::028",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.7674
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::004",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.7199
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 6.348666,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 0.5,
+     "comment": "first relevant rank: 2"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.907 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-family",
+   "inputs": {
+    "question": "Can a family member come with me during anal cancer treatment?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-anal-package::recursive::015",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.9666
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::001",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.5289
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::012",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.5211
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::013",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.5055
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::016",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.5016
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::010",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.4781
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::009",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.4781
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::002",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.4509
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::028",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.3827
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::007",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.3753
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.010708,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.967 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-insurance",
+   "inputs": {
+    "question": "Does health insurance cover alternative medicine abroad?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::008",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.9821
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::006",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.8874
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::009",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.8282
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::000",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.7979
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::002",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.7757
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::005",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.766
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::001",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.7503
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::007",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.7214
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::036",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.6973
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::005",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.6839
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.007667,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.982 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-optional-costs",
+   "inputs": {
+    "question": "Which optional procedures cost extra in the adrenal cancer package?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-adrenal-package::recursive::007",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.9785
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::015",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.9575
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::007",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.9211
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::007",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.8905
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::000",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.8023
+     },
+     {
+      "chunk_id": "itc-anal-package::recursive::008",
+      "slug": "itc-anal-package",
+      "section": "",
+      "score": 0.7903
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::008",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.7716
+     },
+     {
+      "chunk_id": "itc-adenocarcinoma-package::recursive::008",
+      "slug": "itc-adenocarcinoma-package",
+      "section": "",
+      "score": 0.766
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::017",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.7087
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::003",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.6856
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.008038,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.979 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-reviews",
+   "inputs": {
+    "question": "What do patients say about ITC in their reviews?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-price-list::recursive::003",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.9838
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::003",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.979
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::026",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.9787
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::027",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.9681
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::004",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.9681
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::004",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.9681
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::017",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.9664
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::020",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.9536
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::016",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.9266
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::021",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.9165
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.010271,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.984 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-stem-cell-abroad",
+   "inputs": {
+    "question": "How much does stem cell therapy cost abroad?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::001",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.9123
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::002",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.8072
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::008",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.7716
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::000",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.7517
+     },
+     {
+      "chunk_id": "alternative-medicine-price-comparison::recursive::004",
+      "slug": "alternative-medicine-price-comparison",
+      "section": "",
+      "score": 0.694
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::005",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.5444
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::032",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.5444
+     },
+     {
+      "chunk_id": "itc-price-list::recursive::000",
+      "slug": "itc-price-list",
+      "section": "",
+      "score": 0.5016
+     },
+     {
+      "chunk_id": "itc-adrenal-package::recursive::007",
+      "slug": "itc-adrenal-package",
+      "section": "",
+      "score": 0.4626
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::038",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.4548
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.02156,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 1.0,
+     "comment": "first relevant rank: 1"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.912 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-videos",
+   "inputs": {
+    "question": "Are there patient videos about breast cancer treatment at ITC?"
+   },
+   "outputs": {
+    "hits": [
+     {
+      "chunk_id": "itc-clinic-profile::recursive::015",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.9507
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::043",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.9505
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::044",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.9418
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::045",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.9396
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::037",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.9381
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::034",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.9354
+     },
+     {
+      "chunk_id": "itc-clinic-profile::recursive::018",
+      "slug": "itc-clinic-profile",
+      "section": "",
+      "score": 0.9275
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::006",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.9073
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::047",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.8998
+     },
+     {
+      "chunk_id": "itc-clinic-videos::recursive::048",
+      "slug": "itc-clinic-videos",
+      "section": "",
+      "score": 0.8845
+     }
+    ]
+   },
+   "error": null,
+   "latency_s": 0.010048,
+   "checks": {
+    "fact_recall@5": {
+     "score": 1.0,
+     "comment": "1/1 facts in top-5"
+    },
+    "all_facts@5": {
+     "score": 1.0,
+     "comment": ""
+    },
+    "mrr@10": {
+     "score": 0.5,
+     "comment": "first relevant rank: 2"
+    },
+    "idk_gate": {
+     "score": 1.0,
+     "comment": "top-1 0.951 must reach 0.76"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,414 @@
+{
+ "kind": "e2e",
+ "suite": "extended",
+ "model": "gemini-3.5-flash-lite",
+ "temperature": 0.2,
+ "experiment": "e2e-extended-gemini-3.5-flash-lite-T0.2-c3153415",
+ "created_at": "2026-10-21T17:03:49.051736+00:00",
+ "tests": {
+  "x-es-cost": "Spanish cost question",
+  "x-es-wrong-price": "Spanish trick question",
+  "x-ar-one-sided-comparison": "Arabic comparison, one side missing",
+  "x-en-one-sided-comparison": "Comparison, one side missing",
+  "x-follow-up-country": "Follow-up across countries",
+  "x-ar-medical": "Arabic medical-advice question",
+  "x-unknown-topic": "Topic not in the content"
+ },
+ "rows": [
+  {
+   "case_id": "x-ar-medical",
+   "inputs": {
+    "history": [],
+    "question": "هل هذا العلاج آمن لمرض السكري الذي أعاني منه؟"
+   },
+   "outputs": {
+    "answer": "لا تذكر الصفحة تفاصيل محددة حول ما إذا كان هذا العلاج آمناً لمرض السكري لديك. تشير الصفحات إلى أن خطط العلاج مخصصة لكل فرد وأن الآثار الجانبية والمخاطر المحتملة يجب مناقشتها مع المتخصصين الطبيين، ونوصي بشدة بمناقشة هذه الأمور مع طبيبك.\n\nللتفاصيل غير المذكورة في الصفحة، [اطلب عرض سعر مجاني](https://www.placidway.com/request-info).\n\n_ملاحظة طبية: هذه المعلومات مأخوذة من صفحات PlacidWay وليست نصيحة طبية. يرجى مناقشة أي قرار علاجي مع طبيبك._\n\n**المصادر:**\n- [ITC Tijuana Videos | Alternative Cancer Treatment](https://www.placidway.com/profile-videos/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center) — Videos\n- [ITC Immunity Therapy Center - Cancer Treatment in Tijuana Mexico](https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center) — Risks and Important Medical Considerations",
+    "citations": [
+     {
+      "title": "ITC Tijuana Videos | Alternative Cancer Treatment",
+      "url": "https://www.placidway.com/profile-videos/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+      "section": "Videos"
+     },
+     {
+      "title": "ITC Immunity Therapy Center - Cancer Treatment in Tijuana Mexico",
+      "url": "https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+      "section": "Risks and Important Medical Considerations"
+     }
+    ],
+    "status": "partial",
+    "intent": "medical_advice",
+    "language": "ar",
+    "lead_offer": false,
+    "top_score": 0.80168754,
+    "search_query": "Is this treatment safe for my diabetes?",
+    "model_error_retries": 0
+   },
+   "error": null,
+   "latency_s": 19.966775,
+   "checks": {
+    "status": {
+     "score": 0.0,
+     "comment": "got partial, expected medical_no_content"
+    },
+    "prices_grounded": {
+     "score": 1.0,
+     "comment": "0 amount(s), all on the pages"
+    },
+    "citations": {
+     "score": 1.0,
+     "comment": "2 source(s)"
+    },
+    "language": {
+     "score": 1.0,
+     "comment": "detected ar, expected ar"
+    },
+    "pass": {
+     "score": 0.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-ar-one-sided-comparison",
+   "inputs": {
+    "history": [],
+    "question": "هل علاج السرطان البديل أرخص في المكسيك أم في تركيا؟"
+   },
+   "outputs": {
+    "answer": "لا تحتوي الصفحة على معلومات كافية للمقارنة بين أسعار علاج السرطان البديل في تركيا والمكسيك، حيث توفر الصفحة معلومات عن أسعار علاج السرطان البديل في المكسيك في مركز ITC Immunity Therapy Center بقيمة تبدأ من $18,995 USD، بينما تتوفر في تركيا أسعار لعلاج بديل مثل العلاج بالأوزون في مركز Fizikon Medical Center بسعر قياسي قدره $110، دون وجود ذكر مباشر لتكاليف علاج السرطان في تركيا على وجه التحديد.\n\nللتفاصيل غير المذكورة في الصفحة، [اطلب عرض سعر مجاني](https://www.placidway.com/request-info).\n\n**المصادر:**\n- [Alternative Medicine Cost Abroad - Compare Prices 2026](https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1) — Which Clinics Abroad Offer the Best Alternative Medicine Packages?\n- [ITC Immunity Therapy Center Prices | Tijuana Cancer Care](https://www.placidway.com/price-list/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center) — ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana Pricings:\n- [Alternative Adenocarcinoma Cancer Treatment in Tijuana](https://www.placidway.com/package/7903/Alternative-Adenocarcinoma-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC) — Page header\n- [Alternative Adrenal Cancer Treatment in Tijuana](https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC) — Page header\n- [Alternative Anal Cancer Treatment in Tijuana](https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC) — Page header",
+    "citations": [
+     {
+      "title": "Alternative Medicine Cost Abroad - Compare Prices 2026",
+      "url": "https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?"
+     },
+     {
+      "title": "ITC Immunity Therapy Center Prices | Tijuana Cancer Care",
+      "url": "https://www.placidway.com/price-list/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+      "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana Pricings:"
+     },
+     {
+      "title": "Alternative Adenocarcinoma Cancer Treatment in Tijuana",
+      "url": "https://www.placidway.com/package/7903/Alternative-Adenocarcinoma-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+      "section": "Page header"
+     },
+     {
+      "title": "Alternative Adrenal Cancer Treatment in Tijuana",
+      "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+      "section": "Page header"
+     },
+     {
+      "title": "Alternative Anal Cancer Treatment in Tijuana",
+      "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+      "section": "Page header"
+     }
+    ],
+    "status": "partial",
+    "intent": "knowledge",
+    "language": "ar",
+    "lead_offer": false,
+    "top_score": 0.87582946,
+    "search_query": "Is alternative cancer treatment cheaper in Mexico or in Turkey?",
+    "model_error_retries": 0
+   },
+   "error": null,
+   "latency_s": 17.763762,
+   "checks": {
+    "status": {
+     "score": 1.0,
+     "comment": "got partial, expected answered or partial"
+    },
+    "prices_grounded": {
+     "score": 1.0,
+     "comment": "2 amount(s), all on the pages"
+    },
+    "citations": {
+     "score": 1.0,
+     "comment": "5 source(s)"
+    },
+    "facts": {
+     "score": 1.0,
+     "comment": "all 1 present"
+    },
+    "language": {
+     "score": 1.0,
+     "comment": "detected ar, expected ar"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-en-one-sided-comparison",
+   "inputs": {
+    "history": [],
+    "question": "Is alternative cancer treatment cheaper in Mexico or Turkey?"
+   },
+   "outputs": {
+    "answer": "PlacidWay's pages list alternative cancer treatment in Mexico at ITC Immunity Therapy Center in Tijuana, where the Out-Patient Program costs $18,995 USD for a 3-week duration (starting from $18,995 USD) and the In-Patient Program costs $30,000 USD for a 3-week duration. The cost for alternative cancer treatment in Turkey is not listed on the pages, so a direct comparison cannot be made.\n\nFor details that aren't listed on the page, [request a free quote](https://www.placidway.com/request-info).\n\n**Sources:**\n- [Alternative Medicine Cost Abroad - Compare Prices 2026](https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1) — Which Clinics Abroad Offer the Best Alternative Medicine Packages?\n- [ITC Immunity Therapy Center - Cancer Treatment in Tijuana Mexico](https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center) — Alternative Cancer Treatment Cost and Packages\n- [Alternative Adenocarcinoma Cancer Treatment in Tijuana](https://www.placidway.com/package/7903/Alternative-Adenocarcinoma-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC) — Cost of Adenocarcinoma Cancer Treatment in Tijuana, Mexico",
+    "citations": [
+     {
+      "title": "Alternative Medicine Cost Abroad - Compare Prices 2026",
+      "url": "https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?"
+     },
+     {
+      "title": "ITC Immunity Therapy Center - Cancer Treatment in Tijuana Mexico",
+      "url": "https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+      "section": "Alternative Cancer Treatment Cost and Packages"
+     },
+     {
+      "title": "Alternative Adenocarcinoma Cancer Treatment in Tijuana",
+      "url": "https://www.placidway.com/package/7903/Alternative-Adenocarcinoma-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+      "section": "Cost of Adenocarcinoma Cancer Treatment in Tijuana, Mexico"
+     }
+    ],
+    "status": "partial",
+    "intent": "knowledge",
+    "language": "en",
+    "lead_offer": false,
+    "top_score": 0.91749877,
+    "search_query": "alternative cancer treatment cost comparison between Mexico and Turkey",
+    "model_error_retries": 0
+   },
+   "error": null,
+   "latency_s": 19.500861,
+   "checks": {
+    "status": {
+     "score": 1.0,
+     "comment": "got partial, expected answered or partial"
+    },
+    "prices_grounded": {
+     "score": 1.0,
+     "comment": "2 amount(s), all on the pages"
+    },
+    "citations": {
+     "score": 1.0,
+     "comment": "3 source(s)"
+    },
+    "facts": {
+     "score": 1.0,
+     "comment": "all 1 present"
+    },
+    "language": {
+     "score": 1.0,
+     "comment": "detected en, expected en"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-es-cost",
+   "inputs": {
+    "history": [],
+    "question": "¿Cuánto cuesta el tratamiento alternativo del cáncer anal en Tijuana?"
+   },
+   "outputs": {
+    "answer": "En Tijuana, el tratamiento alternativo para el cáncer anal en ITC Immunity Therapy Center tiene un precio inicial de $18,995 USD para el programa ambulatorio (Out-Patient Program) con una duración de 3 semanas. Por otro lado, el programa para pacientes internados (In-Patient Program), diseñado para quienes requieren supervisión médica 24/7 o tienen problemas de movilidad, tiene un costo total de $30,000 USD por un período de 3 semanas. Además, existen procedimientos especializados opcionales con un costo adicional, como la inmunoterapia intratumoral que cuesta entre $6,200 y $7,200 USD.\n\n**Fuentes:**\n- [Alternative Anal Cancer Treatment in Tijuana](https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC) — Cost of Alternative Anal Cancer Treatment in Tijuana, Mexico",
+    "citations": [
+     {
+      "title": "Alternative Anal Cancer Treatment in Tijuana",
+      "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+      "section": "Cost of Alternative Anal Cancer Treatment in Tijuana, Mexico"
+     }
+    ],
+    "status": "answered",
+    "intent": "knowledge",
+    "language": "es",
+    "lead_offer": false,
+    "top_score": 0.98665434,
+    "search_query": "How much does the alternative anal cancer treatment cost in Tijuana?",
+    "model_error_retries": 0
+   },
+   "error": null,
+   "latency_s": 39.232205,
+   "checks": {
+    "status": {
+     "score": 1.0,
+     "comment": "got answered, expected answered"
+    },
+    "prices_grounded": {
+     "score": 1.0,
+     "comment": "4 amount(s), all on the pages"
+    },
+    "citations": {
+     "score": 1.0,
+     "comment": "1 source(s)"
+    },
+    "facts": {
+     "score": 1.0,
+     "comment": "all 2 present"
+    },
+    "language": {
+     "score": 1.0,
+     "comment": "detected es, expected es"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-es-wrong-price",
+   "inputs": {
+    "history": [],
+    "question": "Escuché que el tratamiento del cáncer suprarrenal cuesta 50 dólares. ¿Es correcto?"
+   },
+   "outputs": {
+    "answer": "La afirmación de que el tratamiento cuesta 50 dólares no coincide con la información de la página. En ITC Immunity Therapy Center en Tijuana, México, el programa para pacientes ambulatorios (Out-Patient Program) tiene un costo total de $18,995 USD con una duración de 3 semanas, y el precio del paquete comienza desde $18,995 USD. Por otro lado, el programa para pacientes hospitalizados (In-Patient Program) cuesta $30,000 USD por un período de 3 semanas e incluye supervisión médica 24/7.\n\n**Fuentes:**\n- [Alternative Adrenal Cancer Treatment in Tijuana](https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC) — Cost of Adrenal Cancer Treatment in Tijuana, Mexico",
+    "citations": [
+     {
+      "title": "Alternative Adrenal Cancer Treatment in Tijuana",
+      "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+      "section": "Cost of Adrenal Cancer Treatment in Tijuana, Mexico"
+     }
+    ],
+    "status": "answered",
+    "intent": "knowledge",
+    "language": "es",
+    "lead_offer": false,
+    "top_score": 0.88246834,
+    "search_query": "adrenal cancer treatment cost 50 dollars",
+    "model_error_retries": 0
+   },
+   "error": null,
+   "latency_s": 19.457905,
+   "checks": {
+    "status": {
+     "score": 1.0,
+     "comment": "got answered, expected answered"
+    },
+    "prices_grounded": {
+     "score": 1.0,
+     "comment": "3 amount(s), all on the pages"
+    },
+    "citations": {
+     "score": 1.0,
+     "comment": "1 source(s)"
+    },
+    "facts": {
+     "score": 1.0,
+     "comment": "all 1 present"
+    },
+    "language": {
+     "score": 1.0,
+     "comment": "detected es, expected es"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-follow-up-country",
+   "inputs": {
+    "history": [
+     [
+      "user",
+      "How much does ozone therapy cost in Mexico?"
+     ],
+     [
+      "assistant",
+      "Ozone therapy in Mexico is available at Stem Health Guadalajara in Zapopan, where the standard price is $1000 USD for a package of 5 sessions."
+     ]
+    ],
+    "question": "What about in Turkey?"
+   },
+   "outputs": {
+    "answer": "In Turkey, ozone therapy is offered at Fizikon Medical Center in Konya. The standard price is $110 USD for 1 session (1 seans ozon tedavisi 110 USD), and a package of 10 sessions is available at a discounted price of $1000 USD (10 seans ozon tedavisi indirimli 1000$).\n\n**Sources:**\n- [Alternative Medicine Cost Abroad - Compare Prices 2026](https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1) — Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+    "citations": [
+     {
+      "title": "Alternative Medicine Cost Abroad - Compare Prices 2026",
+      "url": "https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?"
+     }
+    ],
+    "status": "answered",
+    "intent": "knowledge",
+    "language": "en",
+    "lead_offer": false,
+    "top_score": 0.9663597,
+    "search_query": "ozone therapy price in Turkey",
+    "model_error_retries": 0
+   },
+   "error": null,
+   "latency_s": 32.99355,
+   "checks": {
+    "status": {
+     "score": 1.0,
+     "comment": "got answered, expected answered"
+    },
+    "prices_grounded": {
+     "score": 1.0,
+     "comment": "2 amount(s), all on the pages"
+    },
+    "citations": {
+     "score": 1.0,
+     "comment": "1 source(s)"
+    },
+    "facts": {
+     "score": 1.0,
+     "comment": "all 1 present"
+    },
+    "language": {
+     "score": 1.0,
+     "comment": "detected en, expected en"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "x-unknown-topic",
+   "inputs": {
+    "history": [],
+    "question": "How much does a dental implant cost in Mexico?"
+   },
+   "outputs": {
+    "answer": "I couldn't find that in the PlacidWay pages I have, so I won't guess. Our team can answer it for you: [request a free quote](https://www.placidway.com/request-info) or [contact PlacidWay](https://www.placidway.com/contact-us).",
+    "citations": [],
+    "status": "not_found",
+    "intent": "knowledge",
+    "language": "en",
+    "lead_offer": false,
+    "top_score": 0.33250543,
+    "search_query": "How much does a dental implant cost in Mexico?",
+    "model_error_retries": 0
+   },
+   "error": null,
+   "latency_s": 14.895396,
+   "checks": {
+    "status": {
+     "score": 1.0,
+     "comment": "got not_found, expected not_found"
+    },
+    "prices_grounded": {
+     "score": 1.0,
+     "comment": "0 amount(s), all on the pages"
+    },
+    "citations": {
+     "score": 1.0,
+     "comment": "no answer, no citations"
+    },
+    "language": {
+     "score": 1.0,
+     "comment": "detected en, expected en"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  }
+ ],
+ "pause": 13.0
+}

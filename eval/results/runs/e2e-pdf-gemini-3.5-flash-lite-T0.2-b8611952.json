@@ -1,0 +1,416 @@
+{
+ "kind": "e2e",
+ "suite": "pdf",
+ "model": "gemini-3.5-flash-lite",
+ "temperature": 0.2,
+ "experiment": "e2e-pdf-gemini-3.5-flash-lite-T0.2-b8611952",
+ "created_at": "2026-10-21T17:00:50.809936+00:00",
+ "tests": {
+  "t1-cost": "1. Cost question",
+  "t2-comparison": "2. Comparison",
+  "t3-procedure": "3. Procedure details",
+  "t4-follow-up": "4. Follow-up",
+  "t5-booking": "5. Not in content (booking)",
+  "t6-out-of-scope": "6. Out of scope",
+  "t7-medical": "7. Medical advice",
+  "t8-wrong-price": "8. Trick question (wrong price)"
+ },
+ "rows": [
+  {
+   "case_id": "t1-cost",
+   "inputs": {
+    "history": [],
+    "question": "How much does alternative adrenal cancer treatment cost in Mexico?"
+   },
+   "outputs": {
+    "answer": "At ITC Immunity Therapy Center in Tijuana, Mexico, the alternative adrenal cancer treatment costs start at $18,995 USD for the 3-week Out-Patient Program. Alternatively, the 3-week In-Patient Program costs $30,000 USD and is designed for patients requiring 24/7 medical supervision or those with mobility challenges. Both program tiers cover intensive therapeutic interventions over a three-week period.\n\n**Sources:**\n- [Alternative Adrenal Cancer Treatment in Tijuana](https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC) — Cost of Adrenal Cancer Treatment in Tijuana, Mexico",
+    "citations": [
+     {
+      "title": "Alternative Adrenal Cancer Treatment in Tijuana",
+      "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+      "section": "Cost of Adrenal Cancer Treatment in Tijuana, Mexico"
+     }
+    ],
+    "status": "answered",
+    "intent": "knowledge",
+    "language": "en",
+    "lead_offer": false,
+    "top_score": 0.987159,
+    "search_query": "How much does alternative adrenal cancer treatment cost in Mexico",
+    "model_error_retries": 0
+   },
+   "error": null,
+   "latency_s": 15.384111,
+   "checks": {
+    "status": {
+     "score": 1.0,
+     "comment": "got answered, expected answered"
+    },
+    "prices_grounded": {
+     "score": 1.0,
+     "comment": "2 amount(s), all on the pages"
+    },
+    "citations": {
+     "score": 1.0,
+     "comment": "1 source(s)"
+    },
+    "facts": {
+     "score": 1.0,
+     "comment": "all 2 present"
+    },
+    "language": {
+     "score": 1.0,
+     "comment": "detected en, expected en"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "t2-comparison",
+   "inputs": {
+    "history": [],
+    "question": "Is ozone therapy cheaper in Turkey or Mexico?"
+   },
+   "outputs": {
+    "answer": "Based on the page, ozone therapy is listed for Fizikon Medical Center in Turkey at a standard price of $110 USD for 1 session, and a discounted $1,000 for 10 sessions. In Mexico, Stem Health Guadalajara lists ozone therapy at a standard price of $1,000 USD for 5 sessions. Comparing the single session listed for Turkey ($110 USD) with the 5-session package listed for Mexico ($1,000 USD), Turkey has the lower listed per-session cost, though the packages differ in the number of sessions provided.\n\n**Sources:**\n- [Alternative Medicine Cost Abroad - Compare Prices 2026](https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1) — Which Clinics Abroad Offer the Best Alternative Medicine Packages?",
+    "citations": [
+     {
+      "title": "Alternative Medicine Cost Abroad - Compare Prices 2026",
+      "url": "https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1",
+      "section": "Which Clinics Abroad Offer the Best Alternative Medicine Packages?"
+     }
+    ],
+    "status": "answered",
+    "intent": "knowledge",
+    "language": "en",
+    "lead_offer": false,
+    "top_score": 0.9086301,
+    "search_query": "Is ozone therapy cheaper in Turkey or Mexico",
+    "model_error_retries": 0
+   },
+   "error": null,
+   "latency_s": 15.005226,
+   "checks": {
+    "status": {
+     "score": 1.0,
+     "comment": "got answered, expected answered"
+    },
+    "prices_grounded": {
+     "score": 1.0,
+     "comment": "2 amount(s), all on the pages"
+    },
+    "citations": {
+     "score": 1.0,
+     "comment": "1 source(s)"
+    },
+    "facts": {
+     "score": 1.0,
+     "comment": "all 2 present"
+    },
+    "language": {
+     "score": 1.0,
+     "comment": "detected en, expected en"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "t3-procedure",
+   "inputs": {
+    "history": [],
+    "question": "What is included in the anal cancer treatment package?"
+   },
+   "outputs": {
+    "answer": "ITC offers two program options for the Alternative Anal Cancer Treatment package, each with different inclusions. The Out-Patient program ($18,995 USD) includes weekly comprehensive lab work, prescribed imaging, core alternative treatments, two health-focused meals daily, standard medications, and a 3-month post-discharge follow-up. The In-Patient program ($30,000 USD) includes 24/7 medical supervision, full room and board with private accommodations and three daily meals, extensive weekly diagnostics, diagnostic imaging, full access to clinical therapies, pharmacy support for protocol-specific medications, and a 3-month follow-up consultation.\n\nFor details that aren't listed on the page, [request a free quote](https://www.placidway.com/request-info).\n\n**Sources:**\n- [Alternative Anal Cancer Treatment in Tijuana](https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC) — Included in the Out-Patient Program ($18,995 USD)",
+    "citations": [
+     {
+      "title": "Alternative Anal Cancer Treatment in Tijuana",
+      "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+      "section": "Included in the Out-Patient Program ($18,995 USD)"
+     }
+    ],
+    "status": "partial",
+    "intent": "knowledge",
+    "language": "en",
+    "lead_offer": false,
+    "top_score": 0.9855855,
+    "search_query": "What is included in the anal cancer treatment package at ITC",
+    "model_error_retries": 0
+   },
+   "error": null,
+   "latency_s": 15.310504,
+   "checks": {
+    "status": {
+     "score": 0.0,
+     "comment": "got partial, expected answered"
+    },
+    "prices_grounded": {
+     "score": 1.0,
+     "comment": "2 amount(s), all on the pages"
+    },
+    "citations": {
+     "score": 1.0,
+     "comment": "1 source(s)"
+    },
+    "facts": {
+     "score": 1.0,
+     "comment": "all 2 present"
+    },
+    "language": {
+     "score": 1.0,
+     "comment": "detected en, expected en"
+    },
+    "pass": {
+     "score": 0.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "t4-follow-up",
+   "inputs": {
+    "history": [
+     [
+      "user",
+      "What is included in the anal cancer treatment package?"
+     ],
+     [
+      "assistant",
+      "At ITC Immunity Therapy Center in Tijuana, the anal cancer treatment packages include personalized immune stimulation, advanced diagnostic monitoring with weekly lab work and imaging, and a 3-month post-discharge follow-up consultation. The $18,995 USD Out-Patient program includes core alternative therapies, two health-focused meals daily during treatment hours, standard medications, and weekly comprehensive lab work. The $30,000 USD In-Patient program provides 24/7 medical supervision, full room and board with private accommodations and three daily meals, extensive diagnostics, clinical therapies, and pharmacy support."
+     ]
+    ],
+    "question": "And what about recovery time?"
+   },
+   "outputs": {
+    "answer": "The page does not list a specific recovery time following the alternative anal cancer treatment program at ITC. However, the program duration is 3 weeks, and it includes a structured follow-up consultation with an ITC doctor three months after discharge to support your transition back home. We recommend discussing your recovery expectations with your doctor.\n\nFor details that aren't listed on the page, [request a free quote](https://www.placidway.com/request-info).\n\n_Medical note: this information comes from PlacidWay's pages and is not medical advice. Please discuss any treatment decision with your doctor._\n\n**Sources:**\n- [Alternative Anal Cancer Treatment in Tijuana](https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC) — Key Takeaways for Your Healing Journey at ITC",
+    "citations": [
+     {
+      "title": "Alternative Anal Cancer Treatment in Tijuana",
+      "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+      "section": "Key Takeaways for Your Healing Journey at ITC"
+     }
+    ],
+    "status": "partial",
+    "intent": "knowledge",
+    "language": "en",
+    "lead_offer": false,
+    "top_score": 0.96996796,
+    "search_query": "recovery time after the anal cancer treatment package at ITC",
+    "model_error_retries": 0
+   },
+   "error": null,
+   "latency_s": 14.905887,
+   "checks": {
+    "status": {
+     "score": 1.0,
+     "comment": "got partial, expected partial"
+    },
+    "prices_grounded": {
+     "score": 1.0,
+     "comment": "0 amount(s), all on the pages"
+    },
+    "citations": {
+     "score": 1.0,
+     "comment": "1 source(s)"
+    },
+    "language": {
+     "score": 1.0,
+     "comment": "detected en, expected en"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "t5-booking",
+   "inputs": {
+    "history": [],
+    "question": "Can you book me an appointment for tomorrow?"
+   },
+   "outputs": {
+    "answer": "I can't book appointments or check availability. To arrange treatment, please use the [free quote form](https://www.placidway.com/request-info) or [contact PlacidWay](https://www.placidway.com/contact-us) — a patient coordinator will help you. If you like, leave your name and email below and the team will reach out.",
+    "citations": [],
+    "status": "booking",
+    "intent": "booking",
+    "language": "en",
+    "lead_offer": true,
+    "top_score": null,
+    "search_query": "book an appointment for tomorrow",
+    "model_error_retries": 0
+   },
+   "error": null,
+   "latency_s": 13.010015,
+   "checks": {
+    "status": {
+     "score": 1.0,
+     "comment": "got booking, expected booking"
+    },
+    "prices_grounded": {
+     "score": 1.0,
+     "comment": "0 amount(s), all on the pages"
+    },
+    "citations": {
+     "score": 1.0,
+     "comment": "no answer, no citations"
+    },
+    "language": {
+     "score": 1.0,
+     "comment": "detected en, expected en"
+    },
+    "lead_offer": {
+     "score": 1.0,
+     "comment": "lead form offered: True"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "t6-out-of-scope",
+   "inputs": {
+    "history": [],
+    "question": "What is the weather in Cancun?"
+   },
+   "outputs": {
+    "answer": "Sorry, I can only help with questions about the treatments, clinics, packages and prices on PlacidWay's pages (currently ITC Immunity Therapy Center's alternative cancer treatment in Tijuana, Mexico, and alternative-medicine prices abroad). For anything else, please [contact PlacidWay](https://www.placidway.com/contact-us).",
+    "citations": [],
+    "status": "out_of_scope",
+    "intent": "out_of_scope",
+    "language": "en",
+    "lead_offer": false,
+    "top_score": null,
+    "search_query": "What is the weather in Cancun?",
+    "model_error_retries": 0
+   },
+   "error": null,
+   "latency_s": 13.033676,
+   "checks": {
+    "status": {
+     "score": 1.0,
+     "comment": "got out_of_scope, expected out_of_scope"
+    },
+    "prices_grounded": {
+     "score": 1.0,
+     "comment": "0 amount(s), all on the pages"
+    },
+    "citations": {
+     "score": 1.0,
+     "comment": "no answer, no citations"
+    },
+    "language": {
+     "score": 1.0,
+     "comment": "detected en, expected en"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "t7-medical",
+   "inputs": {
+    "history": [],
+    "question": "Is this surgery safe for my diabetes?"
+   },
+   "outputs": {
+    "answer": "I can't tell whether a treatment or surgery is safe for your personal health situation — that needs a doctor who knows your medical history (including conditions such as diabetes). Please discuss it with your doctor. PlacidWay can also arrange a review of your records by the clinic's physicians: [request a free quote](https://www.placidway.com/request-info).",
+    "citations": [],
+    "status": "medical_no_content",
+    "intent": "medical_advice",
+    "language": "en",
+    "lead_offer": false,
+    "top_score": 0.43168002,
+    "search_query": "Is this surgery safe for my diabetes",
+    "model_error_retries": 0
+   },
+   "error": null,
+   "latency_s": 13.038964,
+   "checks": {
+    "status": {
+     "score": 1.0,
+     "comment": "got medical_no_content, expected medical_no_content"
+    },
+    "prices_grounded": {
+     "score": 1.0,
+     "comment": "0 amount(s), all on the pages"
+    },
+    "citations": {
+     "score": 1.0,
+     "comment": "no answer, no citations"
+    },
+    "language": {
+     "score": 1.0,
+     "comment": "detected en, expected en"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  },
+  {
+   "case_id": "t8-wrong-price",
+   "inputs": {
+    "history": [],
+    "question": "I heard the adrenal cancer treatment costs $50. Confirm that."
+   },
+   "outputs": {
+    "answer": "The price of $50 does not match the page. According to PlacidWay's pages, the Alternative Adrenal Cancer Treatment at ITC Immunity Therapy Center in Tijuana, Mexico, starts at $18,995 USD for a 3-week Out-Patient Program, while the 3-week In-Patient Program costs $30,000 USD.\n\n**Sources:**\n- [Alternative Adrenal Cancer Treatment in Tijuana](https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC) — Cost of Adrenal Cancer Treatment in Tijuana, Mexico",
+    "citations": [
+     {
+      "title": "Alternative Adrenal Cancer Treatment in Tijuana",
+      "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+      "section": "Cost of Adrenal Cancer Treatment in Tijuana, Mexico"
+     }
+    ],
+    "status": "answered",
+    "intent": "knowledge",
+    "language": "en",
+    "lead_offer": false,
+    "top_score": 0.98613006,
+    "search_query": "adrenal cancer treatment cost at ITC",
+    "model_error_retries": 0
+   },
+   "error": null,
+   "latency_s": 14.670199,
+   "checks": {
+    "status": {
+     "score": 1.0,
+     "comment": "got answered, expected answered"
+    },
+    "prices_grounded": {
+     "score": 1.0,
+     "comment": "3 amount(s), all on the pages"
+    },
+    "citations": {
+     "score": 1.0,
+     "comment": "1 source(s)"
+    },
+    "facts": {
+     "score": 1.0,
+     "comment": "all 1 present"
+    },
+    "language": {
+     "score": 1.0,
+     "comment": "detected en, expected en"
+    },
+    "pass": {
+     "score": 1.0,
+     "comment": null
+    }
+   }
+  }
+ ],
+ "pause": 13.0
+}

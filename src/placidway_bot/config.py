@@ -29,6 +29,8 @@ class Settings(BaseSettings):
 
     langsmith_api_key: str = ""
     langsmith_tracing: bool = True
+    langsmith_project: str = "placidway-chatbot"
+    langsmith_endpoint: str = "https://api.smith.langchain.com"
 
     # Links the bot hands out when it cannot answer (taken from the pages themselves)
     quote_url: str = "https://www.placidway.com/request-info"

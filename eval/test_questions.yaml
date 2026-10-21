@@ -1,0 +1,146 @@
+# End-to-end test cases (whole bot: analyze -> retrieve -> generate -> validate). Run by scripts/run_eval.py.
+#
+# expect:
+#   status      allowed final statuses: answered | partial | booking | out_of_scope | medical_no_content | not_found
+#   language    language the reply must be in
+#   sources     slugs; an answer must cite at least one of them (non-answers must cite nothing)
+#   contains    strings the reply must contain; "a|b" = either; digits match across "18,995" / "18.995" / "١٨٬٩٩٥"
+#   lead_offer  whether the lead form must be offered
+# history: earlier turns of the same chat (role, text), for follow-up questions. The assistant turns are the bot's
+# own earlier replies (data/experiments/demo_run_lite.md), so a follow-up costs one model call instead of two.
+#
+# Suites: `pdf` = the 8 test questions from the brief (used for the temperature sweep);
+#         `extended` = other languages, a second follow-up, a one-sided comparison and an unknown topic.
+
+pdf:
+  - id: t1-cost
+    test: "1. Cost question"
+    question: How much does alternative adrenal cancer treatment cost in Mexico?
+    expect:
+      status: [answered]
+      language: en
+      sources: [itc-adrenal-package]
+      contains: ["18,995", "30,000"]
+
+  - id: t2-comparison
+    test: "2. Comparison"
+    question: Is ozone therapy cheaper in Turkey or Mexico?
+    expect:
+      status: [answered]
+      language: en
+      sources: [alternative-medicine-price-comparison]
+      contains: ["110", "1,000"]
+
+  - id: t3-procedure
+    test: "3. Procedure details"
+    question: What is included in the anal cancer treatment package?
+    expect:
+      status: [answered]
+      language: en
+      sources: [itc-anal-package]
+      contains: ["out-patient|outpatient", "in-patient|inpatient"]
+
+  - id: t4-follow-up
+    test: "4. Follow-up"
+    history:
+      - [user, "What is included in the anal cancer treatment package?"]
+      - [assistant, "At ITC Immunity Therapy Center in Tijuana, the anal cancer treatment packages include personalized immune stimulation, advanced diagnostic monitoring with weekly lab work and imaging, and a 3-month post-discharge follow-up consultation. The $18,995 USD Out-Patient program includes core alternative therapies, two health-focused meals daily during treatment hours, standard medications, and weekly comprehensive lab work. The $30,000 USD In-Patient program provides 24/7 medical supervision, full room and board with private accommodations and three daily meals, extensive diagnostics, clinical therapies, and pharmacy support."]
+    question: And what about recovery time?
+    expect:
+      status: [partial]          # recovery time is not on the page: say so, share what is listed
+      language: en
+      sources: [itc-anal-package]
+
+  - id: t5-booking
+    test: "5. Not in content (booking)"
+    question: Can you book me an appointment for tomorrow?
+    expect:
+      status: [booking]
+      language: en
+      lead_offer: true
+
+  - id: t6-out-of-scope
+    test: "6. Out of scope"
+    question: What is the weather in Cancun?
+    expect:
+      status: [out_of_scope]
+      language: en
+
+  - id: t7-medical
+    test: "7. Medical advice"
+    question: Is this surgery safe for my diabetes?
+    expect:
+      status: [medical_no_content]
+      language: en
+
+  - id: t8-wrong-price
+    test: "8. Trick question (wrong price)"
+    question: I heard the adrenal cancer treatment costs $50. Confirm that.
+    expect:
+      status: [answered]
+      language: en
+      sources: [itc-adrenal-package, itc-price-list, itc-clinic-profile]
+      contains: ["18,995"]
+
+extended:
+  - id: x-es-cost
+    test: Spanish cost question
+    question: ¿Cuánto cuesta el tratamiento alternativo del cáncer anal en Tijuana?
+    expect:
+      status: [answered]
+      language: es
+      sources: [itc-anal-package]
+      contains: ["18,995", "30,000"]
+
+  - id: x-es-wrong-price
+    test: Spanish trick question
+    question: Escuché que el tratamiento del cáncer suprarrenal cuesta 50 dólares. ¿Es correcto?
+    expect:
+      status: [answered]
+      language: es
+      sources: [itc-adrenal-package, itc-price-list, itc-clinic-profile]
+      contains: ["18,995"]
+
+  - id: x-ar-one-sided-comparison
+    test: Arabic comparison, one side missing
+    question: هل علاج السرطان البديل أرخص في المكسيك أم في تركيا؟
+    expect:
+      status: [answered, partial]     # Mexico has a price, Turkey has none -> no invented comparison
+      language: ar
+      sources: [itc-price-list, itc-clinic-profile, itc-adenocarcinoma-package, itc-adrenal-package, itc-anal-package]
+      contains: ["18,995"]
+
+  - id: x-en-one-sided-comparison
+    test: Comparison, one side missing
+    question: Is alternative cancer treatment cheaper in Mexico or Turkey?
+    expect:
+      status: [answered, partial]
+      language: en
+      sources: [itc-price-list, itc-clinic-profile, itc-adenocarcinoma-package, itc-adrenal-package, itc-anal-package]
+      contains: ["18,995"]
+
+  - id: x-follow-up-country
+    test: Follow-up across countries
+    history:
+      - [user, "How much does ozone therapy cost in Mexico?"]
+      - [assistant, "Ozone therapy in Mexico is available at Stem Health Guadalajara in Zapopan, where the standard price is $1000 USD for a package of 5 sessions."]
+    question: What about in Turkey?
+    expect:
+      status: [answered]
+      language: en
+      sources: [alternative-medicine-price-comparison]
+      contains: ["110"]
+
+  - id: x-ar-medical
+    test: Arabic medical-advice question
+    question: هل هذا العلاج آمن لمرض السكري الذي أعاني منه؟
+    expect:
+      status: [medical_no_content]
+      language: ar
+
+  - id: x-unknown-topic
+    test: Topic not in the content
+    question: How much does a dental implant cost in Mexico?
+    expect:
+      status: [not_found]
+      language: en

@@ -152,6 +152,23 @@ Guardrail rules the prompt + validator must enforce:
   Streamlit renders `$…$` as LaTeX → UI escapes `$` (`md()`), otherwise prices are garbled.
 - Answer model falls back to `GEMINI_FALLBACK_MODEL` (Lite) via `with_fallbacks` when 3.5 Flash fails (daily quota).
 
+### Phase 5 (LangSmith eval) — started 2026-10-21
+- `scripts/run_eval.py` (retrieval | e2e | report) + `eval/test_questions.yaml` (suites `pdf`, `extended`) +
+  deterministic checks `src/placidway_bot/evaluation/checks.py`. LangSmith datasets: placidway-retrieval,
+  placidway-pdf-tests, placidway-extended-tests. Local copies in `eval/results/runs/`, report `eval/results/test_results.md`.
+- Retrieval A vs B done: recursive 80.6% fact recall / 20 of 27 PDF; structured 100% / 27 of 27.
+- Bug fixed: `configure_tracing` now exports LANGSMITH_API_KEY/PROJECT/ENDPOINT (pydantic-settings doesn't set env).
+- Gemini 3.5 Flash free tier: 5 requests/MIN and 20/DAY; **503 "high demand" failures and LangChain auto-retries
+  also count toward the daily 20** — the first sweep attempt burned the day's quota without one valid run.
+  Quota resets at midnight Pacific (12:00 Pakistan time).
+- User chose **C**: full e2e run on Flash-Lite (fallback model) — pdf 7/8, extended 6/7, zero invented prices,
+  zero wrong citations. Fails: t3 labelled `partial` (correct content, extra CTA); Arabic medical question answered
+  as grounded "pages don't say + see your doctor + disclaimer" instead of the template (expectation too narrow).
+  Flash temperature sweep still pending (needs quota: option A wait / B billing).
+- Google docs: **3.5 Flash-Lite and 3.6 Flash ignore temperature/top_p/top_k** (fixed 1.0/0.95/64, no error);
+  **3.5 Flash supports temperature 0–2**. Our `gemini-3.5-flash` quota errors name `gemini-3.6-flash` → before the
+  sweep, check the response's model version with 1 call; if it is 3.6, the sweep measures nothing → tell the user.
+
 ### Phase 3 (LangGraph) learnings
 - Lite once routed "¿Cuánto cuesta…?" as quote_request → quote_request now ALSO retrieves (answers + lead form),
   so a misroute can't swallow an answer. Prompt says cost questions are always `knowledge`.

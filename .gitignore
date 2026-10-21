@@ -18,6 +18,7 @@ data/raw/*
 # Runtime logs (real user questions / leads) and rebuildable experiment artefacts
 data/logs/
 data/experiments/index/
+data/eval_cache/
 data/experiments/*.log
 *.log
 

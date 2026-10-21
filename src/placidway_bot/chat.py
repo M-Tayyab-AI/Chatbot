@@ -83,10 +83,12 @@ class ChatBot:
     def _config(session_id: str) -> dict:
         return {"configurable": {"thread_id": session_id}}
 
-    def answer(self, question: str, session_id: str) -> ChatResponse:
+    def answer(self, question: str, session_id: str, history: list[tuple[str, str]] | None = None) -> ChatResponse:
+        """`history` seeds earlier (role, text) turns into a new session (evaluation of follow-up questions)."""
         question = question.strip()
         state = self.graph.invoke(
-            {"messages": [("user", question)], "question": question, "session_id": session_id, **_TURN_RESET},
+            {"messages": [*(history or []), ("user", question)], "question": question, "session_id": session_id,
+             **_TURN_RESET},
             config=self._config(session_id),
         )
         return ChatResponse(answer=state["answer"], citations=state.get("citations", []), status=state["status"],
